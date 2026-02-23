@@ -1,0 +1,12 @@
+method,evidence_level,notes
+the_segmenting_principle,Medium,Closely related decomposition prompting is well studied; exact label less often isolated.
+the_protege_effect_learning_by_teaching,Medium-Low,"Related self-explanation/teaching-style prompting exists; exact ""teach then answer"" setup less standardized."
+judgment_of_learning_metacognitive_monitoring,Medium,Confidence/calibration is widely studied in LLMs; direct accuracy gains are mixed.
+encoding_variability,Low,"Little direct isolation of ""same content, multiple formats"" as primary intervention."
+transfer_appropriate_processing,Low,Mostly conceptual; limited direct controlled LLM studies isolating this factor.
+advance_organizers,Low,Strong human-learning evidence; limited direct LLM testing as a standalone intervention.
+analogical_reasoning_structure_mapping,Medium,"Analogical prompting exists, but effects are task-dependent and not uniformly benchmarked."
+hypercorrection_effect,Low,LLM analogue (high-confidence wrong -> correction gain) is not well established.
+productive_failure,Low-Medium,Related generate-then-solve patterns exist; strict PF framing rarely isolated.
+the_expertise_reversal_effect,Low,Strong cognitive theory; limited direct LLM evidence of prompt-strategy-by-difficulty reversal effects.
+baseline,N/A,Control condition.

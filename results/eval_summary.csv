@@ -1,0 +1,12 @@
+prompt_category,n,correct,accuracy,delta_vs_baseline
+advance_organizers,10,1,0.1000,0.0000
+analogical_reasoning_structure_mapping,10,1,0.1000,0.0000
+baseline,10,1,0.1000,0.0000
+encoding_variability,10,2,0.2000,0.1000
+hypercorrection_effect,10,1,0.1000,0.0000
+judgment_of_learning_metacognitive_monitoring,10,2,0.2000,0.1000
+productive_failure,10,1,0.1000,0.0000
+the_expertise_reversal_effect,10,1,0.1000,0.0000
+the_protege_effect_learning_by_teaching,10,2,0.2000,0.1000
+the_segmenting_principle,10,3,0.3000,0.2000
+transfer_appropriate_processing,10,2,0.2000,0.1000
