@@ -34,6 +34,8 @@ FINAL_ANSWER_RE = re.compile(
 )
 
 THREAD_LOCAL = threading.local()
+PROVIDER_LOCKS: dict[str, threading.Lock] = defaultdict(threading.Lock)
+PROVIDER_LAST_CALL_TS: dict[str, float] = defaultdict(float)
 
 
 def parse_args() -> argparse.Namespace:
@@ -49,6 +51,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--status-every", type=int, default=50)
     parser.add_argument("--flush-every", type=int, default=50)
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument("--retry-error-rows", action="store_true")
+    parser.add_argument("--min-interval-ms", type=int, default=0)
     return parser.parse_args()
 
 
@@ -57,7 +61,7 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def post_json(url: str, headers: dict[str, str], payload: dict, timeout: int = 60) -> tuple[int, str]:
+def post_json(url: str, headers: dict[str, str], payload: dict, timeout: int = 30) -> tuple[int, str]:
     req = urllib.request.Request(
         url,
         data=json.dumps(payload).encode("utf-8"),
@@ -68,18 +72,18 @@ def post_json(url: str, headers: dict[str, str], payload: dict, timeout: int = 6
         return resp.status, resp.read().decode("utf-8", errors="replace")
 
 
-def with_retries(fn, max_attempts: int = 6):
+def with_retries(fn, max_attempts: int = 3):
     for attempt in range(max_attempts):
         try:
             return fn()
         except urllib.error.HTTPError as e:
             if e.code in {408, 409, 425, 429, 500, 502, 503, 504} and attempt < max_attempts - 1:
-                time.sleep(min(20, (1.8**attempt) + random.random()))
+                time.sleep(min(6, (1.5**attempt) + random.random()))
                 continue
             raise
         except Exception:
             if attempt < max_attempts - 1:
-                time.sleep(min(20, (1.8**attempt) + random.random()))
+                time.sleep(min(6, (1.5**attempt) + random.random()))
                 continue
             raise
 
@@ -96,8 +100,22 @@ def extract_openai_text(body: dict) -> str:
     return "\n".join(chunks).strip()
 
 
-def call_model(provider: str, model_id: str, prompt_text: str) -> str:
+def throttle_provider(provider: str, min_interval_ms: int) -> None:
+    if min_interval_ms <= 0:
+        return
+    wait_s = min_interval_ms / 1000.0
+    lock = PROVIDER_LOCKS[provider]
+    with lock:
+        now = time.time()
+        elapsed = now - PROVIDER_LAST_CALL_TS[provider]
+        if elapsed < wait_s:
+            time.sleep(wait_s - elapsed)
+        PROVIDER_LAST_CALL_TS[provider] = time.time()
+
+
+def call_model(provider: str, model_id: str, prompt_text: str, min_interval_ms: int = 0) -> str:
     provider = provider.lower()
+    throttle_provider(provider, min_interval_ms)
 
     if provider == "openai":
         key = os.getenv("OPENAI_API_KEY", "")
@@ -225,12 +243,12 @@ def extract_mcq_letter(text: str) -> str:
     return match.group(1).upper() if match else ""
 
 
-def row_eval(job: dict) -> dict:
+def row_eval(job: dict, min_interval_ms: int) -> dict:
     provider = job["provider"]
     model_id = job["model_id"]
     prompt = job["prompt"]
 
-    output = call_model(provider, model_id, prompt["prompt_text"])
+    output = call_model(provider, model_id, prompt["prompt_text"], min_interval_ms=min_interval_ms)
     parsed_prediction = ""
     grader_raw = ""
 
@@ -352,10 +370,15 @@ def main() -> None:
 
     existing_rows: list[dict] = []
     existing_keys: set[tuple[str, str, str, str]] = set()
+    pred_map: dict[tuple[str, str, str, str], dict] = {}
     if args.resume and pred_path.exists():
         existing_rows = read_csv(pred_path)
         for r in existing_rows:
-            existing_keys.add((r["provider"], r["model_id"], r["id"], r["prompt_category"]))
+            k = (r["provider"], r["model_id"], r["id"], r["prompt_category"])
+            pred_map[k] = r
+            if args.retry_error_rows and (r.get("grade_method") == "error" or (r.get("error") or "").strip()):
+                continue
+            existing_keys.add(k)
         print(f"Resume enabled: loaded {len(existing_rows)} existing rows.")
 
     jobs = []
@@ -373,7 +396,7 @@ def main() -> None:
     )
     start = time.time()
     done = 0
-    pred_rows: list[dict] = list(existing_rows)
+    pred_rows: list[dict] = []
 
     all_fields = [
         "provider",
@@ -391,6 +414,7 @@ def main() -> None:
     ]
 
     def flush_outputs() -> None:
+        pred_rows[:] = list(pred_map.values())
         # sort for reproducibility
         pred_rows.sort(key=lambda r: (r["provider"], r["model_id"], r["id"], r["prompt_category"]))
         for r in pred_rows:
@@ -411,7 +435,7 @@ def main() -> None:
 
     try:
         with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as ex:
-            future_map = {ex.submit(row_eval, j): j for j in jobs}
+            future_map = {ex.submit(row_eval, j, args.min_interval_ms): j for j in jobs}
             for fut in concurrent.futures.as_completed(future_map):
                 j = future_map[fut]
                 try:
@@ -431,7 +455,8 @@ def main() -> None:
                         "is_correct": 0,
                         "error": str(e)[:400],
                     }
-                pred_rows.append(rec)
+                k = (rec["provider"], rec["model_id"], rec["id"], rec["prompt_category"])
+                pred_map[k] = rec
                 done += 1
 
                 if args.status_every > 0 and (done % args.status_every == 0 or done == total):
