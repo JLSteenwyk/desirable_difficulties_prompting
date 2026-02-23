@@ -1,0 +1,17 @@
+provider,model_id,status,http_status,elapsed_s,message
+openai,gpt-5.2,pass,200,1.10,ok
+openai,gpt-5.2-pro,pass,200,4.69,ok
+openai,gpt-5-mini,pass,200,2.40,ok
+anthropic,claude-opus-4-6,pass,200,2.14,ok
+anthropic,claude-sonnet-4-6,pass,200,0.95,ok
+anthropic,claude-4-5-haiku,fail,404,0.18,"{""type"":""error"",""error"":{""type"":""not_found_error"",""message"":""model: claude-4-5-haiku""},""request_id"":""req_011CYRjyYmpkjg3ZMYZSUcHM""}"
+google,gemini-3-pro-preview,pass,200,2.85,ok
+google,gemini-3.1-pro-preview,pass,200,3.66,ok
+google,gemini-3-flash-preview,pass,200,1.07,ok
+xai,grok-4-1-fast-reasoning,fail,403,0.08,error code: 1010
+xai,grok-4-1-fast-non-reasoning,fail,403,0.05,error code: 1010
+mistral,mistral-large-2512,pass,200,0.50,ok
+mistral,mistral-medium-2508,pass,200,1.54,ok
+kimi,kimi-k2.5,pass,200,1.14,ok
+kimi,kimi-k2-thinking,pass,200,1.40,ok
+kimi,kimi-k2-thinking-turbo,pass,200,0.71,ok
