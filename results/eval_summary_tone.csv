@@ -1,0 +1,4 @@
+prompt_category,n,correct,accuracy,delta_vs_baseline
+baseline,10,1,0.1000,0.0000
+stress_high_stakes,10,2,0.2000,0.1000
+supportive_calm,10,2,0.2000,0.1000

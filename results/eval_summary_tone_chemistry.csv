@@ -1,0 +1,3 @@
+prompt_category,n,correct,accuracy,delta_vs_baseline
+stress_high_stakes,42,6,0.1429,
+supportive_calm,42,3,0.0714,

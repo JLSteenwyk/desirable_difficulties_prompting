@@ -1,0 +1,97 @@
+row_index,id,prompt_category,answer_type,gold_answer,model_output,parsed_prediction,grade_method,grader_raw_output,is_correct
+0,6720cd0acf47ec0733864dd8,baseline,multipleChoice,C,B,B,mcq_letter_match,,0
+1,6720cd0acf47ec0733864dd8,stress_high_stakes,multipleChoice,C,B,B,mcq_letter_match,,0
+2,6720cd0acf47ec0733864dd8,supportive_calm,multipleChoice,C,B,B,mcq_letter_match,,0
+3,670f511063b765ce8edde772,baseline,exactMatch,7,2 (dimer),2 (dimer),gpt_5_nano_binary,0,0
+4,670f511063b765ce8edde772,stress_high_stakes,exactMatch,7,7,7,gpt_5_nano_binary,1,1
+5,670f511063b765ce8edde772,supportive_calm,exactMatch,7,7,7,gpt_5_nano_binary,1,1
+6,6700a5f67899925724a8fa81,baseline,exactMatch,pterodactylane,Trilobane,Trilobane,gpt_5_nano_binary,0,0
+7,6700a5f67899925724a8fa81,stress_high_stakes,exactMatch,pterodactylane,Trilobane,Trilobane,gpt_5_nano_binary,0,0
+8,6700a5f67899925724a8fa81,supportive_calm,exactMatch,pterodactylane,Corannulene,Corannulene,gpt_5_nano_binary,0,0
+9,6739f5ede8b91dc9dac17cd9,baseline,exactMatch,11,"Six — one unstained control plus five single-color controls (AF350, GFP, PE, AF647, AF750).","Six — one unstained control plus five single-color controls (AF350, GFP, PE, AF647, AF750).",gpt_5_nano_binary,0,0
+10,6739f5ede8b91dc9dac17cd9,stress_high_stakes,exactMatch,11,6,6,gpt_5_nano_binary,0,0
+11,6739f5ede8b91dc9dac17cd9,supportive_calm,exactMatch,11,6,6,gpt_5_nano_binary,0,0
+12,670880520ed68fbdc467064e,baseline,exactMatch,5-methylhex-4-enal,2-Methylbut-3-en-2-ol,2-Methylbut-3-en-2-ol,gpt_5_nano_binary,0,0
+13,670880520ed68fbdc467064e,stress_high_stakes,exactMatch,5-methylhex-4-enal,Phenyl(2-methylbut-3-en-2-yl)sulfane,Phenyl(2-methylbut-3-en-2-yl)sulfane,gpt_5_nano_binary,0,0
+14,670880520ed68fbdc467064e,supportive_calm,exactMatch,5-methylhex-4-enal,2-Methylbut-3-en-2-ol,2-Methylbut-3-en-2-ol,gpt_5_nano_binary,0,0
+15,66ee158c5db68805b7d3d27b,baseline,multipleChoice,C,B,B,mcq_letter_match,,0
+16,66ee158c5db68805b7d3d27b,stress_high_stakes,multipleChoice,C,"B. α: negative, β: negative",B,mcq_letter_match,,0
+17,66ee158c5db68805b7d3d27b,supportive_calm,multipleChoice,C,B,B,mcq_letter_match,,0
+18,6723a613f747d32c6b0b65dc,baseline,multipleChoice,B,D,D,mcq_letter_match,,0
+19,6723a613f747d32c6b0b65dc,stress_high_stakes,multipleChoice,B,C,C,mcq_letter_match,,0
+20,6723a613f747d32c6b0b65dc,supportive_calm,multipleChoice,B,D,D,mcq_letter_match,,0
+21,66fc89ce455038a48ed359e4,baseline,multipleChoice,D,D,D,mcq_letter_match,,1
+22,66fc89ce455038a48ed359e4,stress_high_stakes,multipleChoice,D,D,D,mcq_letter_match,,1
+23,66fc89ce455038a48ed359e4,supportive_calm,multipleChoice,D,D,D,mcq_letter_match,,1
+24,6720fcd2198910fd26b01218,baseline,multipleChoice,F,A,A,mcq_letter_match,,0
+25,6720fcd2198910fd26b01218,stress_high_stakes,multipleChoice,F,A,A,mcq_letter_match,,0
+26,6720fcd2198910fd26b01218,supportive_calm,multipleChoice,F,A and C,A,mcq_letter_match,,0
+27,671bbe5a85b315d9f07698a9,baseline,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1 (t-BuOK, cyclohexane/Et2O): Base-promoted E2 dehydrohalogenation of (3S)-3-bromobutylbenzene gives the less-substituted (Hofmann) alkene A, Ph–CH2–CH2–CH=CH2 (4-phenyl-1-butene). The stereocenter at C‑3 is destroyed by the elimination.
+
+Step 2 (BH3/THF then H2O2/NaOH): Hydroboration–oxidation of the terminal alkene A adds OH in an anti‑Markovnikov sense to give the primary alcohol B, Ph–CH2–CH2–CH2–CH2–OH (4-phenylbutan-1-ol). (Hydroboration is syn addition; here it produces a non‑chiral primary alcohol.)
+
+Step 3 (PBr3): Conversion of the primary alcohol B to the alkyl bromide C by PBr3 (SN2 displacement of OH) yields Ph–CH2–CH2–CH2–CH2–Br.
+
+Identity of C: 1-bromo-4-phenylbutane (IUPAC: 1-bromo-4-phenylbutane, alternatively 4-phenylbutan-1-yl bromide). The molecule is achiral (no stereogenic center).","Step 1 (t-BuOK, cyclohexane/Et2O): Base-promoted E2 dehydrohalogenation of (3S)-3-bromobutylbenzene gives the less-substituted (Hofmann) alkene A, Ph–CH2–CH2–CH=CH2 (4-phenyl-1-butene). The stereocenter at C‑3 is destroyed by the elimination.
+
+Step 2 (BH3/THF then H2O2/NaOH): Hydroboration–oxidation of the terminal alkene A adds OH in an anti‑Markovnikov sense to give the primary alcohol B, Ph–CH2–CH2–CH2–CH2–OH (4-phenylbutan-1-ol). (Hydroboration is syn addition; here it produces a non‑chiral primary alcohol.)
+
+Step 3 (PBr3): Conversion of the primary alcohol B to the alkyl bromide C by PBr3 (SN2 displacement of OH) yields Ph–CH2–CH2–CH2–CH2–Br.
+
+Identity of C: 1-bromo-4-phenylbutane (IUPAC: 1-bromo-4-phenylbutane, alternatively 4-phenylbutan-1-yl bromide). The molecule is achiral (no stereogenic center).",gpt_5_nano_binary,0,0
+28,671bbe5a85b315d9f07698a9,stress_high_stakes,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1 — Elimination (E2):
+- KOtBu (bulky base) effects dehydrohalogenation of [(3S)-3-bromobutyl]benzene to give the less-substituted (Hofmann) alkene. Product A is the terminal alkene:
+  A = 4-phenyl-1-butene (CH2=CH–CH2–CH2–Ph).
+- The original stereocenter (3S) is destroyed in the elimination (sp2 center formed).
+
+Step 2 — Hydroboration–oxidation:
+- BH3·THF adds across the terminal C=C in a syn, anti‑Markovnikov manner (boron adds to the terminal carbon), followed by H2O2/NaOH oxidation to give the primary alcohol at the terminal carbon.
+  B = 4-phenyl-1-butanol (Ph–CH2–CH2–CH2–CH2–OH).
+- No new stereocenter is generated in this sequence.
+
+Step 3 — Conversion of alcohol to bromide:
+- PBr3 converts the primary alcohol to the corresponding alkyl bromide (SN2 mechanism). Because the carbon bearing the OH in B is primary (achiral), no stereochemical complication arises.
+  C = 1-bromo-4-phenylbutane (common name: 4-phenylbutyl bromide), structure Ph–CH2–CH2–CH2–CH2Br.
+
+IUPAC name of final product: 1-bromo-4-phenylbutane. Chirality: the final product is achiral (no stereogenic center).","Step 1 — Elimination (E2):
+- KOtBu (bulky base) effects dehydrohalogenation of [(3S)-3-bromobutyl]benzene to give the less-substituted (Hofmann) alkene. Product A is the terminal alkene:
+  A = 4-phenyl-1-butene (CH2=CH–CH2–CH2–Ph).
+- The original stereocenter (3S) is destroyed in the elimination (sp2 center formed).
+
+Step 2 — Hydroboration–oxidation:
+- BH3·THF adds across the terminal C=C in a syn, anti‑Markovnikov manner (boron adds to the terminal carbon), followed by H2O2/NaOH oxidation to give the primary alcohol at the terminal carbon.
+  B = 4-phenyl-1-butanol (Ph–CH2–CH2–CH2–CH2–OH).
+- No new stereocenter is generated in this sequence.
+
+Step 3 — Conversion of alcohol to bromide:
+- PBr3 converts the primary alcohol to the corresponding alkyl bromide (SN2 mechanism). Because the carbon bearing the OH in B is primary (achiral), no stereochemical complication arises.
+  C = 1-bromo-4-phenylbutane (common name: 4-phenylbutyl bromide), structure Ph–CH2–CH2–CH2–CH2Br.
+
+IUPAC name of final product: 1-bromo-4-phenylbutane. Chirality: the final product is achiral (no stereogenic center).",gpt_5_nano_binary,0,0
+29,671bbe5a85b315d9f07698a9,supportive_calm,exactMatch,Racemate of 4-phenyl-2-bromobutane,"Step 1 — E2 elimination to give alkene A
+- t-BuOK (a strong, hindered base) effects dehydrohalogenation of (3S)-PhCH2–CH2–CH(Br)–CH3 by an E2 mechanism. The bulky base favors removal of the more accessible β–H and gives the less-substituted (Hofmann) alkene as the major product in this solvent mixture:
+  A = PhCH2–CH2–CH=CH2 (IUPAC: 4-phenylbut‑1‑ene).
+- The stereocenter at C3 is destroyed when the C3–H/C3–Br are eliminated, so A is achiral.
+
+Step 2 — Hydroboration–oxidation to give alcohol B
+- BH3·THF adds across the terminal C=C in an anti‑Markovnikov, syn fashion (BH2 adds to the terminal carbon), and subsequent H2O2/NaOH oxidation converts the B–C bond to an C–OH bond at that terminal carbon:
+  B = PhCH2–CH2–CH2–CH2OH (IUPAC: 4‑phenylbutan‑1‑ol).
+- B is a primary (non‑stereogenic) alcohol, so it is achiral.
+
+Step 3 — Conversion of alcohol B to alkyl bromide C
+- PBr3 converts the primary alcohol to the corresponding alkyl bromide by an SN2‑type pathway. Because the carbon bearing the leaving group in B is primary (not stereogenic), no stereochemical inversion issue arises:
+  C = PhCH2–CH2–CH2–CH2Br (IUPAC: 1‑bromo‑4‑phenylbutane, common name: 4‑phenylbutyl bromide).
+- C is achiral. (The original (3S) stereocenter from the starting material was lost during the elimination step.)","Step 1 — E2 elimination to give alkene A
+- t-BuOK (a strong, hindered base) effects dehydrohalogenation of (3S)-PhCH2–CH2–CH(Br)–CH3 by an E2 mechanism. The bulky base favors removal of the more accessible β–H and gives the less-substituted (Hofmann) alkene as the major product in this solvent mixture:
+  A = PhCH2–CH2–CH=CH2 (IUPAC: 4-phenylbut‑1‑ene).
+- The stereocenter at C3 is destroyed when the C3–H/C3–Br are eliminated, so A is achiral.
+
+Step 2 — Hydroboration–oxidation to give alcohol B
+- BH3·THF adds across the terminal C=C in an anti‑Markovnikov, syn fashion (BH2 adds to the terminal carbon), and subsequent H2O2/NaOH oxidation converts the B–C bond to an C–OH bond at that terminal carbon:
+  B = PhCH2–CH2–CH2–CH2OH (IUPAC: 4‑phenylbutan‑1‑ol).
+- B is a primary (non‑stereogenic) alcohol, so it is achiral.
+
+Step 3 — Conversion of alcohol B to alkyl bromide C
+- PBr3 converts the primary alcohol to the corresponding alkyl bromide by an SN2‑type pathway. Because the carbon bearing the leaving group in B is primary (not stereogenic), no stereochemical inversion issue arises:
+  C = PhCH2–CH2–CH2–CH2Br (IUPAC: 1‑bromo‑4‑phenylbutane, common name: 4‑phenylbutyl bromide).
+- C is achiral. (The original (3S) stereocenter from the starting material was lost during the elimination step.)",gpt_5_nano_binary,0,0
