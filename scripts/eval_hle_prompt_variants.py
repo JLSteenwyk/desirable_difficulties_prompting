@@ -17,18 +17,24 @@ Outputs:
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import csv
 import os
 import re
+import threading
 import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
-from openai import BadRequestError, OpenAI
+from openai import APIConnectionError, APITimeoutError, BadRequestError, OpenAI, RateLimitError
 
 
 LETTER_RE = re.compile(r"\b([A-F])\b", re.IGNORECASE)
+FINAL_ANSWER_RE = re.compile(
+    r"(?im)(?:^|\n)\s*(?:final\s+answer|answer)\s*[:\-]\s*\(?([A-F])\)?\b"
+)
+THREAD_LOCAL = threading.local()
 
 
 @dataclass
@@ -69,8 +75,19 @@ def extract_mcq_letter(text: str) -> str:
     text = (text or "").strip().upper()
     if len(text) == 1 and text in "ABCDEF":
         return text
+    final = FINAL_ANSWER_RE.search(text)
+    if final:
+        return final.group(1).upper()
     match = LETTER_RE.search(text)
     return match.group(1).upper() if match else ""
+
+
+def get_client() -> OpenAI:
+    client = getattr(THREAD_LOCAL, "client", None)
+    if client is None:
+        client = OpenAI()
+        THREAD_LOCAL.client = client
+    return client
 
 
 def call_model_answer(client: OpenAI, model: str, prompt_text: str) -> str:
@@ -84,15 +101,21 @@ def call_model_answer(client: OpenAI, model: str, prompt_text: str) -> str:
         ],
         "temperature": 0,
     }
-    try:
-        resp = client.responses.create(**req)
-    except BadRequestError as e:
-        # Some models do not support temperature; retry deterministically with default settings.
-        msg = str(e)
-        if "Unsupported parameter: 'temperature'" not in msg:
+    for attempt in range(5):
+        try:
+            resp = client.responses.create(**req)
+            break
+        except BadRequestError as e:
+            # Some models do not support temperature; retry deterministically with default settings.
+            msg = str(e)
+            if "Unsupported parameter: 'temperature'" in msg and "temperature" in req:
+                req.pop("temperature", None)
+                continue
             raise
-        req.pop("temperature", None)
-        resp = client.responses.create(**req)
+        except (APIConnectionError, APITimeoutError, RateLimitError):
+            if attempt == 4:
+                raise
+            time.sleep(min(8, 1.5**attempt))
     return (resp.output_text or "").strip()
 
 
@@ -127,14 +150,20 @@ def grade_open_ended_with_nano(
             ],
             "temperature": 0,
         }
-        try:
-            resp = client.responses.create(**req)
-        except BadRequestError as e:
-            msg = str(e)
-            if "Unsupported parameter: 'temperature'" not in msg:
+        for attempt in range(5):
+            try:
+                resp = client.responses.create(**req)
+                break
+            except BadRequestError as e:
+                msg = str(e)
+                if "Unsupported parameter: 'temperature'" in msg and "temperature" in req:
+                    req.pop("temperature", None)
+                    continue
                 raise
-            req.pop("temperature", None)
-            resp = client.responses.create(**req)
+            except (APIConnectionError, APITimeoutError, RateLimitError):
+                if attempt == 4:
+                    raise
+                time.sleep(min(8, 1.5**attempt))
         last = (resp.output_text or "").strip()
         if last in {"0", "1"}:
             return int(last), last
@@ -203,6 +232,12 @@ def main() -> None:
         default=1,
         help="Print a status update every N rows (default: 1). Set 0 to disable.",
     )
+    parser.add_argument(
+        "--max-workers",
+        type=int,
+        default=1,
+        help="Number of parallel workers for model calls (default: 1).",
+    )
     args = parser.parse_args()
 
     if not os.getenv("OPENAI_API_KEY"):
@@ -212,12 +247,13 @@ def main() -> None:
     if not rows:
         raise ValueError(f"No rows found in {args.input_csv}")
 
-    client = OpenAI()
     records: list[dict] = []
     total = len(rows)
     start = time.time()
+    completed = 0
 
-    for idx, row in enumerate(rows, start=1):
+    def evaluate_row(row: EvalRow) -> dict:
+        client = get_client()
         model_output = call_model_answer(client, args.answer_model, row.prompt_text)
 
         parsed_prediction = ""
@@ -237,33 +273,41 @@ def main() -> None:
             )
             grade_method = "gpt_5_nano_binary"
 
-        records.append(
-            {
-                "row_index": row.row_index,
-                "id": row.id,
-                "prompt_category": row.prompt_category,
-                "answer_type": row.answer_type,
-                "gold_answer": row.gold_answer,
-                "model_output": model_output,
-                "parsed_prediction": parsed_prediction,
-                "grade_method": grade_method,
-                "grader_raw_output": grader_raw,
-                "is_correct": is_correct,
-            }
-        )
-
-        if args.status_every > 0 and (idx % args.status_every == 0 or idx == total):
-            correct_so_far = sum(int(r["is_correct"]) for r in records)
-            running_acc = correct_so_far / idx
-            elapsed = time.time() - start
-            print(
-                f"[{idx}/{total}] id={row.id} category={row.prompt_category} "
-                f"correct={is_correct} running_acc={running_acc:.3f} elapsed_s={elapsed:.1f}",
-                flush=True,
-            )
-
         if args.sleep_seconds > 0:
             time.sleep(args.sleep_seconds)
+
+        return {
+            "row_index": row.row_index,
+            "id": row.id,
+            "prompt_category": row.prompt_category,
+            "answer_type": row.answer_type,
+            "gold_answer": row.gold_answer,
+            "model_output": model_output,
+            "parsed_prediction": parsed_prediction,
+            "grade_method": grade_method,
+            "grader_raw_output": grader_raw,
+            "is_correct": is_correct,
+        }
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as ex:
+        futures = {ex.submit(evaluate_row, row): row for row in rows}
+        for fut in concurrent.futures.as_completed(futures):
+            row = futures[fut]
+            rec = fut.result()
+            records.append(rec)
+            completed += 1
+
+            if args.status_every > 0 and (completed % args.status_every == 0 or completed == total):
+                correct_so_far = sum(int(r["is_correct"]) for r in records)
+                running_acc = correct_so_far / completed
+                elapsed = time.time() - start
+                print(
+                    f"[{completed}/{total}] id={row.id} category={row.prompt_category} "
+                    f"correct={rec['is_correct']} running_acc={running_acc:.3f} elapsed_s={elapsed:.1f}",
+                    flush=True,
+                )
+
+    records.sort(key=lambda r: int(r["row_index"]))
 
     write_results(args.output_csv, records)
     summary = summarize(records, baseline_name=args.baseline_name)
