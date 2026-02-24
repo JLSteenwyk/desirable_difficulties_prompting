@@ -1,0 +1,162 @@
+[
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "66ff063787bfb80443d02df6",
+    "prompt_category": "high_pressure",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; multiple option lett"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "66ff063787bfb80443d02df6",
+    "prompt_category": "pressured",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; multiple option lett"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "66ff063787bfb80443d02df6",
+    "prompt_category": "supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; multiple option lett"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "670c83ba4aece479236947cb",
+    "prompt_category": "pressured",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "670c83ba4aece479236947cb",
+    "prompt_category": "very_supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "670e5c2720bb63b6da63b879",
+    "prompt_category": "supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; multiple option lett"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671a947c9deaf77048dcc8b7",
+    "prompt_category": "neutral",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; D != A"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671a947c9deaf77048dcc8b7",
+    "prompt_category": "supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; I != A"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671a947c9deaf77048dcc8b7",
+    "prompt_category": "very_supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; M != A"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671dd6cd91a438f6811f5108",
+    "prompt_category": "high_pressure",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671dd6cd91a438f6811f5108",
+    "prompt_category": "neutral",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671dd6cd91a438f6811f5108",
+    "prompt_category": "very_supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f09d6d0f22fd6e50482eb",
+    "prompt_category": "high_pressure",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; I != A"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f09d6d0f22fd6e50482eb",
+    "prompt_category": "supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; multiple option lett"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f09d6d0f22fd6e50482eb",
+    "prompt_category": "very_supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f0c2578ab3005e439aeba",
+    "prompt_category": "neutral",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f0c2578ab3005e439aeba",
+    "prompt_category": "pressured",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; no clear option sele"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f0c2578ab3005e439aeba",
+    "prompt_category": "supportive",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; I != A"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f23ab12f081da543ed684",
+    "prompt_category": "neutral",
+    "answer_type": "multipleChoice",
+    "score": 0,
+    "rationale": "differs prior grade; low confidence; multiple option lett"
+  },
+  {
+    "model_id": "claude-opus-4-6",
+    "id": "671f39dcd579cf064f22d3c1",
+    "prompt_category": "neutral",
+    "answer_type": "multipleChoice",
+    "score": 1,
+    "rationale": "differs prior grade; low confidence; selected matches gol"
+  }
+]

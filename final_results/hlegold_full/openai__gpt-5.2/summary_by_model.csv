@@ -1,0 +1,2 @@
+provider,model_id,n,n_graded,correct,accuracy_overall
+openai,gpt-5.2,745,460,55,0.1196

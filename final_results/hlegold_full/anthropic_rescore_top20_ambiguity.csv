@@ -1,0 +1,20 @@
+model_id,id,prompt_category,answer_type,score,confidence,reason_short,gold_answer
+claude-opus-4-6,6700a5f67899925724a8fa81,supportive,exactMatch,0,low,Gold phrase appears ambiguously/negated.,pterodactylane
+claude-opus-4-6,6701638aed23f06e44f0e6b8,pressured,exactMatch,0,low,Gold phrase appears ambiguously/negated.,Yes
+claude-opus-4-6,6701638aed23f06e44f0e6b8,very_supportive,exactMatch,0,low,Gold phrase appears ambiguously/negated.,Yes
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,high_pressure,exactMatch,0,low,Gold phrase appears ambiguously/negated.,5
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,pressured,exactMatch,0,low,Gold phrase appears ambiguously/negated.,5
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,supportive,exactMatch,0,low,Gold phrase appears ambiguously/negated.,5
+claude-sonnet-4-6,6700a5f67899925724a8fa81,high_pressure,exactMatch,0,low,Gold phrase appears ambiguously/negated.,pterodactylane
+claude-sonnet-4-6,6700a5f67899925724a8fa81,supportive,exactMatch,0,low,Gold phrase appears ambiguously/negated.,pterodactylane
+claude-sonnet-4-6,6716f035bab94116769c0082,neutral,exactMatch,0,low,Gold phrase appears ambiguously/negated.,Weaker
+claude-sonnet-4-6,6737697dedff89681fe75582,high_pressure,exactMatch,0,low,Gold phrase appears ambiguously/negated.,phdA
+claude-opus-4-6,6701638aed23f06e44f0e6b8,high_pressure,exactMatch,1,medium,Answer starts with correct polarity.,Yes
+claude-opus-4-6,6701638aed23f06e44f0e6b8,neutral,exactMatch,1,medium,Answer starts with correct polarity.,Yes
+claude-opus-4-6,6701638aed23f06e44f0e6b8,supportive,exactMatch,1,medium,Gold phrase appears as stated answer.,Yes
+claude-opus-4-6,6737697dedff89681fe75582,high_pressure,exactMatch,1,medium,Gold phrase appears as stated answer.,phdA
+claude-opus-4-6,6737697dedff89681fe75582,neutral,exactMatch,1,medium,Gold phrase appears as stated answer.,phdA
+claude-opus-4-6,6737697dedff89681fe75582,pressured,exactMatch,1,medium,Gold phrase appears as stated answer.,phdA
+claude-opus-4-6,6737697dedff89681fe75582,supportive,exactMatch,1,medium,Gold phrase appears as stated answer.,phdA
+claude-opus-4-6,6737697dedff89681fe75582,very_supportive,exactMatch,1,medium,Gold phrase appears as stated answer.,phdA
+claude-sonnet-4-6,6700a5f67899925724a8fa81,neutral,exactMatch,1,medium,Gold phrase appears as stated answer.,pterodactylane

@@ -1,0 +1,21 @@
+model_id,id,prompt_category,answer_type,score,confidence,likely_misgraded,rationale
+claude-opus-4-6,66fc2df0b72463921f6c40f2,high_pressure,exactMatch,0,low,no,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,neutral,exactMatch,0,low,no,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,pressured,exactMatch,0,low,no,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,supportive,exactMatch,0,low,no,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,very_supportive,exactMatch,0,low,no,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,high_pressure,exactMatch,0,low,no,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,neutral,exactMatch,0,low,no,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,pressured,exactMatch,0,low,no,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,supportive,exactMatch,0,low,no,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,very_supportive,exactMatch,0,low,no,Blank output
+claude-opus-4-6,6700a5f67899925724a8fa81,supportive,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,high_pressure,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,neutral,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,pressured,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,supportive,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,very_supportive,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,high_pressure,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,neutral,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,pressured,exactMatch,1,medium,no,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,supportive,exactMatch,1,medium,no,Gold string present in output

@@ -1,0 +1,49 @@
+SUMMARY
+total_rows_audited: 1490
+total_points: 125
+total_possible_points: 1490
+overall_accuracy: 0.08389261744966443
+
+PER_MODEL
+claude-opus-4-6: 68/745 (0.0913)
+claude-sonnet-4-6: 57/745 (0.0765)
+
+PER_ANSWER_TYPE
+exactMatch: 10/570 (0.0175)
+multipleChoice: 115/920 (0.1250)
+
+PROMPT_CATEGORY_BY_MODEL
+[claude-opus-4-6]
+high_pressure: 11/149 (0.0738)
+neutral: 15/149 (0.1007)
+pressured: 13/149 (0.0872)
+supportive: 14/149 (0.0940)
+very_supportive: 15/149 (0.1007)
+[claude-sonnet-4-6]
+high_pressure: 10/149 (0.0671)
+neutral: 10/149 (0.0671)
+pressured: 13/149 (0.0872)
+supportive: 13/149 (0.0872)
+very_supportive: 11/149 (0.0738)
+
+TOP20
+claude-opus-4-6|66e8ccc4089d1e34c84c76c0|high_pressure|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66e8ccc4089d1e34c84c76c0|neutral|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66e8ccc4089d1e34c84c76c0|pressured|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66e8ccc4089d1e34c84c76c0|supportive|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66e8ccc4089d1e34c84c76c0|very_supportive|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66ea1dd348eb93c2aef1c735|high_pressure|multipleChoice|0|low|Low-confidence extraction or ambiguous completion.
+claude-opus-4-6|66ea1dd348eb93c2aef1c735|neutral|multipleChoice|0|low|Low-confidence extraction or ambiguous completion.
+claude-opus-4-6|66ea1dd348eb93c2aef1c735|pressured|multipleChoice|0|low|Low-confidence extraction or ambiguous completion.
+claude-opus-4-6|66ea1dd348eb93c2aef1c735|supportive|multipleChoice|0|low|Low-confidence extraction or ambiguous completion.
+claude-opus-4-6|66ea1dd348eb93c2aef1c735|very_supportive|multipleChoice|0|low|Low-confidence extraction or ambiguous completion.
+claude-opus-4-6|66eb36fbb38dbcd7910ceafc|high_pressure|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66eb36fbb38dbcd7910ceafc|neutral|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66eb36fbb38dbcd7910ceafc|pressured|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66eb36fbb38dbcd7910ceafc|supportive|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66eb36fbb38dbcd7910ceafc|very_supportive|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66ecfd03e7478ca5fcbb7495|high_pressure|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66ecfd03e7478ca5fcbb7495|neutral|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66ecfd03e7478ca5fcbb7495|pressured|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66ecfd03e7478ca5fcbb7495|supportive|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.
+claude-opus-4-6|66ecfd03e7478ca5fcbb7495|very_supportive|exactMatch|0|low|Previously ungraded exactMatch; strict explicit-answer check applied.

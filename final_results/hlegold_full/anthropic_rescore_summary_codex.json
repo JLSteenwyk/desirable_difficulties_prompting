@@ -1,0 +1,76 @@
+{
+  "total_rows_audited": 1490,
+  "total_points": 124,
+  "total_possible_points": 1490,
+  "overall_accuracy": 0.08322147651006712,
+  "per_model": {
+    "claude-opus-4-6": {
+      "points": 67,
+      "rows": 745,
+      "accuracy": 0.08993288590604027
+    },
+    "claude-sonnet-4-6": {
+      "points": 57,
+      "rows": 745,
+      "accuracy": 0.07651006711409396
+    }
+  },
+  "per_answer_type": {
+    "multipleChoice": {
+      "points": 121,
+      "rows": 920,
+      "accuracy": 0.13152173913043477
+    },
+    "exactMatch": {
+      "points": 3,
+      "rows": 570,
+      "accuracy": 0.005263157894736842
+    }
+  },
+  "by_prompt_category_per_model": {
+    "claude-opus-4-6": {
+      "high_pressure": {
+        "0": 137,
+        "1": 12
+      },
+      "neutral": {
+        "0": 135,
+        "1": 14
+      },
+      "pressured": {
+        "0": 139,
+        "1": 10
+      },
+      "supportive": {
+        "0": 133,
+        "1": 16
+      },
+      "very_supportive": {
+        "0": 134,
+        "1": 15
+      }
+    },
+    "claude-sonnet-4-6": {
+      "high_pressure": {
+        "0": 139,
+        "1": 10
+      },
+      "neutral": {
+        "0": 139,
+        "1": 10
+      },
+      "pressured": {
+        "0": 135,
+        "1": 14
+      },
+      "supportive": {
+        "0": 137,
+        "1": 12
+      },
+      "very_supportive": {
+        "0": 138,
+        "1": 11
+      }
+    }
+  }
+}

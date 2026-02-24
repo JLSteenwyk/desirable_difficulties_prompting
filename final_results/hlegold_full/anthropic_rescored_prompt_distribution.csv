@@ -1,0 +1,11 @@
+model_id,prompt_category,score_1,score_0,total,accuracy
+claude-opus-4-6,high_pressure,9,140,149,0.06040268456375839
+claude-opus-4-6,neutral,14,135,149,0.09395973154362416
+claude-opus-4-6,pressured,12,137,149,0.08053691275167785
+claude-opus-4-6,supportive,13,136,149,0.087248322147651
+claude-opus-4-6,very_supportive,14,135,149,0.09395973154362416
+claude-sonnet-4-6,high_pressure,11,138,149,0.0738255033557047
+claude-sonnet-4-6,neutral,10,139,149,0.06711409395973154
+claude-sonnet-4-6,pressured,13,136,149,0.087248322147651
+claude-sonnet-4-6,supportive,13,136,149,0.087248322147651
+claude-sonnet-4-6,very_supportive,11,138,149,0.0738255033557047

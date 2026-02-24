@@ -1,0 +1,6 @@
+provider,model_id,prompt_category,n,n_graded,correct,accuracy,delta_vs_neutral
+kimi,kimi-k2.5,high_pressure,149,92,0,0.0000,0.0000
+kimi,kimi-k2.5,neutral,149,92,0,0.0000,0.0000
+kimi,kimi-k2.5,pressured,149,92,0,0.0000,0.0000
+kimi,kimi-k2.5,supportive,149,92,0,0.0000,0.0000
+kimi,kimi-k2.5,very_supportive,149,92,0,0.0000,0.0000

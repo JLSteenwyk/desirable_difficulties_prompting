@@ -1,0 +1,21 @@
+model_id,id,prompt_category,answer_type,score,confidence,reason_short,rationale
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,high_pressure,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,neutral,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,pressured,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,supportive,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,very_supportive,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66ee0b4d95cd6c1ce2259e50,supportive,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66ee158c5db68805b7d3d27b,supportive,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66ef3de8b8a1ba6e0ba23498,supportive,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fc2df0b72463921f6c40f2,high_pressure,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fc2df0b72463921f6c40f2,neutral,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fc2df0b72463921f6c40f2,pressured,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fc2df0b72463921f6c40f2,supportive,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fc2df0b72463921f6c40f2,very_supportive,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fec7825e6051260840e060,high_pressure,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fec7825e6051260840e060,neutral,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fec7825e6051260840e060,pressured,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fec7825e6051260840e060,supportive,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,66fec7825e6051260840e060,very_supportive,exactMatch,0,low,nonanswer,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,67018145e8c125b41caa9ee3,supportive,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.
+claude-opus-4-6,67018145e8c125b41caa9ee3,very_supportive,multipleChoice,0,low,no_choice,No explicit final answer; strict parsing may under-credit.

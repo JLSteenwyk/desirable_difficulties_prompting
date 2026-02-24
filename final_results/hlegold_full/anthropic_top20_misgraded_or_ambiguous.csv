@@ -1,0 +1,21 @@
+model_id,id,prompt_category,answer_type,score,confidence,rationale
+claude-opus-4-6,66e8ccc4089d1e34c84c76c0,high_pressure,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-opus-4-6,66eb36fbb38dbcd7910ceafc,neutral,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-opus-4-6,66ecfd03e7478ca5fcbb7495,neutral,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-opus-4-6,66ef2a1b8829dedb61d5627a,high_pressure,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-opus-4-6,66f052e814be84cc1edd3fbd,high_pressure,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,high_pressure,multipleChoice,0,low,No clear selected option in final output
+claude-opus-4-6,66ee0b4d95cd6c1ce2259e50,supportive,multipleChoice,0,low,No clear selected option in final output
+claude-opus-4-6,66ee158c5db68805b7d3d27b,supportive,multipleChoice,0,low,No clear selected option in final output
+claude-opus-4-6,66ef3de8b8a1ba6e0ba23498,supportive,multipleChoice,0,low,No clear selected option in final output
+claude-opus-4-6,67018145e8c125b41caa9ee3,supportive,multipleChoice,0,low,No clear selected option in final output
+claude-sonnet-4-6,66e8ccc4089d1e34c84c76c0,high_pressure,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-sonnet-4-6,66eb36fbb38dbcd7910ceafc,high_pressure,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-sonnet-4-6,66ecfd03e7478ca5fcbb7495,neutral,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-sonnet-4-6,66ef2a1b8829dedb61d5627a,high_pressure,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,neutral,exactMatch,0,low,Exact-match answer extraction uncertain
+claude-sonnet-4-6,66ea1dd348eb93c2aef1c735,high_pressure,multipleChoice,0,low,No clear selected option in final output
+claude-sonnet-4-6,66ee158c5db68805b7d3d27b,pressured,multipleChoice,0,low,No clear selected option in final output
+claude-sonnet-4-6,66ee93ba02314f06feb186cf,supportive,multipleChoice,0,low,No clear selected option in final output
+claude-sonnet-4-6,66ef3de8b8a1ba6e0ba23498,pressured,multipleChoice,0,low,No clear selected option in final output
+claude-sonnet-4-6,66efa01e327e4a95dc760d01,high_pressure,multipleChoice,0,low,No clear selected option in final output

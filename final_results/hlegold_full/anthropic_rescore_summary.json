@@ -1,0 +1,86 @@
+{
+  "total_rows_audited": 1490,
+  "total_points": 124,
+  "total_possible_points": 1490,
+  "overall_accuracy": 0.08322147651006712,
+  "per_model": {
+    "claude-opus-4-6": {
+      "points": 66,
+      "total": 745,
+      "accuracy": 0.08859060402684564
+    },
+    "claude-sonnet-4-6": {
+      "points": 58,
+      "total": 745,
+      "accuracy": 0.07785234899328859
+    }
+  },
+  "per_answer_type": {
+    "multipleChoice": {
+      "points": 115,
+      "total": 920,
+      "accuracy": 0.125
+    },
+    "exactMatch": {
+      "points": 9,
+      "total": 570,
+      "accuracy": 0.015789473684210527
+    }
+  },
+  "prompt_category_by_model": {
+    "claude-opus-4-6": {
+      "high_pressure": {
+        "points": 11,
+        "total": 149,
+        "accuracy": 0.0738255033557047
+      },
+      "neutral": {
+        "points": 15,
+        "total": 149,
+        "accuracy": 0.10067114093959731
+      },
+      "pressured": {
+        "points": 12,
+        "total": 149,
+        "accuracy": 0.08053691275167785
+      },
+      "supportive": {
+        "points": 14,
+        "total": 149,
+        "accuracy": 0.09395973154362416
+      },
+      "very_supportive": {
+        "points": 14,
+        "total": 149,
+        "accuracy": 0.09395973154362416
+      }
+    },
+    "claude-sonnet-4-6": {
+      "high_pressure": {
+        "points": 10,
+        "total": 149,
+        "accuracy": 0.06711409395973154
+      },
+      "neutral": {
+        "points": 11,
+        "total": 149,
+        "accuracy": 0.0738255033557047
+      },
+      "pressured": {
+        "points": 13,
+        "total": 149,
+        "accuracy": 0.087248322147651
+      },
+      "supportive": {
+        "points": 13,
+        "total": 149,
+        "accuracy": 0.087248322147651
+      },
+      "very_supportive": {
+        "points": 11,
+        "total": 149,
+        "accuracy": 0.0738255033557047
+      }
+    }
+  }
+}

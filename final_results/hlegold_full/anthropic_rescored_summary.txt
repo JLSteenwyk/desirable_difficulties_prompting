@@ -1,0 +1,46 @@
+total_rows_audited,1490
+total_points,8
+total_possible_points,1490
+overall_accuracy,0.005369
+
+[per_model]
+claude-opus-4-6,6,745,0.008054
+claude-sonnet-4-6,2,745,0.002685
+
+[per_answer_type]
+exactMatch,1,570,0.001754
+multipleChoice,7,920,0.007609
+
+[by_model_prompt_category]
+claude-opus-4-6,high_pressure,1,149,0.006711
+claude-opus-4-6,neutral,2,149,0.013423
+claude-opus-4-6,pressured,2,149,0.013423
+claude-opus-4-6,supportive,0,149,0.000000
+claude-opus-4-6,very_supportive,1,149,0.006711
+claude-sonnet-4-6,high_pressure,0,149,0.000000
+claude-sonnet-4-6,neutral,0,149,0.000000
+claude-sonnet-4-6,pressured,2,149,0.013423
+claude-sonnet-4-6,supportive,0,149,0.000000
+claude-sonnet-4-6,very_supportive,0,149,0.000000
+
+[top20_ambiguity]
+claude-opus-4-6,6700a5f67899925724a8fa81,supportive,exactMatch,0,high,gold=pterodactylane,tail=s actually a molecule called trilobite? No. Let me reconsider. There's a well-known polycyclic hydrocarbon called pterodactylane - a saturat
+claude-sonnet-4-6,6700a5f67899925724a8fa81,high_pressure,exactMatch,0,medium,gold=pterodactylane,tail=xtinct >65 million years ago) creature is: Dinosaurene — not a real compound. The answer is Fluoranthene — no. The correct answer here is Pl
+claude-sonnet-4-6,6700a5f67899925724a8fa81,neutral,exactMatch,0,medium,gold=pterodactylane,tail=ratops? Not quite. The answer is Stegane or more likely: Pterodactyladiene? The well-known answer to this classic question is "Dinosaurane" 
+claude-sonnet-4-6,6700a5f67899925724a8fa81,supportive,exactMatch,0,medium,gold=pterodactylane,tail=but let me think about well-known named hydrocarbons. There's Corannulene, Coronene, Kekulene... What about Trinacrene? No. Actually, I beli
+claude-sonnet-4-6,6716f035bab94116769c0082,neutral,exactMatch,0,medium,gold=Weaker,tail=critically on the energy difference between the Ce 4f orbitals and the ligand p orbitals: - F 2p orbitals are very low in energy (highly ele
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,neutral,exactMatch,0,medium,gold=no change,tail=ive insect, despite being described as a superior competitor, would be treated as ecologically equivalent to every native species. If the in
+claude-opus-4-6,66f052e814be84cc1edd3fbd,supportive,exactMatch,0,medium,gold=no change,tail=ecies because all individuals are treated as ecologically equivalent. The invasive species is simply another individual added to the metacom
+claude-opus-4-6,66f052e814be84cc1edd3fbd,very_supportive,exactMatch,0,medium,gold=no change,tail=dispersal, and speciation. 4. Species abundances change through random walks (zero-sum drift), and species eventually go extinct by chance, 
+claude-opus-4-6,66f052e814be84cc1edd3fbd,pressured,exactMatch,0,medium,gold=no change,tail=ty dynamics are governed by stochastic processes: random birth, death, immigration, and speciation - Species abundances follow a zero-sum ga
+claude-opus-4-6,66f052e814be84cc1edd3fbd,neutral,exactMatch,0,medium,gold=no change,tail=among all individuals regardless of species identity. The invasive insect would simply be another species added to the regional pool. Under 
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,supportive,exactMatch,0,medium,gold=no change,tail=- communities are saturated, so one individual replacing another drives community composition Key predictions of neutral theory relevant her
+claude-opus-4-6,66ff1bba3046dadaa8fd8a15,high_pressure,exactMatch,0,medium,gold=Decrease by enhancing negative selection,tail=ld activate any autoreactive T cells that escaped negative selection, potentially increasing autoimmune risk. 3. However, the question state
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,very_supportive,exactMatch,0,medium,gold=no change,tail=fferences between species are ignored — species drift, disperse, and go extinct stochastically. Under neutral theory: - Species are ecologic
+claude-opus-4-6,6701638aed23f06e44f0e6b8,very_supportive,exactMatch,0,medium,gold=Yes,tail=axonomic knowledge or subtle morphological characters irrelevant to predator perception. 2. Human vision is a reasonable approximation. The 
+claude-opus-4-6,671c0ccd29d77939ea7f3bd4,supportive,exactMatch,0,medium,gold=-4 and -42m,tail=, some achiral classes retain non-zero components of the gyration tensor. The achiral crystal classes that can show optical activity are: - 
+claude-opus-4-6,66ff1bba3046dadaa8fd8a15,pressured,exactMatch,0,medium,gold=Decrease by enhancing negative selection,tail=toreactive T cells that escaped central tolerance → increased risk. 3. However, the question says "disease-causing self-antigen" — this impl
+claude-sonnet-4-6,66ff1bba3046dadaa8fd8a15,pressured,exactMatch,0,medium,gold=Decrease by enhancing negative selection,tail=ry: increased presentation of a disease-causing self-antigen → increased activation of autoreactive CD4+ T cells → increased autoimmune resp
+claude-opus-4-6,66f052e814be84cc1edd3fbd,high_pressure,exactMatch,0,medium,gold=no change,tail=ental biodiversity number (θ) and immigration rate (m) from the metacommunity. ## The Critical Reasoning Currently, there is a well-known la
+claude-sonnet-4-6,6701638aed23f06e44f0e6b8,neutral,exactMatch,0,medium,gold=Yes,tail=birds in UV, and patterns that appear different to humans may be cryptic to birds - Mimicry ring membership should reflect predator discrimi
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,pressured,exactMatch,0,medium,gold=no change,tail=s always at carrying capacity 3. Diversity is maintained by a balance between local extinction and speciation/immigration 4. The fundamental

@@ -1,0 +1,6 @@
+provider,model_id,prompt_category,n,n_graded,correct,accuracy,delta_vs_neutral
+mistral,mistral-medium-2508,high_pressure,149,92,11,0.1196,0.0000
+mistral,mistral-medium-2508,neutral,149,92,11,0.1196,0.0000
+mistral,mistral-medium-2508,pressured,149,92,10,0.1087,-0.0109
+mistral,mistral-medium-2508,supportive,149,92,11,0.1196,0.0000
+mistral,mistral-medium-2508,very_supportive,149,92,10,0.1087,-0.0109

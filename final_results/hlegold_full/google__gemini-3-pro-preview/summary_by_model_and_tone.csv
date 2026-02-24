@@ -1,0 +1,6 @@
+provider,model_id,prompt_category,n,n_graded,correct,accuracy,delta_vs_neutral
+google,gemini-3-pro-preview,high_pressure,12,11,1,0.0909,-0.0091
+google,gemini-3-pro-preview,neutral,12,10,1,0.1000,0.0000
+google,gemini-3-pro-preview,pressured,12,12,1,0.0833,-0.0167
+google,gemini-3-pro-preview,supportive,12,12,1,0.0833,-0.0167
+google,gemini-3-pro-preview,very_supportive,12,11,2,0.1818,0.0818

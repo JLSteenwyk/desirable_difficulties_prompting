@@ -1,0 +1,6 @@
+provider,model_id,prompt_category,n,n_graded,correct,accuracy,delta_vs_neutral
+anthropic,claude-sonnet-4-6,high_pressure,149,92,10,0.1087,0.0000
+anthropic,claude-sonnet-4-6,neutral,149,92,10,0.1087,0.0000
+anthropic,claude-sonnet-4-6,pressured,149,92,13,0.1413,0.0326
+anthropic,claude-sonnet-4-6,supportive,149,92,13,0.1413,0.0326
+anthropic,claude-sonnet-4-6,very_supportive,149,92,11,0.1196,0.0109

@@ -1,0 +1,56 @@
+{
+  "claude-opus-4-6": {
+    "high_pressure": {
+      "rows": 149,
+      "points": 6,
+      "accuracy": 0.040268456375838924
+    },
+    "neutral": {
+      "rows": 149,
+      "points": 8,
+      "accuracy": 0.053691275167785234
+    },
+    "pressured": {
+      "rows": 149,
+      "points": 5,
+      "accuracy": 0.03355704697986577
+    },
+    "supportive": {
+      "rows": 149,
+      "points": 5,
+      "accuracy": 0.03355704697986577
+    },
+    "very_supportive": {
+      "rows": 149,
+      "points": 4,
+      "accuracy": 0.026845637583892617
+    }
+  },
+  "claude-sonnet-4-6": {
+    "high_pressure": {
+      "rows": 149,
+      "points": 7,
+      "accuracy": 0.04697986577181208
+    },
+    "neutral": {
+      "rows": 149,
+      "points": 1,
+      "accuracy": 0.006711409395973154
+    },
+    "pressured": {
+      "rows": 149,
+      "points": 4,
+      "accuracy": 0.026845637583892617
+    },
+    "supportive": {
+      "rows": 149,
+      "points": 3,
+      "accuracy": 0.020134228187919462
+    },
+    "very_supportive": {
+      "rows": 149,
+      "points": 4,
+      "accuracy": 0.026845637583892617
+    }
+  }
+}

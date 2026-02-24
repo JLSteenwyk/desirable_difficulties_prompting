@@ -1,0 +1,26 @@
+total_rows_audited: 1490
+total_points: 134
+total_possible_points: 1490
+overall_accuracy: 0.089933
+
+per_model
+claude-opus-4-6: points=69, total=745, accuracy=0.092617
+claude-sonnet-4-6: points=65, total=745, accuracy=0.087248
+
+per_answer_type
+exactMatch: points=19, total=570, accuracy=0.033333
+multipleChoice: points=115, total=920, accuracy=0.125000
+
+by_prompt_category_per_model
+claude-opus-4-6
+  high_pressure: points=11, total=149, accuracy=0.073826
+  neutral: points=15, total=149, accuracy=0.100671
+  pressured: points=13, total=149, accuracy=0.087248
+  supportive: points=15, total=149, accuracy=0.100671
+  very_supportive: points=15, total=149, accuracy=0.100671
+claude-sonnet-4-6
+  high_pressure: points=13, total=149, accuracy=0.087248
+  neutral: points=12, total=149, accuracy=0.080537
+  pressured: points=14, total=149, accuracy=0.093960
+  supportive: points=15, total=149, accuracy=0.100671
+  very_supportive: points=11, total=149, accuracy=0.073826

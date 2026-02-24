@@ -1,0 +1,30 @@
+{
+  "total_rows_audited": 1490,
+  "total_points": 47,
+  "total_possible_points": 1490,
+  "overall_accuracy": 0.03154362416107383,
+  "per_model": {
+    "claude-opus-4-6": {
+      "rows": 745,
+      "points": 28,
+      "accuracy": 0.03758389261744966
+    },
+    "claude-sonnet-4-6": {
+      "rows": 745,
+      "points": 19,
+      "accuracy": 0.025503355704697986
+    }
+  },
+  "per_answer_type": {
+    "exactMatch": {
+      "rows": 570,
+      "points": 7,
+      "accuracy": 0.012280701754385965
+    },
+    "multipleChoice": {
+      "rows": 920,
+      "points": 40,
+      "accuracy": 0.043478260869565216
+    }
+  }
+}

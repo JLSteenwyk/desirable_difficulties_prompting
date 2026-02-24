@@ -1,0 +1,1491 @@
+model_id,id,prompt_category,answer_type,score,confidence,reason_short
+claude-opus-4-6,66e88728ba7d8bc0d5806f3a,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,66e88728ba7d8bc0d5806f3a,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,66e88728ba7d8bc0d5806f3a,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,66e88728ba7d8bc0d5806f3a,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,66e88728ba7d8bc0d5806f3a,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,66e8ccc4089d1e34c84c76c0,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66e8ccc4089d1e34c84c76c0,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66e8ccc4089d1e34c84c76c0,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66e8ccc4089d1e34c84c76c0,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66e8ccc4089d1e34c84c76c0,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ea1dd348eb93c2aef1c735,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ea29ab7131229007ccbd9d,high_pressure,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,66ea29ab7131229007ccbd9d,neutral,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,66ea29ab7131229007ccbd9d,pressured,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,66ea29ab7131229007ccbd9d,supportive,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,66ea29ab7131229007ccbd9d,very_supportive,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,66eb36fbb38dbcd7910ceafc,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66eb36fbb38dbcd7910ceafc,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66eb36fbb38dbcd7910ceafc,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66eb36fbb38dbcd7910ceafc,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66eb36fbb38dbcd7910ceafc,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ecfd03e7478ca5fcbb7495,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ecfd03e7478ca5fcbb7495,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ecfd03e7478ca5fcbb7495,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ecfd03e7478ca5fcbb7495,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ecfd03e7478ca5fcbb7495,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ee0b4d95cd6c1ce2259e50,high_pressure,multipleChoice,0,high,Selected B not gold D
+claude-opus-4-6,66ee0b4d95cd6c1ce2259e50,neutral,multipleChoice,0,high,Selected C not gold D
+claude-opus-4-6,66ee0b4d95cd6c1ce2259e50,pressured,multipleChoice,0,high,Selected C not gold D
+claude-opus-4-6,66ee0b4d95cd6c1ce2259e50,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ee0b4d95cd6c1ce2259e50,very_supportive,multipleChoice,0,high,Selected B not gold D
+claude-opus-4-6,66ee158c5db68805b7d3d27b,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ee158c5db68805b7d3d27b,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ee158c5db68805b7d3d27b,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ee158c5db68805b7d3d27b,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ee158c5db68805b7d3d27b,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ee93ba02314f06feb186cf,high_pressure,multipleChoice,0,high,Selected E not gold D
+claude-opus-4-6,66ee93ba02314f06feb186cf,neutral,multipleChoice,0,high,Selected E not gold D
+claude-opus-4-6,66ee93ba02314f06feb186cf,pressured,multipleChoice,0,high,Selected B not gold D
+claude-opus-4-6,66ee93ba02314f06feb186cf,supportive,multipleChoice,0,high,Selected B not gold D
+claude-opus-4-6,66ee93ba02314f06feb186cf,very_supportive,multipleChoice,0,high,Selected B not gold D
+claude-opus-4-6,66ef2a1b8829dedb61d5627a,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ef2a1b8829dedb61d5627a,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ef2a1b8829dedb61d5627a,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ef2a1b8829dedb61d5627a,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ef2a1b8829dedb61d5627a,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ef3de8b8a1ba6e0ba23498,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ef3de8b8a1ba6e0ba23498,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ef3de8b8a1ba6e0ba23498,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ef3de8b8a1ba6e0ba23498,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,66ef3de8b8a1ba6e0ba23498,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66efa01e327e4a95dc760d01,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66efa01e327e4a95dc760d01,neutral,multipleChoice,0,high,Selected D not gold C
+claude-opus-4-6,66efa01e327e4a95dc760d01,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66efa01e327e4a95dc760d01,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66efa01e327e4a95dc760d01,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66f052e814be84cc1edd3fbd,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f052e814be84cc1edd3fbd,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f052e814be84cc1edd3fbd,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f052e814be84cc1edd3fbd,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f052e814be84cc1edd3fbd,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f57a7e9f9308128679f668,high_pressure,multipleChoice,1,high,Selected B equals gold
+claude-opus-4-6,66f57a7e9f9308128679f668,neutral,multipleChoice,1,high,Selected B equals gold
+claude-opus-4-6,66f57a7e9f9308128679f668,pressured,multipleChoice,1,high,Selected B equals gold
+claude-opus-4-6,66f57a7e9f9308128679f668,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,66f57a7e9f9308128679f668,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,66f6743f2db0dfd3e0b594e7,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f6743f2db0dfd3e0b594e7,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f6743f2db0dfd3e0b594e7,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f6743f2db0dfd3e0b594e7,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f6743f2db0dfd3e0b594e7,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f87ab781a069162c8e7cd2,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f87ab781a069162c8e7cd2,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f87ab781a069162c8e7cd2,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f87ab781a069162c8e7cd2,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f87ab781a069162c8e7cd2,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f986e852b9d5843203d342,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f986e852b9d5843203d342,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f986e852b9d5843203d342,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f986e852b9d5843203d342,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f986e852b9d5843203d342,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66f9a8a4e613d5c62b6c0d22,high_pressure,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66f9a8a4e613d5c62b6c0d22,neutral,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66f9a8a4e613d5c62b6c0d22,pressured,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66f9a8a4e613d5c62b6c0d22,supportive,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66f9a8a4e613d5c62b6c0d22,very_supportive,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66fc2df0b72463921f6c40f2,high_pressure,exactMatch,0,low,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,neutral,exactMatch,0,low,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,pressured,exactMatch,0,low,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,supportive,exactMatch,0,low,Blank output
+claude-opus-4-6,66fc2df0b72463921f6c40f2,very_supportive,exactMatch,0,low,Blank output
+claude-opus-4-6,66fc5b54ffa390c4af01820f,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5b54ffa390c4af01820f,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5b54ffa390c4af01820f,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5b54ffa390c4af01820f,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5b54ffa390c4af01820f,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5e8f98a7264ef58309b9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5e8f98a7264ef58309b9,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5e8f98a7264ef58309b9,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5e8f98a7264ef58309b9,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc5e8f98a7264ef58309b9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fc89ce455038a48ed359e4,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,66fc89ce455038a48ed359e4,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,66fc89ce455038a48ed359e4,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,66fc89ce455038a48ed359e4,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,66fc89ce455038a48ed359e4,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,66fce79d5dc8a9560304265b,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fce79d5dc8a9560304265b,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fce79d5dc8a9560304265b,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fce79d5dc8a9560304265b,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fce79d5dc8a9560304265b,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fe16f4762ab58b937863b8,high_pressure,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66fe16f4762ab58b937863b8,neutral,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66fe16f4762ab58b937863b8,pressured,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66fe16f4762ab58b937863b8,supportive,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66fe16f4762ab58b937863b8,very_supportive,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,66fec7825e6051260840e060,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fec7825e6051260840e060,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fec7825e6051260840e060,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fec7825e6051260840e060,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fec7825e6051260840e060,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecbff69d5712b5401553e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecbff69d5712b5401553e,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecbff69d5712b5401553e,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecbff69d5712b5401553e,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecbff69d5712b5401553e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecc707183fdf40d11cb48,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecc707183fdf40d11cb48,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecc707183fdf40d11cb48,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecc707183fdf40d11cb48,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66fecc707183fdf40d11cb48,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff063787bfb80443d02df6,high_pressure,multipleChoice,1,high,Selected C equals gold
+claude-opus-4-6,66ff063787bfb80443d02df6,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ff063787bfb80443d02df6,pressured,multipleChoice,1,high,Selected C equals gold
+claude-opus-4-6,66ff063787bfb80443d02df6,supportive,multipleChoice,1,high,Selected C equals gold
+claude-opus-4-6,66ff063787bfb80443d02df6,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,66ff0a666dc4b2ab76a19db9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff0a666dc4b2ab76a19db9,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff0a666dc4b2ab76a19db9,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff0a666dc4b2ab76a19db9,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff0a666dc4b2ab76a19db9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff1bba3046dadaa8fd8a15,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff1bba3046dadaa8fd8a15,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff1bba3046dadaa8fd8a15,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff1bba3046dadaa8fd8a15,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,66ff1bba3046dadaa8fd8a15,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670013827794cc36bc974f27,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670013827794cc36bc974f27,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670013827794cc36bc974f27,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670013827794cc36bc974f27,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670013827794cc36bc974f27,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6700497e7c6e32185d473d3e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6700497e7c6e32185d473d3e,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6700497e7c6e32185d473d3e,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6700497e7c6e32185d473d3e,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6700497e7c6e32185d473d3e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67008a05ad0fee7d7b4efb3c,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67008a05ad0fee7d7b4efb3c,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67008a05ad0fee7d7b4efb3c,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67008a05ad0fee7d7b4efb3c,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67008a05ad0fee7d7b4efb3c,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67008f17fc2c0a4040f1d352,high_pressure,multipleChoice,0,high,Selected F not gold G
+claude-opus-4-6,67008f17fc2c0a4040f1d352,neutral,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,67008f17fc2c0a4040f1d352,pressured,multipleChoice,0,high,Selected F not gold G
+claude-opus-4-6,67008f17fc2c0a4040f1d352,supportive,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,67008f17fc2c0a4040f1d352,very_supportive,multipleChoice,0,high,Selected F not gold G
+claude-opus-4-6,6700a5f67899925724a8fa81,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6700a5f67899925724a8fa81,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6700a5f67899925724a8fa81,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6700a5f67899925724a8fa81,supportive,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6700a5f67899925724a8fa81,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701638aed23f06e44f0e6b8,high_pressure,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,neutral,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,pressured,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,supportive,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6701638aed23f06e44f0e6b8,very_supportive,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,67018145e8c125b41caa9ee3,high_pressure,multipleChoice,0,high,Selected C not gold D
+claude-opus-4-6,67018145e8c125b41caa9ee3,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67018145e8c125b41caa9ee3,pressured,multipleChoice,0,high,Selected C not gold D
+claude-opus-4-6,67018145e8c125b41caa9ee3,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67018145e8c125b41caa9ee3,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6701ca6bb773dec162bde23c,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701ca6bb773dec162bde23c,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701ca6bb773dec162bde23c,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701ca6bb773dec162bde23c,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701ca6bb773dec162bde23c,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701d869aee3881b852d40a0,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701d869aee3881b852d40a0,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701d869aee3881b852d40a0,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701d869aee3881b852d40a0,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701d869aee3881b852d40a0,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6701de16d9e4cd1aa812414b,high_pressure,multipleChoice,0,high,Selected A not gold M
+claude-opus-4-6,6701de16d9e4cd1aa812414b,neutral,multipleChoice,0,high,Selected A not gold M
+claude-opus-4-6,6701de16d9e4cd1aa812414b,pressured,multipleChoice,0,high,Selected A not gold M
+claude-opus-4-6,6701de16d9e4cd1aa812414b,supportive,multipleChoice,0,high,Selected A not gold M
+claude-opus-4-6,6701de16d9e4cd1aa812414b,very_supportive,multipleChoice,0,high,Selected A not gold M
+claude-opus-4-6,6702b8bebb1c7fc12ef340a6,high_pressure,multipleChoice,0,high,Selected E not gold D
+claude-opus-4-6,6702b8bebb1c7fc12ef340a6,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6702b8bebb1c7fc12ef340a6,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6702b8bebb1c7fc12ef340a6,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6702b8bebb1c7fc12ef340a6,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6704486baf0a436d92c65161,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6704486baf0a436d92c65161,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6704486baf0a436d92c65161,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6704486baf0a436d92c65161,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6704486baf0a436d92c65161,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670880520ed68fbdc467064e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670880520ed68fbdc467064e,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670880520ed68fbdc467064e,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670880520ed68fbdc467064e,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670880520ed68fbdc467064e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67089c013b511a575fc306de,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67089c013b511a575fc306de,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67089c013b511a575fc306de,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67089c013b511a575fc306de,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67089c013b511a575fc306de,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,670c23124d86f843dc5efa7e,high_pressure,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,670c23124d86f843dc5efa7e,neutral,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,670c23124d86f843dc5efa7e,pressured,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,670c23124d86f843dc5efa7e,supportive,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,670c23124d86f843dc5efa7e,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,670c83ba4aece479236947cb,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,670c83ba4aece479236947cb,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,670c83ba4aece479236947cb,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,670c83ba4aece479236947cb,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,670c83ba4aece479236947cb,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,670d5ce6d57c80b4d4090cb4,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670d5ce6d57c80b4d4090cb4,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670d5ce6d57c80b4d4090cb4,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670d5ce6d57c80b4d4090cb4,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670d5ce6d57c80b4d4090cb4,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670e5c2720bb63b6da63b879,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,670e5c2720bb63b6da63b879,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,670e5c2720bb63b6da63b879,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,670e5c2720bb63b6da63b879,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,670e5c2720bb63b6da63b879,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,670edc9dbddc0cfe673272c8,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670edc9dbddc0cfe673272c8,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670edc9dbddc0cfe673272c8,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670edc9dbddc0cfe673272c8,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670edc9dbddc0cfe673272c8,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,670f289fb671096a201efee4,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670f289fb671096a201efee4,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670f289fb671096a201efee4,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670f289fb671096a201efee4,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670f289fb671096a201efee4,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,670f511063b765ce8edde772,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670f511063b765ce8edde772,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670f511063b765ce8edde772,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670f511063b765ce8edde772,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,670f511063b765ce8edde772,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6712787d0d05bc73fc008dfe,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6712787d0d05bc73fc008dfe,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6712787d0d05bc73fc008dfe,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6712787d0d05bc73fc008dfe,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6712787d0d05bc73fc008dfe,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67151b015fc8ee8feaa3538c,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67151b015fc8ee8feaa3538c,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67151b015fc8ee8feaa3538c,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67151b015fc8ee8feaa3538c,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67151b015fc8ee8feaa3538c,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67155ca2675b57d8bbc9144d,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67155ca2675b57d8bbc9144d,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67155ca2675b57d8bbc9144d,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67155ca2675b57d8bbc9144d,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67155ca2675b57d8bbc9144d,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6716e28929a01505aba1ddb5,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6716e28929a01505aba1ddb5,neutral,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6716e28929a01505aba1ddb5,pressured,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6716e28929a01505aba1ddb5,supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6716e28929a01505aba1ddb5,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6716f035bab94116769c0082,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6716f035bab94116769c0082,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6716f035bab94116769c0082,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6716f035bab94116769c0082,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6716f035bab94116769c0082,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6717ac23a5c8a6a9392b1b34,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6717ac23a5c8a6a9392b1b34,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6717ac23a5c8a6a9392b1b34,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6717ac23a5c8a6a9392b1b34,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6717ac23a5c8a6a9392b1b34,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671808958b88f01935b5825a,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671808958b88f01935b5825a,neutral,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671808958b88f01935b5825a,pressured,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671808958b88f01935b5825a,supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671808958b88f01935b5825a,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,67182659782f2aff686eab73,high_pressure,multipleChoice,0,high,Selected E not gold B
+claude-opus-4-6,67182659782f2aff686eab73,neutral,multipleChoice,0,high,Selected E not gold B
+claude-opus-4-6,67182659782f2aff686eab73,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67182659782f2aff686eab73,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67182659782f2aff686eab73,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,671a947c9deaf77048dcc8b7,high_pressure,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,671a947c9deaf77048dcc8b7,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671a947c9deaf77048dcc8b7,pressured,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,671a947c9deaf77048dcc8b7,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671a947c9deaf77048dcc8b7,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671aa91f6a8e7c23ccbf902b,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671aa91f6a8e7c23ccbf902b,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671aa91f6a8e7c23ccbf902b,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671aa91f6a8e7c23ccbf902b,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671aa91f6a8e7c23ccbf902b,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671ab94ffad7ae30b89eff8f,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,671ab94ffad7ae30b89eff8f,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,671ab94ffad7ae30b89eff8f,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,671ab94ffad7ae30b89eff8f,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,671ab94ffad7ae30b89eff8f,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,671af1baed3d54e87368bca2,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671af1baed3d54e87368bca2,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671af1baed3d54e87368bca2,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671af1baed3d54e87368bca2,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671af1baed3d54e87368bca2,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bbe5a85b315d9f07698a9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bbe5a85b315d9f07698a9,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bbe5a85b315d9f07698a9,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bbe5a85b315d9f07698a9,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bbe5a85b315d9f07698a9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bef23b55b44cbffbf0972,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bef23b55b44cbffbf0972,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bef23b55b44cbffbf0972,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bef23b55b44cbffbf0972,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671bef23b55b44cbffbf0972,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671c0ccd29d77939ea7f3bd4,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671c0ccd29d77939ea7f3bd4,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671c0ccd29d77939ea7f3bd4,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671c0ccd29d77939ea7f3bd4,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671c0ccd29d77939ea7f3bd4,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671c0d6f66154e5cf55994de,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671c0d6f66154e5cf55994de,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671c0d6f66154e5cf55994de,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671c0d6f66154e5cf55994de,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671c0d6f66154e5cf55994de,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671cbba2784e3ba406eefb34,high_pressure,multipleChoice,0,high,Selected C not gold D
+claude-opus-4-6,671cbba2784e3ba406eefb34,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671cbba2784e3ba406eefb34,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671cbba2784e3ba406eefb34,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671cbba2784e3ba406eefb34,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671d91bcad7fb0793a0e93bd,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,671d91bcad7fb0793a0e93bd,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,671d91bcad7fb0793a0e93bd,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,671d91bcad7fb0793a0e93bd,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,671d91bcad7fb0793a0e93bd,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,671db218fe1146e348ef1266,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671db218fe1146e348ef1266,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671db218fe1146e348ef1266,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671db218fe1146e348ef1266,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671db218fe1146e348ef1266,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671dba3e5102c27a58a6c501,high_pressure,multipleChoice,0,high,Selected D not gold B
+claude-opus-4-6,671dba3e5102c27a58a6c501,neutral,multipleChoice,0,high,Selected D not gold B
+claude-opus-4-6,671dba3e5102c27a58a6c501,pressured,multipleChoice,0,high,Selected C not gold B
+claude-opus-4-6,671dba3e5102c27a58a6c501,supportive,multipleChoice,0,high,Selected C not gold B
+claude-opus-4-6,671dba3e5102c27a58a6c501,very_supportive,multipleChoice,0,high,Selected C not gold B
+claude-opus-4-6,671dd6cd91a438f6811f5108,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671dd6cd91a438f6811f5108,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671dd6cd91a438f6811f5108,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671dd6cd91a438f6811f5108,supportive,multipleChoice,0,high,Selected B not gold A
+claude-opus-4-6,671dd6cd91a438f6811f5108,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671e7fd05cd705ffbd3faab7,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e7fd05cd705ffbd3faab7,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e7fd05cd705ffbd3faab7,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e7fd05cd705ffbd3faab7,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e7fd05cd705ffbd3faab7,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e8c73745919354c759204,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e8c73745919354c759204,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e8c73745919354c759204,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e8c73745919354c759204,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671e8c73745919354c759204,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671f083dc8da11076ce9960e,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671f083dc8da11076ce9960e,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671f083dc8da11076ce9960e,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671f083dc8da11076ce9960e,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671f083dc8da11076ce9960e,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,671f09d6d0f22fd6e50482eb,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f09d6d0f22fd6e50482eb,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,671f09d6d0f22fd6e50482eb,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,671f09d6d0f22fd6e50482eb,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f09d6d0f22fd6e50482eb,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f0c2578ab3005e439aeba,high_pressure,multipleChoice,0,high,Selected E not gold A
+claude-opus-4-6,671f0c2578ab3005e439aeba,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f0c2578ab3005e439aeba,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f0c2578ab3005e439aeba,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f0c2578ab3005e439aeba,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f23ab12f081da543ed684,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,671f23ab12f081da543ed684,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f23ab12f081da543ed684,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f23ab12f081da543ed684,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,671f23ab12f081da543ed684,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,671f3210e38f776acdad8aab,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671f3210e38f776acdad8aab,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671f3210e38f776acdad8aab,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671f3210e38f776acdad8aab,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671f3210e38f776acdad8aab,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,671f33cb75523fe63c0a8b60,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671f33cb75523fe63c0a8b60,neutral,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671f33cb75523fe63c0a8b60,pressured,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671f33cb75523fe63c0a8b60,supportive,multipleChoice,0,high,Selected C not gold F
+claude-opus-4-6,671f33cb75523fe63c0a8b60,very_supportive,multipleChoice,0,high,Selected C not gold F
+claude-opus-4-6,671f39dcd579cf064f22d3c1,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,671f39dcd579cf064f22d3c1,neutral,multipleChoice,0,high,Selected E not gold F
+claude-opus-4-6,671f39dcd579cf064f22d3c1,pressured,multipleChoice,1,high,Selected F equals gold
+claude-opus-4-6,671f39dcd579cf064f22d3c1,supportive,multipleChoice,0,high,Selected D not gold F
+claude-opus-4-6,671f39dcd579cf064f22d3c1,very_supportive,multipleChoice,0,high,Selected D not gold F
+claude-opus-4-6,671f40348b7ca154256661c6,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f40348b7ca154256661c6,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f40348b7ca154256661c6,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f40348b7ca154256661c6,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671f40348b7ca154256661c6,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,671ffad8e46fcc9dbd54ce6e,high_pressure,multipleChoice,0,high,Selected B not gold E
+claude-opus-4-6,671ffad8e46fcc9dbd54ce6e,neutral,multipleChoice,0,high,Selected B not gold E
+claude-opus-4-6,671ffad8e46fcc9dbd54ce6e,pressured,multipleChoice,0,high,Selected B not gold E
+claude-opus-4-6,671ffad8e46fcc9dbd54ce6e,supportive,multipleChoice,0,high,Selected B not gold E
+claude-opus-4-6,671ffad8e46fcc9dbd54ce6e,very_supportive,multipleChoice,0,high,Selected B not gold E
+claude-opus-4-6,6720cd0acf47ec0733864dd8,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6720cd0acf47ec0733864dd8,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6720cd0acf47ec0733864dd8,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6720cd0acf47ec0733864dd8,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6720cd0acf47ec0733864dd8,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6720fcd2198910fd26b01218,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6720fcd2198910fd26b01218,neutral,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6720fcd2198910fd26b01218,pressured,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6720fcd2198910fd26b01218,supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6720fcd2198910fd26b01218,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6721408e0d97cabdbfa0ace9,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6721408e0d97cabdbfa0ace9,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6721408e0d97cabdbfa0ace9,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6721408e0d97cabdbfa0ace9,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6721408e0d97cabdbfa0ace9,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,672179e4c8cc0ac89395e8d0,high_pressure,multipleChoice,0,high,Selected D not gold B
+claude-opus-4-6,672179e4c8cc0ac89395e8d0,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,672179e4c8cc0ac89395e8d0,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,672179e4c8cc0ac89395e8d0,supportive,multipleChoice,0,high,Selected D not gold B
+claude-opus-4-6,672179e4c8cc0ac89395e8d0,very_supportive,multipleChoice,0,high,Selected D not gold B
+claude-opus-4-6,67223ac0ca7acfa01f38c284,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67223ac0ca7acfa01f38c284,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67223ac0ca7acfa01f38c284,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67223ac0ca7acfa01f38c284,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67223ac0ca7acfa01f38c284,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67228be893273f2ea4d39e36,high_pressure,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67228be893273f2ea4d39e36,neutral,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67228be893273f2ea4d39e36,pressured,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67228be893273f2ea4d39e36,supportive,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67228be893273f2ea4d39e36,very_supportive,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,6722b01f7f84054950978f69,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6722b01f7f84054950978f69,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6722b01f7f84054950978f69,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6722b01f7f84054950978f69,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6722b01f7f84054950978f69,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6722b1f9f3a489ee08117730,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6722b1f9f3a489ee08117730,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6722b1f9f3a489ee08117730,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6722b1f9f3a489ee08117730,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6722b1f9f3a489ee08117730,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67230f05092b2c17f66c84aa,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67230f05092b2c17f66c84aa,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67230f05092b2c17f66c84aa,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67230f05092b2c17f66c84aa,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67230f05092b2c17f66c84aa,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6723a613f747d32c6b0b65dc,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6723a613f747d32c6b0b65dc,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6723a613f747d32c6b0b65dc,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6723a613f747d32c6b0b65dc,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6723a613f747d32c6b0b65dc,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6723fc382a5a297be25c2d79,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6723fc382a5a297be25c2d79,neutral,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6723fc382a5a297be25c2d79,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6723fc382a5a297be25c2d79,supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,6723fc382a5a297be25c2d79,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,672407521f51862e37d75208,high_pressure,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,672407521f51862e37d75208,neutral,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,672407521f51862e37d75208,pressured,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,672407521f51862e37d75208,supportive,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,672407521f51862e37d75208,very_supportive,multipleChoice,0,high,Selected A not gold I
+claude-opus-4-6,6724109dab2b4ea54da1ad90,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6724109dab2b4ea54da1ad90,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6724109dab2b4ea54da1ad90,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6724109dab2b4ea54da1ad90,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,6724109dab2b4ea54da1ad90,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,672416e85247738dfbb432fa,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,672416e85247738dfbb432fa,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,672416e85247738dfbb432fa,pressured,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,672416e85247738dfbb432fa,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,672416e85247738dfbb432fa,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,67241990a1bd6b06dafb7052,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67241990a1bd6b06dafb7052,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67241990a1bd6b06dafb7052,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67241990a1bd6b06dafb7052,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67241990a1bd6b06dafb7052,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67242f1f911674ab1b5d904b,high_pressure,multipleChoice,0,high,Selected A not gold R
+claude-opus-4-6,67242f1f911674ab1b5d904b,neutral,multipleChoice,0,high,Selected E not gold R
+claude-opus-4-6,67242f1f911674ab1b5d904b,pressured,multipleChoice,0,high,Selected A not gold R
+claude-opus-4-6,67242f1f911674ab1b5d904b,supportive,multipleChoice,0,high,Selected A not gold R
+claude-opus-4-6,67242f1f911674ab1b5d904b,very_supportive,multipleChoice,0,high,Selected A not gold R
+claude-opus-4-6,672455ce7a14971607e3d9f0,high_pressure,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,672455ce7a14971607e3d9f0,neutral,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,672455ce7a14971607e3d9f0,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,672455ce7a14971607e3d9f0,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,672455ce7a14971607e3d9f0,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6724a088d917564737255346,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6724a088d917564737255346,neutral,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6724a088d917564737255346,pressured,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6724a088d917564737255346,supportive,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6724a088d917564737255346,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,672500151d07f0962c8993d7,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,672500151d07f0962c8993d7,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,672500151d07f0962c8993d7,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,672500151d07f0962c8993d7,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,672500151d07f0962c8993d7,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,67253c33ad98e94b47ea3477,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67253c33ad98e94b47ea3477,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67253c33ad98e94b47ea3477,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67253c33ad98e94b47ea3477,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67253c33ad98e94b47ea3477,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67254420046774791d0f1a2e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67254420046774791d0f1a2e,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67254420046774791d0f1a2e,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67254420046774791d0f1a2e,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67254420046774791d0f1a2e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67254a56046774791d0f1a41,high_pressure,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67254a56046774791d0f1a41,neutral,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67254a56046774791d0f1a41,pressured,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67254a56046774791d0f1a41,supportive,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67254a56046774791d0f1a41,very_supportive,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,672555acc27a6276611a3005,high_pressure,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,672555acc27a6276611a3005,neutral,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,672555acc27a6276611a3005,pressured,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,672555acc27a6276611a3005,supportive,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,672555acc27a6276611a3005,very_supportive,multipleChoice,0,high,Selected A not gold G
+claude-opus-4-6,6725592b4ee96e5b68bb383b,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725592b4ee96e5b68bb383b,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725592b4ee96e5b68bb383b,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725592b4ee96e5b68bb383b,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725592b4ee96e5b68bb383b,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67255df04c0e045943574e41,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67255df04c0e045943574e41,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67255df04c0e045943574e41,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67255df04c0e045943574e41,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67255df04c0e045943574e41,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67256db1afb4a043e613c929,high_pressure,multipleChoice,0,high,Selected F not gold C
+claude-opus-4-6,67256db1afb4a043e613c929,neutral,multipleChoice,0,high,Selected F not gold C
+claude-opus-4-6,67256db1afb4a043e613c929,pressured,multipleChoice,0,high,Selected E not gold C
+claude-opus-4-6,67256db1afb4a043e613c929,supportive,multipleChoice,0,high,Selected F not gold C
+claude-opus-4-6,67256db1afb4a043e613c929,very_supportive,multipleChoice,0,high,Selected F not gold C
+claude-opus-4-6,67256e36e5e6cc87293fc3f0,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67256e36e5e6cc87293fc3f0,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67256e36e5e6cc87293fc3f0,pressured,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,67256e36e5e6cc87293fc3f0,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67256e36e5e6cc87293fc3f0,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-opus-4-6,67257157c16289d7e113915b,high_pressure,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67257157c16289d7e113915b,neutral,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67257157c16289d7e113915b,pressured,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67257157c16289d7e113915b,supportive,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,67257157c16289d7e113915b,very_supportive,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,672572ba1b7caf96dfa80324,high_pressure,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,672572ba1b7caf96dfa80324,neutral,multipleChoice,0,high,Selected E not gold C
+claude-opus-4-6,672572ba1b7caf96dfa80324,pressured,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,672572ba1b7caf96dfa80324,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,672572ba1b7caf96dfa80324,very_supportive,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,67258c4124b290d28a9f8abe,high_pressure,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,67258c4124b290d28a9f8abe,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67258c4124b290d28a9f8abe,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67258c4124b290d28a9f8abe,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67258c4124b290d28a9f8abe,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6725b1b58255543498bdcbd1,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6725b1b58255543498bdcbd1,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6725b1b58255543498bdcbd1,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6725b1b58255543498bdcbd1,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6725b1b58255543498bdcbd1,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6725b2ba569cf0c62da64cd1,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725b2ba569cf0c62da64cd1,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725b2ba569cf0c62da64cd1,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725b2ba569cf0c62da64cd1,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725b2ba569cf0c62da64cd1,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6725c3719aac82ce9cf99f23,high_pressure,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,6725c3719aac82ce9cf99f23,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6725c3719aac82ce9cf99f23,pressured,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,6725c3719aac82ce9cf99f23,supportive,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,6725c3719aac82ce9cf99f23,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,672ba16ae227dfbd739cfcc3,high_pressure,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,672ba16ae227dfbd739cfcc3,neutral,multipleChoice,1,high,Selected E equals gold
+claude-opus-4-6,672ba16ae227dfbd739cfcc3,pressured,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,672ba16ae227dfbd739cfcc3,supportive,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,672ba16ae227dfbd739cfcc3,very_supportive,multipleChoice,0,high,Selected C not gold E
+claude-opus-4-6,6730f3c006cd33fe46ca2dfe,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6730f3c006cd33fe46ca2dfe,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6730f3c006cd33fe46ca2dfe,pressured,multipleChoice,0,high,Selected C not gold D
+claude-opus-4-6,6730f3c006cd33fe46ca2dfe,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6730f3c006cd33fe46ca2dfe,very_supportive,multipleChoice,0,high,Selected C not gold D
+claude-opus-4-6,67315c7e7fcf9ea998467bd6,high_pressure,multipleChoice,0,high,Selected B not gold D
+claude-opus-4-6,67315c7e7fcf9ea998467bd6,neutral,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67315c7e7fcf9ea998467bd6,pressured,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67315c7e7fcf9ea998467bd6,supportive,multipleChoice,0,high,Selected A not gold D
+claude-opus-4-6,67315c7e7fcf9ea998467bd6,very_supportive,multipleChoice,0,high,Selected B not gold D
+claude-opus-4-6,6731fa3bb08cf72258a21348,high_pressure,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,6731fa3bb08cf72258a21348,neutral,multipleChoice,0,high,Selected E not gold H
+claude-opus-4-6,6731fa3bb08cf72258a21348,pressured,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,6731fa3bb08cf72258a21348,supportive,multipleChoice,0,high,Selected E not gold H
+claude-opus-4-6,6731fa3bb08cf72258a21348,very_supportive,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67335820c7d8c66591e6dfc7,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67335820c7d8c66591e6dfc7,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67335820c7d8c66591e6dfc7,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67335820c7d8c66591e6dfc7,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67335820c7d8c66591e6dfc7,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67352c39a52dd47230de9a2b,high_pressure,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67352c39a52dd47230de9a2b,neutral,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67352c39a52dd47230de9a2b,pressured,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67352c39a52dd47230de9a2b,supportive,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,67352c39a52dd47230de9a2b,very_supportive,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,673681def5487e4de6e78e1e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673681def5487e4de6e78e1e,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673681def5487e4de6e78e1e,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673681def5487e4de6e78e1e,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673681def5487e4de6e78e1e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6736a9b0b949d548db8da965,high_pressure,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6736a9b0b949d548db8da965,neutral,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6736a9b0b949d548db8da965,pressured,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6736a9b0b949d548db8da965,supportive,multipleChoice,0,high,Selected A not gold E
+claude-opus-4-6,6736a9b0b949d548db8da965,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6736acee69d6d88d06d3124a,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6736acee69d6d88d06d3124a,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6736acee69d6d88d06d3124a,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6736acee69d6d88d06d3124a,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6736acee69d6d88d06d3124a,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6737006d3f0517b6e8a60733,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6737006d3f0517b6e8a60733,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6737006d3f0517b6e8a60733,pressured,multipleChoice,0,high,Selected A not gold H
+claude-opus-4-6,6737006d3f0517b6e8a60733,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6737006d3f0517b6e8a60733,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6737022fa283793ef57494a3,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6737022fa283793ef57494a3,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6737022fa283793ef57494a3,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6737022fa283793ef57494a3,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6737022fa283793ef57494a3,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67372744600c9c0daa5d8f3f,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67372744600c9c0daa5d8f3f,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67372744600c9c0daa5d8f3f,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67372744600c9c0daa5d8f3f,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67372744600c9c0daa5d8f3f,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67372e09a90747ed09962582,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67372e09a90747ed09962582,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67372e09a90747ed09962582,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67372e09a90747ed09962582,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67372e09a90747ed09962582,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67375e6f8b1cc52c211f95ce,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67375e6f8b1cc52c211f95ce,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67375e6f8b1cc52c211f95ce,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67375e6f8b1cc52c211f95ce,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67375e6f8b1cc52c211f95ce,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6737697dedff89681fe75582,high_pressure,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,neutral,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,pressured,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,supportive,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,6737697dedff89681fe75582,very_supportive,exactMatch,1,medium,Gold string present in output
+claude-opus-4-6,673799cf4d349e2ed66792d2,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673799cf4d349e2ed66792d2,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673799cf4d349e2ed66792d2,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673799cf4d349e2ed66792d2,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673799cf4d349e2ed66792d2,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67379dd995d9299b8ac8439c,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67379dd995d9299b8ac8439c,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67379dd995d9299b8ac8439c,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67379dd995d9299b8ac8439c,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,67379dd995d9299b8ac8439c,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6738373cf2df805520bc86ce,high_pressure,multipleChoice,0,high,Selected D not gold B
+claude-opus-4-6,6738373cf2df805520bc86ce,neutral,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6738373cf2df805520bc86ce,pressured,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6738373cf2df805520bc86ce,supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6738373cf2df805520bc86ce,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-opus-4-6,6738df8c201a2bd66499797a,high_pressure,multipleChoice,0,high,Selected C not gold A
+claude-opus-4-6,6738df8c201a2bd66499797a,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6738df8c201a2bd66499797a,pressured,multipleChoice,0,high,Selected C not gold A
+claude-opus-4-6,6738df8c201a2bd66499797a,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6738df8c201a2bd66499797a,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,67393de74954110962f03245,high_pressure,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,67393de74954110962f03245,neutral,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,67393de74954110962f03245,pressured,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,67393de74954110962f03245,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,67393de74954110962f03245,very_supportive,multipleChoice,0,high,Selected D not gold A
+claude-opus-4-6,67396490173834c134fbaceb,high_pressure,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,67396490173834c134fbaceb,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67396490173834c134fbaceb,pressured,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,67396490173834c134fbaceb,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67396490173834c134fbaceb,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6739f5ede8b91dc9dac17cd9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6739f5ede8b91dc9dac17cd9,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6739f5ede8b91dc9dac17cd9,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6739f5ede8b91dc9dac17cd9,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6739f5ede8b91dc9dac17cd9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673a8c2e4e2e35b51a27fafd,high_pressure,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,673a8c2e4e2e35b51a27fafd,neutral,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,673a8c2e4e2e35b51a27fafd,pressured,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,673a8c2e4e2e35b51a27fafd,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,673a8c2e4e2e35b51a27fafd,very_supportive,multipleChoice,0,high,Selected B not gold C
+claude-opus-4-6,673cd3821cf7bd0b7cc91fe5,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673cd3821cf7bd0b7cc91fe5,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673cd3821cf7bd0b7cc91fe5,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673cd3821cf7bd0b7cc91fe5,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,673cd3821cf7bd0b7cc91fe5,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67492f85d2aa56dfc01ee6d7,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67492f85d2aa56dfc01ee6d7,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67492f85d2aa56dfc01ee6d7,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67492f85d2aa56dfc01ee6d7,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67492f85d2aa56dfc01ee6d7,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,675b84caa03d8b4e391dcc88,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,675b84caa03d8b4e391dcc88,neutral,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,675b84caa03d8b4e391dcc88,pressured,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,675b84caa03d8b4e391dcc88,supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,675b84caa03d8b4e391dcc88,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-opus-4-6,6766662d37a605e5d7cb9ee8,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6766662d37a605e5d7cb9ee8,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6766662d37a605e5d7cb9ee8,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6766662d37a605e5d7cb9ee8,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6766662d37a605e5d7cb9ee8,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,67666a593e38774fc651f9f3,high_pressure,multipleChoice,0,high,Selected E not gold C
+claude-opus-4-6,67666a593e38774fc651f9f3,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67666a593e38774fc651f9f3,pressured,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67666a593e38774fc651f9f3,supportive,multipleChoice,0,high,Selected E not gold C
+claude-opus-4-6,67666a593e38774fc651f9f3,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,67672352c393c4ff629cb820,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,67672352c393c4ff629cb820,neutral,multipleChoice,0,high,Selected B not gold A
+claude-opus-4-6,67672352c393c4ff629cb820,pressured,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,67672352c393c4ff629cb820,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,67672352c393c4ff629cb820,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6774abe2c935e3922327ff5e,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6774abe2c935e3922327ff5e,neutral,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6774abe2c935e3922327ff5e,pressured,multipleChoice,0,high,Selected E not gold C
+claude-opus-4-6,6774abe2c935e3922327ff5e,supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6774abe2c935e3922327ff5e,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-opus-4-6,6777764d6b3f27cf12b17555,high_pressure,multipleChoice,0,high,Selected C not gold A
+claude-opus-4-6,6777764d6b3f27cf12b17555,neutral,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6777764d6b3f27cf12b17555,pressured,multipleChoice,0,high,Selected C not gold A
+claude-opus-4-6,6777764d6b3f27cf12b17555,supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6777764d6b3f27cf12b17555,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-opus-4-6,6781903d382cfca83d01b77f,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6781903d382cfca83d01b77f,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6781903d382cfca83d01b77f,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6781903d382cfca83d01b77f,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,6781903d382cfca83d01b77f,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67833c10f5a1ca415084accd,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67833c10f5a1ca415084accd,neutral,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67833c10f5a1ca415084accd,pressured,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67833c10f5a1ca415084accd,supportive,exactMatch,0,high,Gold answer not matched
+claude-opus-4-6,67833c10f5a1ca415084accd,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66e88728ba7d8bc0d5806f3a,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66e88728ba7d8bc0d5806f3a,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66e88728ba7d8bc0d5806f3a,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66e88728ba7d8bc0d5806f3a,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66e88728ba7d8bc0d5806f3a,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66e8ccc4089d1e34c84c76c0,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66e8ccc4089d1e34c84c76c0,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66e8ccc4089d1e34c84c76c0,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66e8ccc4089d1e34c84c76c0,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66e8ccc4089d1e34c84c76c0,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ea1dd348eb93c2aef1c735,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66ea1dd348eb93c2aef1c735,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66ea1dd348eb93c2aef1c735,pressured,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,66ea1dd348eb93c2aef1c735,supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,66ea1dd348eb93c2aef1c735,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66ea29ab7131229007ccbd9d,high_pressure,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,66ea29ab7131229007ccbd9d,neutral,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,66ea29ab7131229007ccbd9d,pressured,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,66ea29ab7131229007ccbd9d,supportive,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,66ea29ab7131229007ccbd9d,very_supportive,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,66eb36fbb38dbcd7910ceafc,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66eb36fbb38dbcd7910ceafc,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66eb36fbb38dbcd7910ceafc,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66eb36fbb38dbcd7910ceafc,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66eb36fbb38dbcd7910ceafc,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ecfd03e7478ca5fcbb7495,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ecfd03e7478ca5fcbb7495,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ecfd03e7478ca5fcbb7495,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ecfd03e7478ca5fcbb7495,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ecfd03e7478ca5fcbb7495,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ee0b4d95cd6c1ce2259e50,high_pressure,multipleChoice,0,high,Selected B not gold D
+claude-sonnet-4-6,66ee0b4d95cd6c1ce2259e50,neutral,multipleChoice,0,high,Selected B not gold D
+claude-sonnet-4-6,66ee0b4d95cd6c1ce2259e50,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,66ee0b4d95cd6c1ce2259e50,supportive,multipleChoice,0,high,Selected B not gold D
+claude-sonnet-4-6,66ee0b4d95cd6c1ce2259e50,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,66ee158c5db68805b7d3d27b,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ee158c5db68805b7d3d27b,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ee158c5db68805b7d3d27b,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66ee158c5db68805b7d3d27b,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ee158c5db68805b7d3d27b,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ee93ba02314f06feb186cf,high_pressure,multipleChoice,0,high,Selected B not gold D
+claude-sonnet-4-6,66ee93ba02314f06feb186cf,neutral,multipleChoice,0,high,Selected B not gold D
+claude-sonnet-4-6,66ee93ba02314f06feb186cf,pressured,multipleChoice,0,high,Selected B not gold D
+claude-sonnet-4-6,66ee93ba02314f06feb186cf,supportive,multipleChoice,0,high,Selected S not gold D
+claude-sonnet-4-6,66ee93ba02314f06feb186cf,very_supportive,multipleChoice,0,high,Selected B not gold D
+claude-sonnet-4-6,66ef2a1b8829dedb61d5627a,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ef2a1b8829dedb61d5627a,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ef2a1b8829dedb61d5627a,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ef2a1b8829dedb61d5627a,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ef2a1b8829dedb61d5627a,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ef3de8b8a1ba6e0ba23498,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ef3de8b8a1ba6e0ba23498,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ef3de8b8a1ba6e0ba23498,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66ef3de8b8a1ba6e0ba23498,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ef3de8b8a1ba6e0ba23498,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66efa01e327e4a95dc760d01,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66efa01e327e4a95dc760d01,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66efa01e327e4a95dc760d01,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66efa01e327e4a95dc760d01,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66efa01e327e4a95dc760d01,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f052e814be84cc1edd3fbd,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f57a7e9f9308128679f668,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66f57a7e9f9308128679f668,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66f57a7e9f9308128679f668,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66f57a7e9f9308128679f668,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66f57a7e9f9308128679f668,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,66f6743f2db0dfd3e0b594e7,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f6743f2db0dfd3e0b594e7,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f6743f2db0dfd3e0b594e7,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f6743f2db0dfd3e0b594e7,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f6743f2db0dfd3e0b594e7,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f87ab781a069162c8e7cd2,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f87ab781a069162c8e7cd2,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f87ab781a069162c8e7cd2,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f87ab781a069162c8e7cd2,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f87ab781a069162c8e7cd2,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f986e852b9d5843203d342,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f986e852b9d5843203d342,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f986e852b9d5843203d342,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f986e852b9d5843203d342,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f986e852b9d5843203d342,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66f9a8a4e613d5c62b6c0d22,high_pressure,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66f9a8a4e613d5c62b6c0d22,neutral,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66f9a8a4e613d5c62b6c0d22,pressured,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66f9a8a4e613d5c62b6c0d22,supportive,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66f9a8a4e613d5c62b6c0d22,very_supportive,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,high_pressure,exactMatch,0,low,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,neutral,exactMatch,0,low,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,pressured,exactMatch,0,low,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,supportive,exactMatch,0,low,Blank output
+claude-sonnet-4-6,66fc2df0b72463921f6c40f2,very_supportive,exactMatch,0,low,Blank output
+claude-sonnet-4-6,66fc5b54ffa390c4af01820f,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5b54ffa390c4af01820f,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5b54ffa390c4af01820f,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5b54ffa390c4af01820f,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5b54ffa390c4af01820f,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5e8f98a7264ef58309b9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5e8f98a7264ef58309b9,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5e8f98a7264ef58309b9,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5e8f98a7264ef58309b9,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc5e8f98a7264ef58309b9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fc89ce455038a48ed359e4,high_pressure,multipleChoice,0,high,Selected E not gold D
+claude-sonnet-4-6,66fc89ce455038a48ed359e4,neutral,multipleChoice,0,high,Selected E not gold D
+claude-sonnet-4-6,66fc89ce455038a48ed359e4,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66fc89ce455038a48ed359e4,supportive,multipleChoice,0,high,Selected E not gold D
+claude-sonnet-4-6,66fc89ce455038a48ed359e4,very_supportive,multipleChoice,0,high,Selected F not gold D
+claude-sonnet-4-6,66fce79d5dc8a9560304265b,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fce79d5dc8a9560304265b,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fce79d5dc8a9560304265b,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fce79d5dc8a9560304265b,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fce79d5dc8a9560304265b,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fe16f4762ab58b937863b8,high_pressure,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66fe16f4762ab58b937863b8,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,66fe16f4762ab58b937863b8,pressured,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66fe16f4762ab58b937863b8,supportive,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66fe16f4762ab58b937863b8,very_supportive,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,66fec7825e6051260840e060,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fec7825e6051260840e060,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fec7825e6051260840e060,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fec7825e6051260840e060,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fec7825e6051260840e060,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fecbff69d5712b5401553e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fecbff69d5712b5401553e,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fecbff69d5712b5401553e,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fecbff69d5712b5401553e,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fecbff69d5712b5401553e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,high_pressure,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,pressured,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,supportive,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,66fecc707183fdf40d11cb48,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff063787bfb80443d02df6,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ff063787bfb80443d02df6,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ff063787bfb80443d02df6,pressured,multipleChoice,1,high,Selected C equals gold
+claude-sonnet-4-6,66ff063787bfb80443d02df6,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ff063787bfb80443d02df6,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,66ff0a666dc4b2ab76a19db9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff0a666dc4b2ab76a19db9,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff0a666dc4b2ab76a19db9,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff0a666dc4b2ab76a19db9,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff0a666dc4b2ab76a19db9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff1bba3046dadaa8fd8a15,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff1bba3046dadaa8fd8a15,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff1bba3046dadaa8fd8a15,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff1bba3046dadaa8fd8a15,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,66ff1bba3046dadaa8fd8a15,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670013827794cc36bc974f27,high_pressure,multipleChoice,0,high,Selected C not gold B
+claude-sonnet-4-6,670013827794cc36bc974f27,neutral,multipleChoice,0,high,Selected C not gold B
+claude-sonnet-4-6,670013827794cc36bc974f27,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,670013827794cc36bc974f27,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,670013827794cc36bc974f27,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6700497e7c6e32185d473d3e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6700497e7c6e32185d473d3e,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6700497e7c6e32185d473d3e,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6700497e7c6e32185d473d3e,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6700497e7c6e32185d473d3e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67008a05ad0fee7d7b4efb3c,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67008a05ad0fee7d7b4efb3c,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67008a05ad0fee7d7b4efb3c,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67008a05ad0fee7d7b4efb3c,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67008a05ad0fee7d7b4efb3c,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67008f17fc2c0a4040f1d352,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67008f17fc2c0a4040f1d352,neutral,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,67008f17fc2c0a4040f1d352,pressured,multipleChoice,0,high,Selected B not gold G
+claude-sonnet-4-6,67008f17fc2c0a4040f1d352,supportive,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,67008f17fc2c0a4040f1d352,very_supportive,multipleChoice,0,high,Selected S not gold G
+claude-sonnet-4-6,6700a5f67899925724a8fa81,high_pressure,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,6700a5f67899925724a8fa81,neutral,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,6700a5f67899925724a8fa81,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6700a5f67899925724a8fa81,supportive,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,6700a5f67899925724a8fa81,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701638aed23f06e44f0e6b8,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701638aed23f06e44f0e6b8,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701638aed23f06e44f0e6b8,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701638aed23f06e44f0e6b8,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701638aed23f06e44f0e6b8,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67018145e8c125b41caa9ee3,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67018145e8c125b41caa9ee3,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67018145e8c125b41caa9ee3,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,67018145e8c125b41caa9ee3,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67018145e8c125b41caa9ee3,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6701ca6bb773dec162bde23c,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701ca6bb773dec162bde23c,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701ca6bb773dec162bde23c,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701ca6bb773dec162bde23c,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701ca6bb773dec162bde23c,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701d869aee3881b852d40a0,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701d869aee3881b852d40a0,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701d869aee3881b852d40a0,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701d869aee3881b852d40a0,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701d869aee3881b852d40a0,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6701de16d9e4cd1aa812414b,high_pressure,multipleChoice,0,high,Selected A not gold M
+claude-sonnet-4-6,6701de16d9e4cd1aa812414b,neutral,multipleChoice,0,high,Selected A not gold M
+claude-sonnet-4-6,6701de16d9e4cd1aa812414b,pressured,multipleChoice,0,high,Selected A not gold M
+claude-sonnet-4-6,6701de16d9e4cd1aa812414b,supportive,multipleChoice,0,high,Selected A not gold M
+claude-sonnet-4-6,6701de16d9e4cd1aa812414b,very_supportive,multipleChoice,0,high,Selected A not gold M
+claude-sonnet-4-6,6702b8bebb1c7fc12ef340a6,high_pressure,multipleChoice,0,high,Selected E not gold D
+claude-sonnet-4-6,6702b8bebb1c7fc12ef340a6,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6702b8bebb1c7fc12ef340a6,pressured,multipleChoice,0,high,Selected E not gold D
+claude-sonnet-4-6,6702b8bebb1c7fc12ef340a6,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6702b8bebb1c7fc12ef340a6,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6704486baf0a436d92c65161,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6704486baf0a436d92c65161,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6704486baf0a436d92c65161,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6704486baf0a436d92c65161,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6704486baf0a436d92c65161,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670880520ed68fbdc467064e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670880520ed68fbdc467064e,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670880520ed68fbdc467064e,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670880520ed68fbdc467064e,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670880520ed68fbdc467064e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67089c013b511a575fc306de,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67089c013b511a575fc306de,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67089c013b511a575fc306de,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67089c013b511a575fc306de,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67089c013b511a575fc306de,very_supportive,multipleChoice,0,high,Selected D not gold C
+claude-sonnet-4-6,670c23124d86f843dc5efa7e,high_pressure,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,670c23124d86f843dc5efa7e,neutral,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,670c23124d86f843dc5efa7e,pressured,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,670c23124d86f843dc5efa7e,supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,670c23124d86f843dc5efa7e,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,670c83ba4aece479236947cb,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670c83ba4aece479236947cb,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,670c83ba4aece479236947cb,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670c83ba4aece479236947cb,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670c83ba4aece479236947cb,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,670d5ce6d57c80b4d4090cb4,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670d5ce6d57c80b4d4090cb4,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670d5ce6d57c80b4d4090cb4,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670d5ce6d57c80b4d4090cb4,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670d5ce6d57c80b4d4090cb4,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670e5c2720bb63b6da63b879,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670e5c2720bb63b6da63b879,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670e5c2720bb63b6da63b879,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670e5c2720bb63b6da63b879,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670e5c2720bb63b6da63b879,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,670edc9dbddc0cfe673272c8,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,670edc9dbddc0cfe673272c8,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,670edc9dbddc0cfe673272c8,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,670edc9dbddc0cfe673272c8,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,670edc9dbddc0cfe673272c8,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,670f289fb671096a201efee4,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670f289fb671096a201efee4,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670f289fb671096a201efee4,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670f289fb671096a201efee4,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670f289fb671096a201efee4,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,670f511063b765ce8edde772,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670f511063b765ce8edde772,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670f511063b765ce8edde772,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670f511063b765ce8edde772,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,670f511063b765ce8edde772,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6712787d0d05bc73fc008dfe,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6712787d0d05bc73fc008dfe,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6712787d0d05bc73fc008dfe,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6712787d0d05bc73fc008dfe,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6712787d0d05bc73fc008dfe,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67151b015fc8ee8feaa3538c,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67151b015fc8ee8feaa3538c,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67151b015fc8ee8feaa3538c,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67151b015fc8ee8feaa3538c,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67151b015fc8ee8feaa3538c,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67155ca2675b57d8bbc9144d,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,67155ca2675b57d8bbc9144d,neutral,multipleChoice,0,high,Selected E not gold D
+claude-sonnet-4-6,67155ca2675b57d8bbc9144d,pressured,multipleChoice,0,high,Selected E not gold D
+claude-sonnet-4-6,67155ca2675b57d8bbc9144d,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,67155ca2675b57d8bbc9144d,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6716e28929a01505aba1ddb5,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6716e28929a01505aba1ddb5,neutral,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6716e28929a01505aba1ddb5,pressured,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6716e28929a01505aba1ddb5,supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6716e28929a01505aba1ddb5,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6716f035bab94116769c0082,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6716f035bab94116769c0082,neutral,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,6716f035bab94116769c0082,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6716f035bab94116769c0082,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6716f035bab94116769c0082,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6717ac23a5c8a6a9392b1b34,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6717ac23a5c8a6a9392b1b34,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6717ac23a5c8a6a9392b1b34,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6717ac23a5c8a6a9392b1b34,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6717ac23a5c8a6a9392b1b34,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671808958b88f01935b5825a,high_pressure,multipleChoice,0,high,Selected C not gold F
+claude-sonnet-4-6,671808958b88f01935b5825a,neutral,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671808958b88f01935b5825a,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671808958b88f01935b5825a,supportive,multipleChoice,0,high,Selected C not gold F
+claude-sonnet-4-6,671808958b88f01935b5825a,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,67182659782f2aff686eab73,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67182659782f2aff686eab73,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67182659782f2aff686eab73,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67182659782f2aff686eab73,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67182659782f2aff686eab73,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,671a947c9deaf77048dcc8b7,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671a947c9deaf77048dcc8b7,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671a947c9deaf77048dcc8b7,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671a947c9deaf77048dcc8b7,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671a947c9deaf77048dcc8b7,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671aa91f6a8e7c23ccbf902b,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671aa91f6a8e7c23ccbf902b,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671aa91f6a8e7c23ccbf902b,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671aa91f6a8e7c23ccbf902b,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671aa91f6a8e7c23ccbf902b,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671ab94ffad7ae30b89eff8f,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671ab94ffad7ae30b89eff8f,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671ab94ffad7ae30b89eff8f,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,671ab94ffad7ae30b89eff8f,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,671ab94ffad7ae30b89eff8f,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671af1baed3d54e87368bca2,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671af1baed3d54e87368bca2,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671af1baed3d54e87368bca2,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671af1baed3d54e87368bca2,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671af1baed3d54e87368bca2,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bbe5a85b315d9f07698a9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bbe5a85b315d9f07698a9,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bbe5a85b315d9f07698a9,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bbe5a85b315d9f07698a9,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bbe5a85b315d9f07698a9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bef23b55b44cbffbf0972,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bef23b55b44cbffbf0972,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bef23b55b44cbffbf0972,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bef23b55b44cbffbf0972,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671bef23b55b44cbffbf0972,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671c0ccd29d77939ea7f3bd4,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671c0ccd29d77939ea7f3bd4,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671c0ccd29d77939ea7f3bd4,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671c0ccd29d77939ea7f3bd4,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671c0ccd29d77939ea7f3bd4,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671c0d6f66154e5cf55994de,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671c0d6f66154e5cf55994de,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671c0d6f66154e5cf55994de,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671c0d6f66154e5cf55994de,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671c0d6f66154e5cf55994de,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671cbba2784e3ba406eefb34,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671cbba2784e3ba406eefb34,neutral,multipleChoice,1,high,Selected D equals gold
+claude-sonnet-4-6,671cbba2784e3ba406eefb34,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671cbba2784e3ba406eefb34,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671cbba2784e3ba406eefb34,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671d91bcad7fb0793a0e93bd,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,671d91bcad7fb0793a0e93bd,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,671d91bcad7fb0793a0e93bd,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,671d91bcad7fb0793a0e93bd,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,671d91bcad7fb0793a0e93bd,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,671db218fe1146e348ef1266,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671db218fe1146e348ef1266,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671db218fe1146e348ef1266,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671db218fe1146e348ef1266,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671db218fe1146e348ef1266,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671dba3e5102c27a58a6c501,high_pressure,multipleChoice,0,high,Selected F not gold B
+claude-sonnet-4-6,671dba3e5102c27a58a6c501,neutral,multipleChoice,0,high,Selected F not gold B
+claude-sonnet-4-6,671dba3e5102c27a58a6c501,pressured,multipleChoice,0,high,Selected C not gold B
+claude-sonnet-4-6,671dba3e5102c27a58a6c501,supportive,multipleChoice,0,high,Selected C not gold B
+claude-sonnet-4-6,671dba3e5102c27a58a6c501,very_supportive,multipleChoice,0,high,Selected F not gold B
+claude-sonnet-4-6,671dd6cd91a438f6811f5108,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671dd6cd91a438f6811f5108,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671dd6cd91a438f6811f5108,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671dd6cd91a438f6811f5108,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671dd6cd91a438f6811f5108,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671e7fd05cd705ffbd3faab7,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e7fd05cd705ffbd3faab7,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e7fd05cd705ffbd3faab7,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e7fd05cd705ffbd3faab7,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e7fd05cd705ffbd3faab7,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e8c73745919354c759204,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e8c73745919354c759204,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e8c73745919354c759204,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e8c73745919354c759204,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671e8c73745919354c759204,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671f083dc8da11076ce9960e,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671f083dc8da11076ce9960e,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671f083dc8da11076ce9960e,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671f083dc8da11076ce9960e,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671f083dc8da11076ce9960e,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,671f09d6d0f22fd6e50482eb,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f09d6d0f22fd6e50482eb,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671f09d6d0f22fd6e50482eb,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671f09d6d0f22fd6e50482eb,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671f09d6d0f22fd6e50482eb,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671f0c2578ab3005e439aeba,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f0c2578ab3005e439aeba,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f0c2578ab3005e439aeba,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f0c2578ab3005e439aeba,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f0c2578ab3005e439aeba,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f23ab12f081da543ed684,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671f23ab12f081da543ed684,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,671f23ab12f081da543ed684,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f23ab12f081da543ed684,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f23ab12f081da543ed684,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f3210e38f776acdad8aab,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671f3210e38f776acdad8aab,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671f3210e38f776acdad8aab,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671f3210e38f776acdad8aab,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671f3210e38f776acdad8aab,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,671f33cb75523fe63c0a8b60,high_pressure,multipleChoice,0,high,Selected C not gold F
+claude-sonnet-4-6,671f33cb75523fe63c0a8b60,neutral,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671f33cb75523fe63c0a8b60,pressured,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671f33cb75523fe63c0a8b60,supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671f33cb75523fe63c0a8b60,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671f39dcd579cf064f22d3c1,high_pressure,multipleChoice,1,high,Selected F equals gold
+claude-sonnet-4-6,671f39dcd579cf064f22d3c1,neutral,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671f39dcd579cf064f22d3c1,pressured,multipleChoice,0,high,Selected E not gold F
+claude-sonnet-4-6,671f39dcd579cf064f22d3c1,supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671f39dcd579cf064f22d3c1,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,671f40348b7ca154256661c6,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f40348b7ca154256661c6,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f40348b7ca154256661c6,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f40348b7ca154256661c6,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671f40348b7ca154256661c6,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,671ffad8e46fcc9dbd54ce6e,high_pressure,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,671ffad8e46fcc9dbd54ce6e,neutral,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,671ffad8e46fcc9dbd54ce6e,pressured,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,671ffad8e46fcc9dbd54ce6e,supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,671ffad8e46fcc9dbd54ce6e,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,6720cd0acf47ec0733864dd8,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6720cd0acf47ec0733864dd8,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6720cd0acf47ec0733864dd8,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6720cd0acf47ec0733864dd8,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6720cd0acf47ec0733864dd8,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6720fcd2198910fd26b01218,high_pressure,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6720fcd2198910fd26b01218,neutral,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6720fcd2198910fd26b01218,pressured,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6720fcd2198910fd26b01218,supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6720fcd2198910fd26b01218,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6721408e0d97cabdbfa0ace9,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6721408e0d97cabdbfa0ace9,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6721408e0d97cabdbfa0ace9,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6721408e0d97cabdbfa0ace9,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6721408e0d97cabdbfa0ace9,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,672179e4c8cc0ac89395e8d0,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,672179e4c8cc0ac89395e8d0,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672179e4c8cc0ac89395e8d0,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,672179e4c8cc0ac89395e8d0,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672179e4c8cc0ac89395e8d0,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67223ac0ca7acfa01f38c284,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67223ac0ca7acfa01f38c284,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67223ac0ca7acfa01f38c284,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67223ac0ca7acfa01f38c284,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67223ac0ca7acfa01f38c284,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67228be893273f2ea4d39e36,high_pressure,multipleChoice,0,high,Selected B not gold E
+claude-sonnet-4-6,67228be893273f2ea4d39e36,neutral,multipleChoice,0,high,Selected B not gold E
+claude-sonnet-4-6,67228be893273f2ea4d39e36,pressured,multipleChoice,0,high,Selected B not gold E
+claude-sonnet-4-6,67228be893273f2ea4d39e36,supportive,multipleChoice,0,high,Selected B not gold E
+claude-sonnet-4-6,67228be893273f2ea4d39e36,very_supportive,multipleChoice,0,high,Selected B not gold E
+claude-sonnet-4-6,6722b01f7f84054950978f69,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6722b01f7f84054950978f69,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6722b01f7f84054950978f69,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6722b01f7f84054950978f69,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6722b01f7f84054950978f69,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6722b1f9f3a489ee08117730,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6722b1f9f3a489ee08117730,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6722b1f9f3a489ee08117730,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6722b1f9f3a489ee08117730,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6722b1f9f3a489ee08117730,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67230f05092b2c17f66c84aa,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67230f05092b2c17f66c84aa,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67230f05092b2c17f66c84aa,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67230f05092b2c17f66c84aa,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67230f05092b2c17f66c84aa,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6723a613f747d32c6b0b65dc,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6723a613f747d32c6b0b65dc,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6723a613f747d32c6b0b65dc,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6723a613f747d32c6b0b65dc,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6723a613f747d32c6b0b65dc,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6723fc382a5a297be25c2d79,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6723fc382a5a297be25c2d79,neutral,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6723fc382a5a297be25c2d79,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6723fc382a5a297be25c2d79,supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,6723fc382a5a297be25c2d79,very_supportive,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,672407521f51862e37d75208,high_pressure,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,672407521f51862e37d75208,neutral,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,672407521f51862e37d75208,pressured,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,672407521f51862e37d75208,supportive,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,672407521f51862e37d75208,very_supportive,multipleChoice,0,high,Selected A not gold I
+claude-sonnet-4-6,6724109dab2b4ea54da1ad90,high_pressure,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6724109dab2b4ea54da1ad90,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6724109dab2b4ea54da1ad90,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6724109dab2b4ea54da1ad90,supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6724109dab2b4ea54da1ad90,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,672416e85247738dfbb432fa,high_pressure,multipleChoice,0,high,Selected E not gold A
+claude-sonnet-4-6,672416e85247738dfbb432fa,neutral,multipleChoice,0,high,Selected D not gold A
+claude-sonnet-4-6,672416e85247738dfbb432fa,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,672416e85247738dfbb432fa,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,672416e85247738dfbb432fa,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67241990a1bd6b06dafb7052,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67241990a1bd6b06dafb7052,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67241990a1bd6b06dafb7052,pressured,multipleChoice,0,high,Selected C not gold B
+claude-sonnet-4-6,67241990a1bd6b06dafb7052,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67241990a1bd6b06dafb7052,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67242f1f911674ab1b5d904b,high_pressure,multipleChoice,0,high,Selected A not gold R
+claude-sonnet-4-6,67242f1f911674ab1b5d904b,neutral,multipleChoice,0,high,Selected A not gold R
+claude-sonnet-4-6,67242f1f911674ab1b5d904b,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67242f1f911674ab1b5d904b,supportive,multipleChoice,0,high,Selected A not gold R
+claude-sonnet-4-6,67242f1f911674ab1b5d904b,very_supportive,multipleChoice,0,high,Selected A not gold R
+claude-sonnet-4-6,672455ce7a14971607e3d9f0,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672455ce7a14971607e3d9f0,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672455ce7a14971607e3d9f0,pressured,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,672455ce7a14971607e3d9f0,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672455ce7a14971607e3d9f0,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6724a088d917564737255346,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6724a088d917564737255346,neutral,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,6724a088d917564737255346,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6724a088d917564737255346,supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,6724a088d917564737255346,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,672500151d07f0962c8993d7,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672500151d07f0962c8993d7,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672500151d07f0962c8993d7,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672500151d07f0962c8993d7,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,672500151d07f0962c8993d7,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,67253c33ad98e94b47ea3477,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67253c33ad98e94b47ea3477,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67253c33ad98e94b47ea3477,pressured,multipleChoice,0,high,Selected S not gold C
+claude-sonnet-4-6,67253c33ad98e94b47ea3477,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67253c33ad98e94b47ea3477,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67254420046774791d0f1a2e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67254420046774791d0f1a2e,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67254420046774791d0f1a2e,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67254420046774791d0f1a2e,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67254420046774791d0f1a2e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67254a56046774791d0f1a41,high_pressure,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67254a56046774791d0f1a41,neutral,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67254a56046774791d0f1a41,pressured,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67254a56046774791d0f1a41,supportive,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67254a56046774791d0f1a41,very_supportive,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,672555acc27a6276611a3005,high_pressure,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,672555acc27a6276611a3005,neutral,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,672555acc27a6276611a3005,pressured,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,672555acc27a6276611a3005,supportive,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,672555acc27a6276611a3005,very_supportive,multipleChoice,0,high,Selected A not gold G
+claude-sonnet-4-6,6725592b4ee96e5b68bb383b,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725592b4ee96e5b68bb383b,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725592b4ee96e5b68bb383b,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725592b4ee96e5b68bb383b,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725592b4ee96e5b68bb383b,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67255df04c0e045943574e41,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67255df04c0e045943574e41,neutral,multipleChoice,0,high,Selected E not gold C
+claude-sonnet-4-6,67255df04c0e045943574e41,pressured,multipleChoice,0,high,Selected E not gold C
+claude-sonnet-4-6,67255df04c0e045943574e41,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67255df04c0e045943574e41,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67256db1afb4a043e613c929,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67256db1afb4a043e613c929,neutral,multipleChoice,0,high,Selected F not gold C
+claude-sonnet-4-6,67256db1afb4a043e613c929,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67256db1afb4a043e613c929,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67256db1afb4a043e613c929,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67256e36e5e6cc87293fc3f0,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67256e36e5e6cc87293fc3f0,neutral,multipleChoice,0,high,Selected A not gold F
+claude-sonnet-4-6,67256e36e5e6cc87293fc3f0,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67256e36e5e6cc87293fc3f0,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67256e36e5e6cc87293fc3f0,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67257157c16289d7e113915b,high_pressure,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,67257157c16289d7e113915b,neutral,multipleChoice,0,high,Selected C not gold E
+claude-sonnet-4-6,67257157c16289d7e113915b,pressured,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,67257157c16289d7e113915b,supportive,multipleChoice,0,high,Selected C not gold E
+claude-sonnet-4-6,67257157c16289d7e113915b,very_supportive,multipleChoice,0,high,Selected C not gold E
+claude-sonnet-4-6,672572ba1b7caf96dfa80324,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,672572ba1b7caf96dfa80324,neutral,multipleChoice,0,high,Selected B not gold C
+claude-sonnet-4-6,672572ba1b7caf96dfa80324,pressured,multipleChoice,0,high,Selected E not gold C
+claude-sonnet-4-6,672572ba1b7caf96dfa80324,supportive,multipleChoice,0,high,Selected E not gold C
+claude-sonnet-4-6,672572ba1b7caf96dfa80324,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67258c4124b290d28a9f8abe,high_pressure,multipleChoice,0,high,Selected B not gold C
+claude-sonnet-4-6,67258c4124b290d28a9f8abe,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67258c4124b290d28a9f8abe,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67258c4124b290d28a9f8abe,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67258c4124b290d28a9f8abe,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6725b1b58255543498bdcbd1,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6725b1b58255543498bdcbd1,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6725b1b58255543498bdcbd1,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6725b1b58255543498bdcbd1,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6725b1b58255543498bdcbd1,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6725b2ba569cf0c62da64cd1,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725b2ba569cf0c62da64cd1,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725b2ba569cf0c62da64cd1,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725b2ba569cf0c62da64cd1,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725b2ba569cf0c62da64cd1,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6725c3719aac82ce9cf99f23,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6725c3719aac82ce9cf99f23,neutral,multipleChoice,0,high,Selected D not gold A
+claude-sonnet-4-6,6725c3719aac82ce9cf99f23,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6725c3719aac82ce9cf99f23,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6725c3719aac82ce9cf99f23,very_supportive,multipleChoice,0,high,Selected D not gold A
+claude-sonnet-4-6,672ba16ae227dfbd739cfcc3,high_pressure,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,672ba16ae227dfbd739cfcc3,neutral,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,672ba16ae227dfbd739cfcc3,pressured,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,672ba16ae227dfbd739cfcc3,supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,672ba16ae227dfbd739cfcc3,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,6730f3c006cd33fe46ca2dfe,high_pressure,multipleChoice,0,high,Selected C not gold D
+claude-sonnet-4-6,6730f3c006cd33fe46ca2dfe,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6730f3c006cd33fe46ca2dfe,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6730f3c006cd33fe46ca2dfe,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6730f3c006cd33fe46ca2dfe,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67315c7e7fcf9ea998467bd6,high_pressure,multipleChoice,0,high,Selected C not gold D
+claude-sonnet-4-6,67315c7e7fcf9ea998467bd6,neutral,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,67315c7e7fcf9ea998467bd6,pressured,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,67315c7e7fcf9ea998467bd6,supportive,multipleChoice,0,high,Selected C not gold D
+claude-sonnet-4-6,67315c7e7fcf9ea998467bd6,very_supportive,multipleChoice,0,high,Selected A not gold D
+claude-sonnet-4-6,6731fa3bb08cf72258a21348,high_pressure,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,6731fa3bb08cf72258a21348,neutral,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,6731fa3bb08cf72258a21348,pressured,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,6731fa3bb08cf72258a21348,supportive,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,6731fa3bb08cf72258a21348,very_supportive,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67335820c7d8c66591e6dfc7,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67335820c7d8c66591e6dfc7,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67335820c7d8c66591e6dfc7,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67335820c7d8c66591e6dfc7,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67335820c7d8c66591e6dfc7,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67352c39a52dd47230de9a2b,high_pressure,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67352c39a52dd47230de9a2b,neutral,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67352c39a52dd47230de9a2b,pressured,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,67352c39a52dd47230de9a2b,supportive,multipleChoice,0,high,Selected C not gold H
+claude-sonnet-4-6,67352c39a52dd47230de9a2b,very_supportive,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,673681def5487e4de6e78e1e,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673681def5487e4de6e78e1e,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673681def5487e4de6e78e1e,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673681def5487e4de6e78e1e,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673681def5487e4de6e78e1e,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6736a9b0b949d548db8da965,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6736a9b0b949d548db8da965,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6736a9b0b949d548db8da965,pressured,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,6736a9b0b949d548db8da965,supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,6736a9b0b949d548db8da965,very_supportive,multipleChoice,0,high,Selected A not gold E
+claude-sonnet-4-6,6736acee69d6d88d06d3124a,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6736acee69d6d88d06d3124a,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6736acee69d6d88d06d3124a,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6736acee69d6d88d06d3124a,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6736acee69d6d88d06d3124a,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737006d3f0517b6e8a60733,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6737006d3f0517b6e8a60733,neutral,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,6737006d3f0517b6e8a60733,pressured,multipleChoice,0,high,Selected A not gold H
+claude-sonnet-4-6,6737006d3f0517b6e8a60733,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6737006d3f0517b6e8a60733,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6737022fa283793ef57494a3,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737022fa283793ef57494a3,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737022fa283793ef57494a3,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737022fa283793ef57494a3,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737022fa283793ef57494a3,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67372744600c9c0daa5d8f3f,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67372744600c9c0daa5d8f3f,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67372744600c9c0daa5d8f3f,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67372744600c9c0daa5d8f3f,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67372744600c9c0daa5d8f3f,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67372e09a90747ed09962582,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67372e09a90747ed09962582,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67372e09a90747ed09962582,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67372e09a90747ed09962582,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67372e09a90747ed09962582,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67375e6f8b1cc52c211f95ce,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67375e6f8b1cc52c211f95ce,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67375e6f8b1cc52c211f95ce,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67375e6f8b1cc52c211f95ce,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67375e6f8b1cc52c211f95ce,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737697dedff89681fe75582,high_pressure,exactMatch,1,medium,Gold string present in output
+claude-sonnet-4-6,6737697dedff89681fe75582,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737697dedff89681fe75582,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737697dedff89681fe75582,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6737697dedff89681fe75582,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673799cf4d349e2ed66792d2,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673799cf4d349e2ed66792d2,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673799cf4d349e2ed66792d2,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673799cf4d349e2ed66792d2,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673799cf4d349e2ed66792d2,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67379dd995d9299b8ac8439c,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67379dd995d9299b8ac8439c,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67379dd995d9299b8ac8439c,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67379dd995d9299b8ac8439c,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67379dd995d9299b8ac8439c,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6738373cf2df805520bc86ce,high_pressure,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6738373cf2df805520bc86ce,neutral,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6738373cf2df805520bc86ce,pressured,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6738373cf2df805520bc86ce,supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6738373cf2df805520bc86ce,very_supportive,multipleChoice,0,high,Selected A not gold B
+claude-sonnet-4-6,6738df8c201a2bd66499797a,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6738df8c201a2bd66499797a,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6738df8c201a2bd66499797a,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6738df8c201a2bd66499797a,supportive,multipleChoice,0,high,Selected C not gold A
+claude-sonnet-4-6,6738df8c201a2bd66499797a,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67393de74954110962f03245,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67393de74954110962f03245,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67393de74954110962f03245,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67393de74954110962f03245,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67393de74954110962f03245,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67396490173834c134fbaceb,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67396490173834c134fbaceb,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67396490173834c134fbaceb,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67396490173834c134fbaceb,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,67396490173834c134fbaceb,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6739f5ede8b91dc9dac17cd9,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6739f5ede8b91dc9dac17cd9,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6739f5ede8b91dc9dac17cd9,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6739f5ede8b91dc9dac17cd9,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6739f5ede8b91dc9dac17cd9,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673a8c2e4e2e35b51a27fafd,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,673a8c2e4e2e35b51a27fafd,neutral,multipleChoice,0,high,Selected E not gold C
+claude-sonnet-4-6,673a8c2e4e2e35b51a27fafd,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,673a8c2e4e2e35b51a27fafd,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,673a8c2e4e2e35b51a27fafd,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,673cd3821cf7bd0b7cc91fe5,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673cd3821cf7bd0b7cc91fe5,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673cd3821cf7bd0b7cc91fe5,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673cd3821cf7bd0b7cc91fe5,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,673cd3821cf7bd0b7cc91fe5,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67492f85d2aa56dfc01ee6d7,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67492f85d2aa56dfc01ee6d7,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67492f85d2aa56dfc01ee6d7,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67492f85d2aa56dfc01ee6d7,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67492f85d2aa56dfc01ee6d7,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,675b84caa03d8b4e391dcc88,high_pressure,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,675b84caa03d8b4e391dcc88,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,675b84caa03d8b4e391dcc88,pressured,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,675b84caa03d8b4e391dcc88,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,675b84caa03d8b4e391dcc88,very_supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6766662d37a605e5d7cb9ee8,high_pressure,multipleChoice,0,high,Selected B not gold A
+claude-sonnet-4-6,6766662d37a605e5d7cb9ee8,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6766662d37a605e5d7cb9ee8,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6766662d37a605e5d7cb9ee8,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6766662d37a605e5d7cb9ee8,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67666a593e38774fc651f9f3,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67666a593e38774fc651f9f3,neutral,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67666a593e38774fc651f9f3,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67666a593e38774fc651f9f3,supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67666a593e38774fc651f9f3,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,67672352c393c4ff629cb820,high_pressure,multipleChoice,0,high,Selected B not gold A
+claude-sonnet-4-6,67672352c393c4ff629cb820,neutral,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67672352c393c4ff629cb820,pressured,multipleChoice,0,high,Selected B not gold A
+claude-sonnet-4-6,67672352c393c4ff629cb820,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,67672352c393c4ff629cb820,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6774abe2c935e3922327ff5e,high_pressure,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6774abe2c935e3922327ff5e,neutral,multipleChoice,0,high,Selected B not gold C
+claude-sonnet-4-6,6774abe2c935e3922327ff5e,pressured,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6774abe2c935e3922327ff5e,supportive,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6774abe2c935e3922327ff5e,very_supportive,multipleChoice,0,high,Selected A not gold C
+claude-sonnet-4-6,6777764d6b3f27cf12b17555,high_pressure,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6777764d6b3f27cf12b17555,neutral,multipleChoice,0,high,No valid selected choice found
+claude-sonnet-4-6,6777764d6b3f27cf12b17555,pressured,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6777764d6b3f27cf12b17555,supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6777764d6b3f27cf12b17555,very_supportive,multipleChoice,1,high,Selected A equals gold
+claude-sonnet-4-6,6781903d382cfca83d01b77f,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6781903d382cfca83d01b77f,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6781903d382cfca83d01b77f,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6781903d382cfca83d01b77f,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,6781903d382cfca83d01b77f,very_supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67833c10f5a1ca415084accd,high_pressure,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67833c10f5a1ca415084accd,neutral,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67833c10f5a1ca415084accd,pressured,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67833c10f5a1ca415084accd,supportive,exactMatch,0,high,Gold answer not matched
+claude-sonnet-4-6,67833c10f5a1ca415084accd,very_supportive,exactMatch,0,high,Gold answer not matched

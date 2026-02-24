@@ -1,0 +1,6 @@
+provider,model_id,prompt_category,n,n_graded,correct,accuracy,delta_vs_neutral
+xai,grok-4-1-fast-reasoning,high_pressure,18,16,0,0.0000,-0.1176
+xai,grok-4-1-fast-reasoning,neutral,18,17,2,0.1176,0.0000
+xai,grok-4-1-fast-reasoning,pressured,18,16,1,0.0625,-0.0551
+xai,grok-4-1-fast-reasoning,supportive,18,16,1,0.0625,-0.0551
+xai,grok-4-1-fast-reasoning,very_supportive,18,16,1,0.0625,-0.0551

@@ -53,6 +53,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--resume", action="store_true")
     parser.add_argument("--retry-error-rows", action="store_true")
     parser.add_argument("--min-interval-ms", type=int, default=0)
+    parser.add_argument("--defer-open-ended-grading", action="store_true")
     return parser.parse_args()
 
 
@@ -142,39 +143,6 @@ def call_model(provider: str, model_id: str, prompt_text: str, min_interval_ms: 
         text_parts = [x.get("text", "") for x in body.get("content", []) if x.get("type") == "text"]
         return "\n".join([t for t in text_parts if t]).strip()
 
-    if provider == "google":
-        key = os.getenv("GEMINI_API_KEY", "")
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={key}"
-        headers = {"Content-Type": "application/json"}
-        payload = {"contents": [{"parts": [{"text": prompt_text}]}]}
-
-        _, raw = with_retries(lambda: post_json(url, headers, payload))
-        body = json.loads(raw)
-        parts = (
-            body.get("candidates", [{}])[0]
-            .get("content", {})
-            .get("parts", [])
-        )
-        return "\n".join([p.get("text", "") for p in parts if p.get("text")]).strip()
-
-    if provider == "xai":
-        key = os.getenv("GROK_API_KEY", "")
-        url = "https://api.x.ai/v1/chat/completions"
-        headers = {
-            "Authorization": f"Bearer {key}",
-            "Content-Type": "application/json",
-            "User-Agent": "tone-benchmark/1.0",
-        }
-        payload = {
-            "model": model_id,
-            "messages": [{"role": "user", "content": prompt_text}],
-            "max_tokens": 256,
-        }
-
-        _, raw = with_retries(lambda: post_json(url, headers, payload))
-        body = json.loads(raw)
-        return (body.get("choices", [{}])[0].get("message", {}) or {}).get("content", "").strip()
-
     if provider == "mistral":
         key = os.getenv("MISTRAL_API_KEY", "")
         url = "https://api.mistral.ai/v1/chat/completions"
@@ -243,7 +211,7 @@ def extract_mcq_letter(text: str) -> str:
     return match.group(1).upper() if match else ""
 
 
-def row_eval(job: dict, min_interval_ms: int) -> dict:
+def row_eval(job: dict, min_interval_ms: int, defer_open_ended_grading: bool) -> dict:
     provider = job["provider"]
     model_id = job["model_id"]
     prompt = job["prompt"]
@@ -258,17 +226,22 @@ def row_eval(job: dict, min_interval_ms: int) -> dict:
         grade_method = "mcq_letter_match"
     else:
         parsed_prediction = output
-        is_correct, grader_raw = grade_open_ended_with_nano(
-            prompt["question"],
-            prompt["answer"],
-            output,
-        )
-        grade_method = "gpt_5_nano_binary"
+        if defer_open_ended_grading:
+            is_correct = ""
+            grade_method = "deferred_open_ended"
+        else:
+            is_correct, grader_raw = grade_open_ended_with_nano(
+                prompt["question"],
+                prompt["answer"],
+                output,
+            )
+            grade_method = "gpt_5_nano_binary"
 
     return {
         "provider": provider,
         "model_id": model_id,
         "id": prompt["id"],
+        "question": prompt["question"],
         "prompt_category": prompt["prompt_category"],
         "answer_type": prompt["answer_type"],
         "gold_answer": prompt["answer"],
@@ -293,52 +266,59 @@ def job_key(provider: str, model_id: str, prompt: dict) -> tuple[str, str, str, 
 
 
 def summarize(pred_rows: list[dict]) -> tuple[list[dict], list[dict]]:
-    by_model_tone: dict[tuple[str, str, str], list[int]] = defaultdict(lambda: [0, 0])  # correct, n
-    by_model_total: dict[tuple[str, str], list[int]] = defaultdict(lambda: [0, 0])
+    by_model_tone: dict[tuple[str, str, str], list[int]] = defaultdict(lambda: [0, 0, 0])  # correct, n_graded, n_total
+    by_model_total: dict[tuple[str, str], list[int]] = defaultdict(lambda: [0, 0, 0])
 
     for r in pred_rows:
         key = (r["provider"], r["model_id"], r["prompt_category"])
-        by_model_tone[key][0] += int(r["is_correct"])
-        by_model_tone[key][1] += 1
+        by_model_tone[key][2] += 1
+        s = str(r.get("is_correct", "")).strip()
+        if s in {"0", "1"}:
+            by_model_tone[key][0] += int(s)
+            by_model_tone[key][1] += 1
 
         mkey = (r["provider"], r["model_id"])
-        by_model_total[mkey][0] += int(r["is_correct"])
-        by_model_total[mkey][1] += 1
+        by_model_total[mkey][2] += 1
+        if s in {"0", "1"}:
+            by_model_total[mkey][0] += int(s)
+            by_model_total[mkey][1] += 1
 
     model_neutral: dict[tuple[str, str], float] = {}
-    for (provider, model, tone), (correct, n) in by_model_tone.items():
-        if tone == "neutral":
-            model_neutral[(provider, model)] = (correct / n) if n else 0.0
+    for (provider, model, tone), (correct, n_graded, _n_total) in by_model_tone.items():
+        if tone == "neutral" and n_graded > 0:
+            model_neutral[(provider, model)] = correct / n_graded
 
     tone_rows: list[dict] = []
-    for (provider, model, tone), (correct, n) in sorted(by_model_tone.items()):
-        acc = (correct / n) if n else 0.0
+    for (provider, model, tone), (correct, n_graded, n_total) in sorted(by_model_tone.items()):
+        acc = (correct / n_graded) if n_graded else None
         base = model_neutral.get((provider, model))
         delta = ""
-        if base is not None:
+        if base is not None and acc is not None:
             delta = f"{acc - base:.4f}"
         tone_rows.append(
             {
                 "provider": provider,
                 "model_id": model,
                 "prompt_category": tone,
-                "n": n,
+                "n": n_total,
+                "n_graded": n_graded,
                 "correct": correct,
-                "accuracy": f"{acc:.4f}",
+                "accuracy": "" if acc is None else f"{acc:.4f}",
                 "delta_vs_neutral": delta,
             }
         )
 
     model_rows: list[dict] = []
-    for (provider, model), (correct, n) in sorted(by_model_total.items()):
-        acc = (correct / n) if n else 0.0
+    for (provider, model), (correct, n_graded, n_total) in sorted(by_model_total.items()):
+        acc = (correct / n_graded) if n_graded else None
         model_rows.append(
             {
                 "provider": provider,
                 "model_id": model,
-                "n": n,
+                "n": n_total,
+                "n_graded": n_graded,
                 "correct": correct,
-                "accuracy_overall": f"{acc:.4f}",
+                "accuracy_overall": "" if acc is None else f"{acc:.4f}",
             }
         )
     return tone_rows, model_rows
@@ -350,8 +330,6 @@ def main() -> None:
     required_keys = [
         "OPENAI_API_KEY",
         "ANTHROPIC_API_KEY",
-        "GEMINI_API_KEY",
-        "GROK_API_KEY",
         "MISTRAL_API_KEY",
         "KIMI_API_KEY",
     ]
@@ -402,6 +380,7 @@ def main() -> None:
         "provider",
         "model_id",
         "id",
+        "question",
         "prompt_category",
         "answer_type",
         "gold_answer",
@@ -425,17 +404,29 @@ def main() -> None:
         write_csv(
             out_dir / "summary_by_model_and_tone.csv",
             tone_rows,
-            ["provider", "model_id", "prompt_category", "n", "correct", "accuracy", "delta_vs_neutral"],
+            [
+                "provider",
+                "model_id",
+                "prompt_category",
+                "n",
+                "n_graded",
+                "correct",
+                "accuracy",
+                "delta_vs_neutral",
+            ],
         )
         write_csv(
             out_dir / "summary_by_model.csv",
             model_rows,
-            ["provider", "model_id", "n", "correct", "accuracy_overall"],
+            ["provider", "model_id", "n", "n_graded", "correct", "accuracy_overall"],
         )
 
     try:
         with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as ex:
-            future_map = {ex.submit(row_eval, j, args.min_interval_ms): j for j in jobs}
+            future_map = {
+                ex.submit(row_eval, j, args.min_interval_ms, args.defer_open_ended_grading): j
+                for j in jobs
+            }
             for fut in concurrent.futures.as_completed(future_map):
                 j = future_map[fut]
                 try:
@@ -445,6 +436,7 @@ def main() -> None:
                         "provider": j["provider"],
                         "model_id": j["model_id"],
                         "id": j["prompt"]["id"],
+                        "question": j["prompt"]["question"],
                         "prompt_category": j["prompt"]["prompt_category"],
                         "answer_type": j["prompt"]["answer_type"],
                         "gold_answer": j["prompt"]["answer"],
