@@ -1,0 +1,2 @@
+provider,model_id,prompt_category,n,n_graded,correct,accuracy,delta_vs_neutral
+kimi,kimi-k2-thinking,neutral,1,1,0,0.0000,0.0000

@@ -161,15 +161,26 @@ def call_model(provider: str, model_id: str, prompt_text: str, min_interval_ms: 
         key = os.getenv("KIMI_API_KEY", "")
         url = "https://api.moonshot.ai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
-        payload = {
-            "model": model_id,
-            "messages": [{"role": "user", "content": prompt_text}],
-            "max_tokens": 256,
-        }
-
-        _, raw = with_retries(lambda: post_json(url, headers, payload))
-        body = json.loads(raw)
-        return (body.get("choices", [{}])[0].get("message", {}) or {}).get("content", "").strip()
+        max_tokens = 1024
+        for _ in range(3):
+            payload = {
+                "model": model_id,
+                "messages": [{"role": "user", "content": prompt_text}],
+                "max_tokens": max_tokens,
+            }
+            _, raw = with_retries(lambda: post_json(url, headers, payload, timeout=120))
+            body = json.loads(raw)
+            choice = (body.get("choices", [{}])[0] or {})
+            msg = (choice.get("message", {}) or {})
+            content = (msg.get("content") or "").strip()
+            finish_reason = (choice.get("finish_reason") or "").strip()
+            # Kimi can emit only reasoning_content and cut off before final content.
+            if content:
+                return content
+            if finish_reason != "length":
+                return content
+            max_tokens = min(4096, max_tokens * 2)
+        return ""
 
     raise ValueError(f"Unsupported provider: {provider}")
 

@@ -1,0 +1,14 @@
+id,question,answer,answer_type,prompt_category,prompt_text
+infra_short_001,"What is 2+2?
+
+Answer Choices:
+A. 3
+B. 4
+C. 5",B,multipleChoice,neutral,"Answer the following question. Return only your final answer.
+
+What is 2+2?
+
+Answer Choices:
+A. 3
+B. 4
+C. 5"
