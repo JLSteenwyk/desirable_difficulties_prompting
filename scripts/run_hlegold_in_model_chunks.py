@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run full HLE-gold tone benchmark in per-model chunks.
+"""Run full HLE-gold benchmark in per-model chunks.
 
 This script executes `scripts/run_all_models_tone5_chemistry.py` once per model,
 writing outputs into:
@@ -26,7 +26,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--models-csv", default=Path("results/models_to_test.csv"), type=Path)
     p.add_argument(
         "--prompts-csv",
-        default=Path("results/prompt_variants_tone_hlegold_5level.csv"),
+        default=Path("results/prompt_variants_hlegold_neutral.csv"),
         type=Path,
     )
     p.add_argument("--output-root", default=Path("final_results/hlegold_full"), type=Path)

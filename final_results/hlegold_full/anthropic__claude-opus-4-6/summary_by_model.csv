@@ -1,2 +1,2 @@
 provider,model_id,n,n_graded,correct,accuracy_overall
-anthropic,claude-opus-4-6,745,460,58,0.1261
+anthropic,claude-opus-4-6,745,740,77,0.1041

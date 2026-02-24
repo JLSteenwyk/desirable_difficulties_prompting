@@ -1,6 +1,6 @@
 provider,model_id,prompt_category,n,n_graded,correct,accuracy,delta_vs_neutral
-anthropic,claude-opus-4-6,high_pressure,149,92,9,0.0978,-0.0435
-anthropic,claude-opus-4-6,neutral,149,92,13,0.1413,0.0000
-anthropic,claude-opus-4-6,pressured,149,92,11,0.1196,-0.0217
-anthropic,claude-opus-4-6,supportive,149,92,12,0.1304,-0.0109
-anthropic,claude-opus-4-6,very_supportive,149,92,13,0.1413,0.0000
+anthropic,claude-opus-4-6,high_pressure,149,147,13,0.0884,-0.0399
+anthropic,claude-opus-4-6,neutral,149,148,19,0.1284,0.0000
+anthropic,claude-opus-4-6,pressured,149,148,14,0.0946,-0.0338
+anthropic,claude-opus-4-6,supportive,149,148,15,0.1014,-0.0270
+anthropic,claude-opus-4-6,very_supportive,149,149,16,0.1074,-0.0210
